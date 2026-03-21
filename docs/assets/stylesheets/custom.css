@@ -1,0 +1,139 @@
+/* Chart containers */
+.chart-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+}
+
+.chart-container canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* Side-by-side chart layout */
+.chart-row {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.chart-row .chart-container {
+  flex: 1 1 280px;
+  max-width: 480px;
+}
+
+/* Comparison tables */
+table.comparison {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.comparison th {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+table.comparison td {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+table.comparison tr:hover td {
+  background: var(--md-accent-fg-color--transparent);
+}
+
+/* Sortable table headers */
+table.sortable th {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+table.sortable th::after {
+  content: "⇅";
+  position: absolute;
+  right: 0.5rem;
+  opacity: 0.3;
+  font-size: 0.85em;
+}
+
+table.sortable th.sort-asc::after {
+  content: "↑";
+  opacity: 1;
+}
+
+table.sortable th.sort-desc::after {
+  content: "↓";
+  opacity: 1;
+}
+
+/* At-a-glance summary cards */
+.tax-glance {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.tax-glance .card {
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  text-align: center;
+}
+
+.tax-glance .card .label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.25rem;
+}
+
+.tax-glance .card .value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+}
+
+.tax-glance .card .detail {
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.25rem;
+}
+
+/* Source citation footer */
+.source-note {
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  padding-top: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .chart-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chart-row .chart-container {
+    max-width: 100%;
+  }
+
+  .tax-glance {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

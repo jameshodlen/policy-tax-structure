@@ -1,0 +1,96 @@
+site_name: Tax Structure Watch
+site_url: https://taxstructurewatch.org
+site_description: >-
+  The 50-state tax structure research platform — mapping the distributional
+  impact of every state's tax structure using primary-source data with
+  genuinely nonpartisan framing.
+site_author: Civil Ledger Lab
+
+repo_url: https://github.com/jameshodlen/policy-tax-structure
+repo_name: jameshodlen/policy-tax-structure
+
+copyright: >-
+  &copy; 2026 Civil Ledger Lab &mdash;
+  Primary-sourced data, competing frameworks, transparent methodology
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: Fira Code
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - assets/stylesheets/custom.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js
+  - assets/javascripts/charts.js
+  - assets/javascripts/tables.js
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - def_list
+  - footnotes
+
+nav:
+  - Home: index.md
+  - States:
+    - Overview: states/index.md
+    - Wisconsin: states/wisconsin.md
+    - Minnesota: states/minnesota.md
+  - Analysis:
+    - Overview: analysis/index.md
+    - "Who Actually Pays?": analysis/who-actually-pays.md
+  - Data Sources: data/index.md
+  - Methodology:
+    - Overview: methodology/index.md
+    - Analytical Framework: methodology/framework.md
+    - "Tax Foundation vs ITEP": methodology/tax-foundation-vs-itep.md
+    - Limitations: methodology/limitations.md
+  - About: about.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jameshodlen/policy-tax-structure
+  generator: false

@@ -3,6 +3,8 @@
 *.xlsx
 *.json
 !package.json
+!mkdocs.yml
+!docs/assets/data/*.json
 *.parquet
 *.db
 *.sqlite
@@ -12,6 +14,9 @@ __pycache__/
 *.py[cod]
 .venv/
 env/
+
+# Build output
+site/
 
 # Node
 node_modules/
