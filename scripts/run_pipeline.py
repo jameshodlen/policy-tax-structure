@@ -58,6 +58,8 @@ def run_pipeline(
     skip_bea: bool = False,
     skip_fred: bool = False,
     skip_treasury: bool = False,
+    skip_itep: bool = False,
+    skip_taxfoundation: bool = False,
 ) -> dict:
     """
     Run the full data pipeline.
@@ -70,6 +72,8 @@ def run_pipeline(
         If set, only build the profile for this state abbreviation.
     skip_census, skip_bea, skip_fred, skip_treasury : bool
         Skip individual fetch steps.
+    skip_itep, skip_taxfoundation : bool
+        Skip ITEP or Tax Foundation processing steps.
 
     Returns
     -------
@@ -116,7 +120,23 @@ def run_pipeline(
     else:
         logger.info("Skipping all fetch steps (--skip-fetch)")
 
-    # Step 5: Build state profiles
+    # Step 5: ITEP Who Pays processing
+    if not skip_itep:
+        from scripts.process_itep_whopays import process_itep_whopays
+        results["itep_whopays"] = _run_step("ITEP Who Pays Processing", process_itep_whopays)
+    else:
+        logger.info("Skipping ITEP Who Pays processing")
+
+    # Step 6: Tax Foundation Index processing
+    if not skip_taxfoundation:
+        from scripts.process_tax_foundation import process_tax_foundation
+        results["tax_foundation"] = _run_step(
+            "Tax Foundation Index Processing", process_tax_foundation
+        )
+    else:
+        logger.info("Skipping Tax Foundation processing")
+
+    # Step 7: Build state profiles
     from scripts.build_state_profiles import build_all_profiles
     results["build_profiles"] = _run_step(
         "Build State Profiles",
@@ -184,6 +204,14 @@ Examples:
         "--skip-treasury", action="store_true",
         help="Skip the Treasury fiscal data fetch",
     )
+    parser.add_argument(
+        "--skip-itep", action="store_true",
+        help="Skip the ITEP Who Pays processing step",
+    )
+    parser.add_argument(
+        "--skip-taxfoundation", action="store_true",
+        help="Skip the Tax Foundation Index processing step",
+    )
 
     args = parser.parse_args()
 
@@ -194,6 +222,8 @@ Examples:
         skip_bea=args.skip_bea,
         skip_fred=args.skip_fred,
         skip_treasury=args.skip_treasury,
+        skip_itep=args.skip_itep,
+        skip_taxfoundation=args.skip_taxfoundation,
     )
 
     # Exit with non-zero status if any step failed

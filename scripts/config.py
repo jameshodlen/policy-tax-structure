@@ -26,6 +26,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 # ---------------------------------------------------------------------------
 RAW_DIR = os.path.join(PROJECT_ROOT, "data", "raw")
 PROCESSED_DIR = os.path.join(PROJECT_ROOT, "data", "processed")
+REFERENCE_DIR = os.path.join(PROJECT_ROOT, "data", "reference")
 SITE_DIR = os.path.join(PROJECT_ROOT, "docs", "assets", "data")
 CACHE_DIR = os.path.join(RAW_DIR, "cache")
 

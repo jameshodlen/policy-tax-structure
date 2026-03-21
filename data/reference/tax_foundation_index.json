@@ -1,0 +1,147 @@
+{
+  "_metadata": {
+    "source": "Tax Foundation, State Tax Competitiveness Index",
+    "edition": "2026 (11th Edition)",
+    "url": "https://taxfoundation.org/research/all/state/2026-state-tax-competitiveness-index/",
+    "rank_categories": ["overall_rank", "corporate_rank", "individual_income_rank", "sales_tax_rank", "property_tax_rank", "unemployment_insurance_rank"],
+    "note": "Rankings on 150+ variables across 5 categories. MN and WI have full sub-category ranks. Other states have overall_rank only from analysis page."
+  },
+  "states": {
+    "MN": {
+      "overall_rank": 45,
+      "corporate_rank": 46,
+      "individual_income_rank": 46,
+      "sales_tax_rank": 30,
+      "property_tax_rank": 28,
+      "unemployment_insurance_rank": 40
+    },
+    "WI": {
+      "overall_rank": 28,
+      "corporate_rank": 35,
+      "individual_income_rank": 30,
+      "sales_tax_rank": 13,
+      "property_tax_rank": 36,
+      "unemployment_insurance_rank": 25
+    },
+    "FL": {
+      "overall_rank": 4,
+      "corporate_rank": null,
+      "individual_income_rank": null,
+      "sales_tax_rank": null,
+      "property_tax_rank": null,
+      "unemployment_insurance_rank": null
+    },
+    "WA": {
+      "overall_rank": 16,
+      "corporate_rank": null,
+      "individual_income_rank": null,
+      "sales_tax_rank": null,
+      "property_tax_rank": null,
+      "unemployment_insurance_rank": null
+    },
+    "TN": {
+      "overall_rank": 7,
+      "corporate_rank": null,
+      "individual_income_rank": null,
+      "sales_tax_rank": null,
+      "property_tax_rank": null,
+      "unemployment_insurance_rank": null
+    },
+    "PA": {
+      "overall_rank": 26,
+      "corporate_rank": null,
+      "individual_income_rank": null,
+      "sales_tax_rank": null,
+      "property_tax_rank": null,
+      "unemployment_insurance_rank": null
+    },
+    "NV": {
+      "overall_rank": 7,
+      "corporate_rank": null,
+      "individual_income_rank": null,
+      "sales_tax_rank": null,
+      "property_tax_rank": null,
+      "unemployment_insurance_rank": null
+    },
+    "SD": {
+      "overall_rank": 2,
+      "corporate_rank": null,
+      "individual_income_rank": null,
+      "sales_tax_rank": null,
+      "property_tax_rank": null,
+      "unemployment_insurance_rank": null
+    },
+    "TX": {
+      "overall_rank": 14,
+      "corporate_rank": null,
+      "individual_income_rank": null,
+      "sales_tax_rank": null,
+      "property_tax_rank": null,
+      "unemployment_insurance_rank": null
+    },
+    "IL": {
+      "overall_rank": 36,
+      "corporate_rank": null,
+      "individual_income_rank": null,
+      "sales_tax_rank": null,
+      "property_tax_rank": null,
+      "unemployment_insurance_rank": null
+    },
+    "AR": {
+      "overall_rank": 40,
+      "corporate_rank": null,
+      "individual_income_rank": null,
+      "sales_tax_rank": null,
+      "property_tax_rank": null,
+      "unemployment_insurance_rank": null
+    },
+    "LA": {
+      "overall_rank": 42,
+      "corporate_rank": null,
+      "individual_income_rank": null,
+      "sales_tax_rank": null,
+      "property_tax_rank": null,
+      "unemployment_insurance_rank": null
+    },
+    "CA": {
+      "overall_rank": 49,
+      "corporate_rank": null,
+      "individual_income_rank": null,
+      "sales_tax_rank": null,
+      "property_tax_rank": null,
+      "unemployment_insurance_rank": null
+    },
+    "ME": {
+      "overall_rank": 33,
+      "corporate_rank": null,
+      "individual_income_rank": null,
+      "sales_tax_rank": null,
+      "property_tax_rank": null,
+      "unemployment_insurance_rank": null
+    },
+    "NJ": {
+      "overall_rank": 50,
+      "corporate_rank": null,
+      "individual_income_rank": null,
+      "sales_tax_rank": null,
+      "property_tax_rank": null,
+      "unemployment_insurance_rank": null
+    },
+    "NY": {
+      "overall_rank": 48,
+      "corporate_rank": null,
+      "individual_income_rank": null,
+      "sales_tax_rank": null,
+      "property_tax_rank": null,
+      "unemployment_insurance_rank": null
+    },
+    "VT": {
+      "overall_rank": 44,
+      "corporate_rank": null,
+      "individual_income_rank": null,
+      "sales_tax_rank": null,
+      "property_tax_rank": null,
+      "unemployment_insurance_rank": null
+    }
+  }
+}

@@ -5,6 +5,7 @@
 !package.json
 !mkdocs.yml
 !docs/assets/data/*.json
+!data/reference/*.json
 *.parquet
 *.db
 *.sqlite
