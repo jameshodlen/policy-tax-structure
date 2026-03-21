@@ -1,0 +1,63 @@
+{
+  "state": "Wisconsin",
+  "abbreviation": "WI",
+  "last_updated": "2026-03-20",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {"rate": 3.5, "min": 0, "max": 14320},
+      {"rate": 4.4, "min": 14320, "max": 28640},
+      {"rate": 5.3, "min": 28640, "max": 315310},
+      {"rate": 7.65, "min": 315310, "max": null}
+    ],
+    "sales_tax_rate": 5.0,
+    "local_sales_tax": false,
+    "corporate_tax_rate": 7.9,
+    "property_tax_admin": "Local assessment, state equalization",
+    "estate_tax": false,
+    "notable_credits": ["Homestead Credit", "Earned Income Tax Credit (state)"]
+  },
+  "revenue_composition": {
+    "labels": ["Individual Income Tax", "Sales & Use Tax", "Corporate Income Tax", "Excise Taxes", "Property Tax (state)", "Other"],
+    "datasets": [{
+      "data": [46, 27, 7, 8, 2, 10],
+      "backgroundColor": ["#1e3a5f", "#2d6a4f", "#4a90d9", "#7fb3d8", "#b5d4e8", "#d4e6f1"]
+    }]
+  },
+  "effective_rates_by_quintile": {
+    "labels": ["Lowest 20%", "Second 20%", "Middle 20%", "Fourth 20%", "Next 15%", "Next 4%", "Top 1%"],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [8.9, 9.1, 9.4, 9.8, 10.1, 9.7, 7.7],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [11.4, 10.9, 10.2, 9.8, 9.4, 8.3, 7.2],
+        "backgroundColor": "#7fb3d8"
+      }
+    ]
+  },
+  "economic_context": {
+    "median_household_income": 67125,
+    "per_capita_income": 35100,
+    "gdp_per_capita": 57800,
+    "population": 5893718,
+    "unemployment_rate": 3.1
+  },
+  "competitiveness_index": {
+    "overall_rank": 28,
+    "corporate_rank": 35,
+    "individual_income_rank": 30,
+    "sales_tax_rank": 13,
+    "property_tax_rank": 36,
+    "unemployment_insurance_rank": 25
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "moderate",
+    "federal_conformity": "selective",
+    "recent_changes": "2023: Reduced second bracket from 4.4% to 4.4% (no change in recent sessions despite proposals)"
+  }
+}
