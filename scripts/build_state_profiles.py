@@ -37,6 +37,8 @@ PROCESSED_FILES = {
     "treasury": os.path.join(PROCESSED_DIR, "treasury_federal_transfers.json"),
     "itep_rates": os.path.join(PROCESSED_DIR, "itep_distributional.json"),
     "tax_foundation": os.path.join(PROCESSED_DIR, "tax_foundation_index.json"),
+    "irs_migration": os.path.join(PROCESSED_DIR, "irs_soi_migration.json"),
+    "lincoln_property": os.path.join(PROCESSED_DIR, "lincoln_property_tax.json"),
 }
 
 # Reference data file paths
@@ -157,6 +159,37 @@ def _build_federal_transfers(abbr: str, sources: dict[str, dict]) -> dict | None
     }
 
 
+def _build_migration(abbr: str, sources: dict[str, dict]) -> dict | None:
+    """Extract IRS SOI migration data for a state."""
+    migration_data = sources.get("irs_migration", {})
+    # Handle both top-level keyed and nested "states" structures
+    states = migration_data.get("states", migration_data)
+    state_mig = states.get(abbr, {})
+    if not state_mig or state_mig.get("net_returns") is None:
+        return None
+
+    net_agi = state_mig.get("net_agi")
+    net_agi_fmt = None
+    if net_agi is not None:
+        sign = "-" if net_agi < 0 else ""
+        abs_agi = abs(net_agi)
+        if abs_agi >= 1_000_000_000:
+            net_agi_fmt = f"{sign}${abs_agi / 1_000_000_000:.1f}B"
+        elif abs_agi >= 1_000_000:
+            net_agi_fmt = f"{sign}${abs_agi / 1_000_000:.0f}M"
+        else:
+            net_agi_fmt = f"{sign}${abs_agi:,.0f}"
+
+    return {
+        "tax_year": migration_data.get("_metadata", {}).get("tax_year"),
+        "net_returns": state_mig.get("net_returns"),
+        "net_agi": net_agi,
+        "net_agi_formatted": net_agi_fmt,
+        "top_inflows": state_mig.get("top_inflows", []),
+        "top_outflows": state_mig.get("top_outflows", []),
+    }
+
+
 def build_state_profile(abbr: str, sources: dict[str, dict]) -> dict:
     """
     Build a single state's profile by merging all data sources.
@@ -193,10 +226,20 @@ def build_state_profile(abbr: str, sources: dict[str, dict]) -> dict:
     # key_facts: from reference data
     profile["key_facts"] = state_ref.get("key_facts", template.get("key_facts"))
 
-    # federal_transfers: from Treasury (new key not in original hand-authored profiles)
+    # federal_transfers: from Treasury
     ft = _build_federal_transfers(abbr, sources)
     if ft is not None:
         profile["federal_transfers"] = ft
+
+    # migration: from IRS SOI migration data
+    mig = _build_migration(abbr, sources)
+    if mig is not None:
+        profile["migration"] = mig
+
+    # property_tax: from Lincoln Institute processed data
+    lincoln = sources.get("lincoln_property", {}).get(abbr)
+    if lincoln is not None:
+        profile["property_tax"] = lincoln
 
     return profile
 

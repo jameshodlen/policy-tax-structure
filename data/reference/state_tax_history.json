@@ -1,0 +1,20 @@
+{
+  "_metadata": {
+    "note": "Historical tax change timelines for state profiles. Populated from public records and state revenue department histories."
+  },
+  "MN": [
+    {"year": 1933, "event": "Individual income tax enacted (one of the earliest states)"},
+    {"year": 1967, "event": "Sales tax enacted at 3%, gradually raised to 6.875%"},
+    {"year": 1991, "event": "Fourth income tax bracket added (8.5% on high earners)"},
+    {"year": 2013, "event": "Top rate raised to 9.85% on income over ~$156,000 (adjusted annually)"},
+    {"year": 2014, "event": "Working Family Credit expanded"},
+    {"year": 2023, "event": "Major tax bill — Child Tax Credit enacted, additional property tax refund, K-12 credit expanded"}
+  ],
+  "WI": [
+    {"year": 1911, "event": "Wisconsin becomes one of the first states to adopt an individual income tax"},
+    {"year": 1962, "event": "Sales tax enacted at 3%, raised to 5% in 1982"},
+    {"year": 1992, "event": "Estate tax repealed"},
+    {"year": 2011, "event": "2011–2015: Significant tax cuts under Governor Walker, including income tax rate reductions"},
+    {"year": 2023, "event": "2023–2025: Legislative proposals to flatten income tax to single rate; none enacted as of early 2026"}
+  ]
+}

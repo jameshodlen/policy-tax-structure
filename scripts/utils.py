@@ -308,4 +308,16 @@ def validate_profile_schema(profile: dict, strict: bool = False) -> list[str]:
     elif not isinstance(kf, dict):
         errors.append("key_facts is not a dict")
 
+    # migration (optional — only validate structure if present)
+    mig = profile.get("migration")
+    if mig is not None:
+        if not isinstance(mig, dict):
+            errors.append("migration is not a dict")
+
+    # property_tax (optional — only validate structure if present)
+    pt = profile.get("property_tax")
+    if pt is not None:
+        if not isinstance(pt, dict):
+            errors.append("property_tax is not a dict")
+
     return errors
