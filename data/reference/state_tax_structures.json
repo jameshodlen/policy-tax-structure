@@ -66,5 +66,462 @@
       "federal_conformity": "selective",
       "recent_changes": "2023: Reduced second bracket from 4.4% to 4.4% (no change in recent sessions despite proposals)"
     }
+  },
+  "IA": {
+    "tax_structure": {
+      "income_tax_type": "flat",
+      "income_tax_brackets": [
+        {"rate": 3.9, "min": 0, "max": null}
+      ],
+      "sales_tax_rate": 6.0,
+      "local_sales_tax": true,
+      "clothing_exempt": true,
+      "corporate_tax_rate": 5.5,
+      "property_tax_admin": "Local assessment, state equalization",
+      "estate_tax": false,
+      "estate_tax_exemption": null,
+      "notable_credits": ["Earned Income Tax Credit (state)", "Child and Dependent Care Credit", "Tuition and Textbook Credit"]
+    },
+    "key_facts": {
+      "ptet_adopted": true,
+      "salt_impact": "moderate",
+      "federal_conformity": "rolling",
+      "recent_changes": "2023-2026: Phased conversion from graduated (top rate 8.98%) to flat 3.9%. Completed January 2026."
+    }
+  },
+  "GA": {
+    "tax_structure": {
+      "income_tax_type": "flat",
+      "income_tax_brackets": [
+        {"rate": 5.39, "min": 0, "max": null}
+      ],
+      "sales_tax_rate": 4.0,
+      "local_sales_tax": true,
+      "clothing_exempt": false,
+      "corporate_tax_rate": 5.75,
+      "property_tax_admin": "County boards of assessors, state equalization",
+      "estate_tax": false,
+      "estate_tax_exemption": null,
+      "notable_credits": ["Low-Income Credit", "Child and Dependent Care Credit"]
+    },
+    "key_facts": {
+      "ptet_adopted": true,
+      "salt_impact": "moderate",
+      "federal_conformity": "selective",
+      "recent_changes": "2024: Converted from graduated to flat 5.49%, reduced to 5.39% in 2025, on path to 4.99% floor."
+    }
+  },
+  "AZ": {
+    "tax_structure": {
+      "income_tax_type": "flat",
+      "income_tax_brackets": [
+        {"rate": 2.5, "min": 0, "max": null}
+      ],
+      "sales_tax_rate": 5.6,
+      "local_sales_tax": true,
+      "clothing_exempt": false,
+      "corporate_tax_rate": 4.9,
+      "property_tax_admin": "County assessors, state oversight",
+      "estate_tax": false,
+      "estate_tax_exemption": null,
+      "notable_credits": ["Family Tax Credit", "Dependent Tax Credit", "Increased Excise Tax Credit"]
+    },
+    "key_facts": {
+      "ptet_adopted": true,
+      "salt_impact": "low",
+      "federal_conformity": "rolling",
+      "recent_changes": "2023: Flat rate of 2.5% took effect, down from graduated structure with 4.5% top rate."
+    }
+  },
+  "ID": {
+    "tax_structure": {
+      "income_tax_type": "flat",
+      "income_tax_brackets": [
+        {"rate": 5.8, "min": 0, "max": null}
+      ],
+      "sales_tax_rate": 6.0,
+      "local_sales_tax": true,
+      "clothing_exempt": false,
+      "corporate_tax_rate": 5.8,
+      "property_tax_admin": "County assessors, state Tax Commission equalizes",
+      "estate_tax": false,
+      "estate_tax_exemption": null,
+      "notable_credits": ["Grocery Credit", "Child Tax Credit"]
+    },
+    "key_facts": {
+      "ptet_adopted": true,
+      "salt_impact": "low",
+      "federal_conformity": "rolling",
+      "recent_changes": "2023: Converted from graduated to flat 5.8%. Previous top rate was 6.0%."
+    }
+  },
+  "KY": {
+    "tax_structure": {
+      "income_tax_type": "flat",
+      "income_tax_brackets": [
+        {"rate": 3.5, "min": 0, "max": null}
+      ],
+      "sales_tax_rate": 6.0,
+      "local_sales_tax": false,
+      "clothing_exempt": false,
+      "corporate_tax_rate": 5.0,
+      "property_tax_admin": "County property valuation administrators, state oversight",
+      "estate_tax": false,
+      "estate_tax_exemption": null,
+      "notable_credits": ["Family Size Tax Credit", "Child and Dependent Care Credit"]
+    },
+    "key_facts": {
+      "ptet_adopted": true,
+      "salt_impact": "low",
+      "federal_conformity": "selective",
+      "recent_changes": "2024: Rate triggered down from 4.0% to 3.5% after meeting revenue benchmarks. Originally flat at 5.0% in 2018."
+    }
+  },
+  "MS": {
+    "tax_structure": {
+      "income_tax_type": "flat",
+      "income_tax_brackets": [
+        {"rate": 4.0, "min": 0, "max": null}
+      ],
+      "sales_tax_rate": 7.0,
+      "local_sales_tax": false,
+      "clothing_exempt": false,
+      "corporate_tax_rate": 5.0,
+      "property_tax_admin": "County assessors, state Tax Commission equalizes",
+      "estate_tax": false,
+      "estate_tax_exemption": null,
+      "notable_credits": ["Earned Income Tax Credit (limited)"]
+    },
+    "key_facts": {
+      "ptet_adopted": false,
+      "salt_impact": "low",
+      "federal_conformity": "selective",
+      "recent_changes": "2023-2026: Phased elimination of income tax on first $10,000, moving toward flat 4.0% with trigger to reach 0%."
+    }
+  },
+  "MT": {
+    "tax_structure": {
+      "income_tax_type": "flat",
+      "income_tax_brackets": [
+        {"rate": 5.9, "min": 0, "max": null}
+      ],
+      "sales_tax_rate": null,
+      "local_sales_tax": false,
+      "clothing_exempt": null,
+      "corporate_tax_rate": 6.75,
+      "property_tax_admin": "County assessors, state Department of Revenue equalizes",
+      "estate_tax": false,
+      "estate_tax_exemption": null,
+      "notable_credits": ["Earned Income Tax Credit (state)", "Elderly Homeowner/Renter Credit"]
+    },
+    "key_facts": {
+      "ptet_adopted": true,
+      "salt_impact": "moderate",
+      "federal_conformity": "selective",
+      "recent_changes": "2024: Converted from graduated (top rate 6.75%) to flat 5.9%."
+    }
+  },
+  "NC": {
+    "tax_structure": {
+      "income_tax_type": "flat",
+      "income_tax_brackets": [
+        {"rate": 4.25, "min": 0, "max": null}
+      ],
+      "sales_tax_rate": 4.75,
+      "local_sales_tax": true,
+      "clothing_exempt": false,
+      "corporate_tax_rate": 2.5,
+      "property_tax_admin": "County assessors, state oversight",
+      "estate_tax": false,
+      "estate_tax_exemption": null,
+      "notable_credits": ["Child Tax Credit (limited)"]
+    },
+    "key_facts": {
+      "ptet_adopted": true,
+      "salt_impact": "moderate",
+      "federal_conformity": "rolling",
+      "recent_changes": "2014-2026: Ongoing rate reductions from original 5.8% flat rate. Corporate rate declining to 0% by 2030 under current triggers."
+    }
+  },
+  "CA": {
+    "tax_structure": {
+      "income_tax_type": "graduated",
+      "income_tax_brackets": [
+        {"rate": 1.0, "min": 0, "max": 10412},
+        {"rate": 2.0, "min": 10412, "max": 24684},
+        {"rate": 4.0, "min": 24684, "max": 38959},
+        {"rate": 6.0, "min": 38959, "max": 54081},
+        {"rate": 8.0, "min": 54081, "max": 68350},
+        {"rate": 9.3, "min": 68350, "max": 349137},
+        {"rate": 10.3, "min": 349137, "max": 418961},
+        {"rate": 11.3, "min": 418961, "max": 698271},
+        {"rate": 12.3, "min": 698271, "max": 1000000},
+        {"rate": 13.3, "min": 1000000, "max": null}
+      ],
+      "sales_tax_rate": 7.25,
+      "local_sales_tax": true,
+      "clothing_exempt": false,
+      "corporate_tax_rate": 8.84,
+      "property_tax_admin": "County assessors, Prop 13 limits assessment increases to 2%/year",
+      "estate_tax": false,
+      "estate_tax_exemption": null,
+      "notable_credits": ["California Earned Income Tax Credit", "Young Child Tax Credit", "Renter's Credit"]
+    },
+    "key_facts": {
+      "ptet_adopted": true,
+      "salt_impact": "high",
+      "federal_conformity": "selective",
+      "recent_changes": "2024: Mental Health Services Tax extended (additional 1% on income over $1M). CalEITC expanded."
+    }
+  },
+  "TX": {
+    "tax_structure": {
+      "income_tax_type": "none",
+      "income_tax_brackets": [],
+      "sales_tax_rate": 6.25,
+      "local_sales_tax": true,
+      "clothing_exempt": false,
+      "corporate_tax_rate": null,
+      "property_tax_admin": "County appraisal districts, state Comptroller equalizes",
+      "estate_tax": false,
+      "estate_tax_exemption": null,
+      "notable_credits": []
+    },
+    "key_facts": {
+      "ptet_adopted": false,
+      "salt_impact": "none",
+      "federal_conformity": null,
+      "recent_changes": "2023: $18 billion property tax relief package. Franchise tax threshold raised. No income tax — constitutional prohibition (1993)."
+    }
+  },
+  "FL": {
+    "tax_structure": {
+      "income_tax_type": "none",
+      "income_tax_brackets": [],
+      "sales_tax_rate": 6.0,
+      "local_sales_tax": true,
+      "clothing_exempt": false,
+      "corporate_tax_rate": 5.5,
+      "property_tax_admin": "County property appraisers, Save Our Homes assessment cap (3%/year)",
+      "estate_tax": false,
+      "estate_tax_exemption": null,
+      "notable_credits": []
+    },
+    "key_facts": {
+      "ptet_adopted": false,
+      "salt_impact": "none",
+      "federal_conformity": null,
+      "recent_changes": "2024: Homestead exemption increased. Corporate tax rate held at 5.5% (was temporarily 3.535% during COVID reductions)."
+    }
+  },
+  "NY": {
+    "tax_structure": {
+      "income_tax_type": "graduated",
+      "income_tax_brackets": [
+        {"rate": 4.0, "min": 0, "max": 8500},
+        {"rate": 4.5, "min": 8500, "max": 11700},
+        {"rate": 5.25, "min": 11700, "max": 13900},
+        {"rate": 5.85, "min": 13900, "max": 80650},
+        {"rate": 6.25, "min": 80650, "max": 215400},
+        {"rate": 6.85, "min": 215400, "max": 1077550},
+        {"rate": 9.65, "min": 1077550, "max": 5000000},
+        {"rate": 10.3, "min": 5000000, "max": 25000000},
+        {"rate": 10.9, "min": 25000000, "max": null}
+      ],
+      "sales_tax_rate": 4.0,
+      "local_sales_tax": true,
+      "clothing_exempt": true,
+      "corporate_tax_rate": 7.25,
+      "property_tax_admin": "Local assessors, state equalization rates",
+      "estate_tax": true,
+      "estate_tax_exemption": 6940000,
+      "notable_credits": ["Earned Income Tax Credit (30% of federal)", "Empire State Child Credit", "Real Property Tax Credit"]
+    },
+    "key_facts": {
+      "ptet_adopted": true,
+      "salt_impact": "high",
+      "federal_conformity": "rolling",
+      "recent_changes": "2023: Top rate of 10.9% extended through 2027. PTET expanded."
+    }
+  },
+  "IL": {
+    "tax_structure": {
+      "income_tax_type": "flat",
+      "income_tax_brackets": [
+        {"rate": 4.95, "min": 0, "max": null}
+      ],
+      "sales_tax_rate": 6.25,
+      "local_sales_tax": true,
+      "clothing_exempt": false,
+      "corporate_tax_rate": 9.5,
+      "property_tax_admin": "Township assessors (Cook County) / County supervisors of assessments, state equalization",
+      "estate_tax": true,
+      "estate_tax_exemption": 4000000,
+      "notable_credits": ["Earned Income Tax Credit (state, 20% of federal)", "Property Tax Credit", "Education Expense Credit"]
+    },
+    "key_facts": {
+      "ptet_adopted": true,
+      "salt_impact": "high",
+      "federal_conformity": "rolling",
+      "recent_changes": "2020: Graduated tax ballot measure failed (Fair Tax Amendment). Flat rate of 4.95% remains."
+    }
+  },
+  "TN": {
+    "tax_structure": {
+      "income_tax_type": "none",
+      "income_tax_brackets": [],
+      "sales_tax_rate": 7.0,
+      "local_sales_tax": true,
+      "clothing_exempt": false,
+      "corporate_tax_rate": 6.5,
+      "property_tax_admin": "County assessors, state Board of Equalization",
+      "estate_tax": false,
+      "estate_tax_exemption": null,
+      "notable_credits": []
+    },
+    "key_facts": {
+      "ptet_adopted": false,
+      "salt_impact": "none",
+      "federal_conformity": null,
+      "recent_changes": "2021: Hall Tax (on interest and dividends) fully phased out, completing elimination begun in 2016."
+    }
+  },
+  "OH": {
+    "tax_structure": {
+      "income_tax_type": "graduated",
+      "income_tax_brackets": [
+        {"rate": 0, "min": 0, "max": 26050},
+        {"rate": 3.5, "min": 26050, "max": null}
+      ],
+      "sales_tax_rate": 5.75,
+      "local_sales_tax": true,
+      "clothing_exempt": false,
+      "corporate_tax_rate": null,
+      "property_tax_admin": "County auditors, state Tax Commissioner equalizes",
+      "estate_tax": false,
+      "estate_tax_exemption": null,
+      "notable_credits": ["Earned Income Tax Credit", "Retirement Income Credit"]
+    },
+    "key_facts": {
+      "ptet_adopted": true,
+      "salt_impact": "moderate",
+      "federal_conformity": "selective",
+      "recent_changes": "2024: Simplified to effective flat 3.5% on income above $26,050. Zero rate below threshold. CAT retained for businesses."
+    }
+  },
+  "IN": {
+    "tax_structure": {
+      "income_tax_type": "flat",
+      "income_tax_brackets": [
+        {"rate": 3.05, "min": 0, "max": null}
+      ],
+      "sales_tax_rate": 7.0,
+      "local_sales_tax": false,
+      "clothing_exempt": false,
+      "corporate_tax_rate": 4.9,
+      "property_tax_admin": "County assessors, state Department of Local Government Finance",
+      "estate_tax": false,
+      "estate_tax_exemption": null,
+      "notable_credits": ["Earned Income Tax Credit (state, 10% of federal)", "Unified Tax Credit for the Elderly"]
+    },
+    "key_facts": {
+      "ptet_adopted": true,
+      "salt_impact": "low",
+      "federal_conformity": "rolling",
+      "recent_changes": "2023-2027: Rate reducing from 3.23% to 2.9% in scheduled steps. Currently at 3.05%."
+    }
+  },
+  "WA": {
+    "tax_structure": {
+      "income_tax_type": "none",
+      "income_tax_brackets": [],
+      "sales_tax_rate": 6.5,
+      "local_sales_tax": true,
+      "clothing_exempt": false,
+      "corporate_tax_rate": null,
+      "property_tax_admin": "County assessors, state Department of Revenue equalizes",
+      "estate_tax": true,
+      "estate_tax_exemption": 2193000,
+      "notable_credits": ["Working Families Tax Credit"]
+    },
+    "key_facts": {
+      "ptet_adopted": false,
+      "salt_impact": "none",
+      "federal_conformity": null,
+      "recent_changes": "2021: 7% capital gains tax enacted on gains over $250K. Upheld by state Supreme Court 2023. Rate increased to 9.9% in 2025."
+    }
+  },
+  "NJ": {
+    "tax_structure": {
+      "income_tax_type": "graduated",
+      "income_tax_brackets": [
+        {"rate": 1.4, "min": 0, "max": 20000},
+        {"rate": 1.75, "min": 20000, "max": 35000},
+        {"rate": 3.5, "min": 35000, "max": 40000},
+        {"rate": 5.525, "min": 40000, "max": 75000},
+        {"rate": 6.37, "min": 75000, "max": 500000},
+        {"rate": 8.97, "min": 500000, "max": 1000000},
+        {"rate": 10.75, "min": 1000000, "max": null}
+      ],
+      "sales_tax_rate": 6.625,
+      "local_sales_tax": false,
+      "clothing_exempt": true,
+      "corporate_tax_rate": 11.5,
+      "property_tax_admin": "Local tax assessors, county boards of taxation",
+      "estate_tax": true,
+      "estate_tax_exemption": 2000000,
+      "notable_credits": ["Earned Income Tax Credit (state, 40% of federal)", "Property Tax Credit/Deduction", "Child Tax Credit"]
+    },
+    "key_facts": {
+      "ptet_adopted": true,
+      "salt_impact": "high",
+      "federal_conformity": "rolling",
+      "recent_changes": "2023: ANCHOR property tax relief expanded. Corporate surcharge of 2.5% on income over $1M extended."
+    }
+  },
+  "OR": {
+    "tax_structure": {
+      "income_tax_type": "graduated",
+      "income_tax_brackets": [
+        {"rate": 4.75, "min": 0, "max": 4050},
+        {"rate": 6.75, "min": 4050, "max": 10200},
+        {"rate": 8.75, "min": 10200, "max": 125000},
+        {"rate": 9.9, "min": 125000, "max": null}
+      ],
+      "sales_tax_rate": null,
+      "local_sales_tax": false,
+      "clothing_exempt": null,
+      "corporate_tax_rate": 7.6,
+      "property_tax_admin": "County assessors, Measure 50 limits assessed value growth",
+      "estate_tax": true,
+      "estate_tax_exemption": 1000000,
+      "notable_credits": ["Earned Income Tax Credit (state)", "Oregon Kids' Credit", "Working Family Household and Dependent Care Credit"]
+    },
+    "key_facts": {
+      "ptet_adopted": true,
+      "salt_impact": "high",
+      "federal_conformity": "rolling",
+      "recent_changes": "2023: Corporate Activity Tax retained. Kicker refund issued ($5.6 billion). No structural changes."
+    }
+  },
+  "NV": {
+    "tax_structure": {
+      "income_tax_type": "none",
+      "income_tax_brackets": [],
+      "sales_tax_rate": 6.85,
+      "local_sales_tax": true,
+      "clothing_exempt": false,
+      "corporate_tax_rate": null,
+      "property_tax_admin": "County assessors, state Tax Commission oversight",
+      "estate_tax": false,
+      "estate_tax_exemption": null,
+      "notable_credits": []
+    },
+    "key_facts": {
+      "ptet_adopted": false,
+      "salt_impact": "none",
+      "federal_conformity": null,
+      "recent_changes": "2015: Commerce Tax enacted. No income tax — state constitution requires 2/3 legislative vote to enact."
+    }
   }
 }

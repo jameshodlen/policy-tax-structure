@@ -211,10 +211,12 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python -m scripts.run_pipeline                  # full pipeline
-  python -m scripts.run_pipeline --skip-fetch     # rebuild profiles only
-  python -m scripts.run_pipeline --state CA       # single state
-  python -m scripts.run_pipeline --skip-bea       # skip BEA fetch
+  python -m scripts.run_pipeline                      # full pipeline (all steps)
+  python -m scripts.run_pipeline --skip-fetch         # rebuild profiles + pages from existing data
+  python -m scripts.run_pipeline --state CA           # single state only
+  python -m scripts.run_pipeline --skip-pages         # skip markdown page generation
+  python -m scripts.run_pipeline --skip-irs-migration # skip IRS SOI download
+  python -m scripts.run_pipeline --skip-fetch --skip-pages  # just rebuild profile JSON
         """,
     )
     parser.add_argument(

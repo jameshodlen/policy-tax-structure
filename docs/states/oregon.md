@@ -4,15 +4,15 @@
 
 ## Overview
 
-Oregon's tax structure. The Tax Foundation ranks Oregon 41st on its State Tax Competitiveness Index.
+Oregon employs a graduated individual income tax with 4 brackets and a top rate of 9.9%, and a 7.6% corporate tax rate. The Tax Foundation ranks Oregon 41st on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">4.75%–9.9%</div>
+<div class="detail">4 brackets, graduated</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
@@ -21,8 +21,8 @@ Oregon's tax structure. The Tax Foundation ranks Oregon 41st on its State Tax Co
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">7.6%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,23 @@ Oregon's tax structure. The Tax Foundation ranks Oregon 41st on its State Tax Co
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| $0 – $4,050 | 4.75% |
+| $4,050 – $10,200 | 6.75% |
+| $10,200 – $125,000 | 8.75% |
+| Over $125,000 | 9.9% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | County assessors, Measure 50 limits assessed value growth |
+| **Estate Tax** | Yes — $1,000,000 exemption |
+| **Notable Credits** | Earned Income Tax Credit (state), Oregon Kids' Credit, Working Family Household and Dependent Care Credit |
+| **PTET Status** | Adopted — pass-through entity tax available |
+| **Federal Conformity** | Rolling conformity to IRC |
 
 ## Revenue Composition
 
@@ -62,14 +70,15 @@ How Oregon generates its state tax revenue, by source:
 
 | Dimension | Oregon | Washington |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | None |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Graduated (4.75%–9.9%) | None |
+| Sales Tax | Data pending | 6.5% (+ local) |
 | Competitiveness Rank | 41st | 16th |
 
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Adopted — pass-through entity tax available
+- **Federal Conformity**: Rolling conformity to IRC
+- **SALT Cap Impact**: High
 
 ## Data Sources & Citations
 

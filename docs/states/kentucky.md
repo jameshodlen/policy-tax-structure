@@ -4,25 +4,25 @@
 
 ## Overview
 
-Kentucky's tax structure. The Tax Foundation ranks Kentucky 32nd on its State Tax Competitiveness Index.
+Kentucky employs a flat individual income tax at 3.5%, a 6.0% state sales tax, and a 5.0% corporate tax rate. The Tax Foundation ranks Kentucky 32nd on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">3.5%</div>
+<div class="detail">Flat rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">6.0%</div>
+<div class="detail">No local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">5.0%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,20 @@ Kentucky's tax structure. The Tax Foundation ranks Kentucky 32nd on its State Ta
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| Over $0 | 3.5% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | County property valuation administrators, state oversight |
+| **Estate Tax** | None |
+| **Notable Credits** | Family Size Tax Credit, Child and Dependent Care Credit |
+| **PTET Status** | Adopted — pass-through entity tax available |
+| **Federal Conformity** | Selective conformity to IRC |
 
 ## Revenue Composition
 
@@ -62,14 +67,15 @@ How Kentucky generates its state tax revenue, by source:
 
 | Dimension | Kentucky | West Virginia |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Flat 3.5% | Data pending |
+| Sales Tax | 6.0% (no local) | Data pending |
 | Competitiveness Rank | 32nd | 47th |
 
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Adopted — pass-through entity tax available
+- **Federal Conformity**: Selective conformity to IRC
+- **SALT Cap Impact**: Low
 
 ## Data Sources & Citations
 

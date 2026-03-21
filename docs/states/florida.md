@@ -4,7 +4,7 @@
 
 ## Overview
 
-Florida does not levy an individual income tax, relying instead on sales taxes, property taxes, and other revenue sources. ITEP ranks Florida's tax system among the 10 most regressive in the nation, with lower-income households paying a higher effective tax rate than wealthier residents. The Tax Foundation ranks Florida 4th on its State Tax Competitiveness Index.
+Florida does not levy an individual income tax, a 6.0% state sales tax, and a 5.5% corporate tax rate. ITEP ranks Florida's tax system among the 10 most regressive in the nation, with lower-income households paying a higher effective tax rate than wealthier residents. The Tax Foundation ranks Florida 4th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
@@ -16,13 +16,13 @@ Florida does not levy an individual income tax, relying instead on sales taxes, 
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">6.0%</div>
+<div class="detail">Plus local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">5.5%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -39,10 +39,10 @@ Florida does not levy an individual income tax. This places it among nine states
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
+| **Property Tax** | County property appraisers, Save Our Homes assessment cap (3%/year) |
+| **Estate Tax** | None |
 | **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
+| **PTET Status** | Not adopted |
 | **Federal Conformity** | Data pending |
 
 ## Revenue Composition
@@ -54,8 +54,27 @@ How Florida generates its state tax revenue, by source:
 
 ## Who Pays? Effective Tax Rates by Income
 
-!!! info "Distributional Data Pending"
-    ITEP distributional data is not yet available for Florida. Data collection is in progress. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology.
+<div class="chart-container" markdown>
+<canvas data-chart-type="bar"
+        data-source="../assets/data/fl_profile.json"
+        data-key="effective_rates_by_quintile">
+</canvas>
+</div>
+
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for Florida. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+=== "Tax Foundation View"
+
+Florida ranks **4th** on the State Tax Competitiveness Index (2024).
+
+=== "ITEP View"
+
+ITEP ranks Florida's tax system among the **10 most regressive** in the nation.
+
+=== "Primary Source Data"
+
+    State tax data from Census Bureau and economic indicators from BEA/FRED.
 
 ## Economic Context
 
@@ -66,14 +85,22 @@ How Florida generates its state tax revenue, by source:
 
 | Dimension | Florida | Georgia |
 |-----------|-----------|-----------|
-| Income Tax | None | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | None | Flat 5.39% |
+| Sales Tax | 6.0% (+ local) | 4.0% (+ local) |
 | Competitiveness Rank | 4th | 18th |
 
+## Historical Context
+
+- **1924**: State constitution prohibits individual income tax
+- **1949**: Corporate income tax enacted
+- **1971**: Sales tax rate raised to 4%, reaching current 6% by 1988
+- **1992**: Save Our Homes amendment caps homestead assessment increases at 3%/year
+- **2024**: Homestead exemption increased. Corporate rate held at 5.5%.
 ## Federal Interaction
 
-- **PTET Status**: Data pending
+- **PTET Status**: Not adopted
 - **Federal Conformity**: Data pending
+- **SALT Cap Impact**: None
 
 ## Data Sources & Citations
 

@@ -62,8 +62,8 @@ How New Mexico generates its state tax revenue, by source:
 
 | Dimension | New Mexico | Arizona |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Data pending | Flat 2.5% |
+| Sales Tax | Data pending | 5.6% (+ local) |
 | Competitiveness Rank | 39th | 19th |
 
 ## Federal Interaction

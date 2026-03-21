@@ -4,25 +4,25 @@
 
 ## Overview
 
-Indiana's tax structure. The Tax Foundation ranks Indiana 8th on its State Tax Competitiveness Index.
+Indiana employs a flat individual income tax at 3.05%, a 7.0% state sales tax, and a 4.9% corporate tax rate. The Tax Foundation ranks Indiana 8th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">3.05%</div>
+<div class="detail">Flat rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">7.0%</div>
+<div class="detail">No local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">4.9%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,20 @@ Indiana's tax structure. The Tax Foundation ranks Indiana 8th on its State Tax C
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| Over $0 | 3.05% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | County assessors, state Department of Local Government Finance |
+| **Estate Tax** | None |
+| **Notable Credits** | Earned Income Tax Credit (state, 10% of federal), Unified Tax Credit for the Elderly |
+| **PTET Status** | Adopted — pass-through entity tax available |
+| **Federal Conformity** | Rolling conformity to IRC |
 
 ## Revenue Composition
 
@@ -62,14 +67,15 @@ How Indiana generates its state tax revenue, by source:
 
 | Dimension | Indiana | Illinois |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Flat 3.05% | Flat 4.95% |
+| Sales Tax | 7.0% (no local) | 6.25% (+ local) |
 | Competitiveness Rank | 8th | 36th |
 
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Adopted — pass-through entity tax available
+- **Federal Conformity**: Rolling conformity to IRC
+- **SALT Cap Impact**: Low
 
 ## Data Sources & Citations
 

@@ -62,8 +62,8 @@ How West Virginia generates its state tax revenue, by source:
 
 | Dimension | West Virginia | Kentucky |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Data pending | Flat 3.5% |
+| Sales Tax | Data pending | 6.0% (no local) |
 | Competitiveness Rank | 47th | 32nd |
 
 ## Federal Interaction

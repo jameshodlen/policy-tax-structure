@@ -4,25 +4,25 @@
 
 ## Overview
 
-Iowa's tax structure. The Tax Foundation ranks Iowa 24th on its State Tax Competitiveness Index.
+Iowa employs a flat individual income tax at 3.9%, a 6.0% state sales tax, and a 5.5% corporate tax rate. The Tax Foundation ranks Iowa 24th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">3.9%</div>
+<div class="detail">Flat rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">6.0%</div>
+<div class="detail">Plus local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">5.5%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,20 @@ Iowa's tax structure. The Tax Foundation ranks Iowa 24th on its State Tax Compet
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| Over $0 | 3.9% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | Local assessment, state equalization |
+| **Estate Tax** | None |
+| **Notable Credits** | Earned Income Tax Credit (state), Child and Dependent Care Credit, Tuition and Textbook Credit |
+| **PTET Status** | Adopted — pass-through entity tax available |
+| **Federal Conformity** | Rolling conformity to IRC |
 
 ## Revenue Composition
 
@@ -62,14 +67,22 @@ How Iowa generates its state tax revenue, by source:
 
 | Dimension | Iowa | Missouri |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Flat 3.9% | Data pending |
+| Sales Tax | 6.0% (+ local) | Data pending |
 | Competitiveness Rank | 24th | 15th |
 
+## Historical Context
+
+- **1934**: Individual income tax enacted
+- **1967**: Sales tax enacted at 3%
+- **2018**: Tax reform legislation signed, beginning phased rate reductions
+- **2022**: Governor signs legislation converting to flat tax, phased 2023-2026
+- **2026**: Flat rate of 3.9% takes effect, completing transition from 8.98% top rate
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Adopted — pass-through entity tax available
+- **Federal Conformity**: Rolling conformity to IRC
+- **SALT Cap Impact**: Moderate
 
 ## Data Sources & Citations
 

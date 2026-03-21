@@ -75,26 +75,47 @@ def process_itep_whopays() -> dict:
         non_null = sum(1 for r in rates if r is not None)
         if non_null == 7:
             populated += 1
-        elif non_null > 0:
+            # Full 7-bar dataset
+            output[abbr] = {
+                "labels": quintile_labels,
+                "datasets": [
+                    {
+                        "label": "ITEP Effective Rate (%)",
+                        "data": rates,
+                        "backgroundColor": "#2d6a4f",
+                    },
+                    {
+                        "label": "National Average (%)",
+                        "data": national_avg,
+                        "backgroundColor": "#7fb3d8",
+                    },
+                ],
+            }
+        elif non_null == 2 and rates[0] is not None and rates[6] is not None:
             partial += 1
-            logger.info("%s: partial ITEP data (%d/7 quintiles)", abbr, non_null)
-
-        # Build Chart.js-ready dataset
-        output[abbr] = {
-            "labels": quintile_labels,
-            "datasets": [
-                {
-                    "label": "ITEP Effective Rate (%)",
-                    "data": rates,
-                    "backgroundColor": "#2d6a4f",
-                },
-                {
-                    "label": "National Average (%)",
-                    "data": national_avg,
-                    "backgroundColor": "#7fb3d8",
-                },
-            ],
-        }
+            logger.info("%s: partial ITEP data (Bottom 20%% + Top 1%% only)", abbr)
+            # Simplified 2-bar dataset for partial data
+            output[abbr] = {
+                "labels": ["Lowest 20%", "Top 1%"],
+                "datasets": [
+                    {
+                        "label": "ITEP Effective Rate (%)",
+                        "data": [rates[0], rates[6]],
+                        "backgroundColor": "#2d6a4f",
+                    },
+                    {
+                        "label": "National Average (%)",
+                        "data": [national_avg[0], national_avg[6]],
+                        "backgroundColor": "#7fb3d8",
+                    },
+                ],
+                "_partial": True,
+            }
+        elif non_null > 0:
+            logger.warning(
+                "%s: unusual ITEP data pattern (%d/7 quintiles) — skipping",
+                abbr, non_null,
+            )
 
     save_json(output, OUTPUT_FILE)
     logger.info(

@@ -4,25 +4,25 @@
 
 ## Overview
 
-Arizona's tax structure. The Tax Foundation ranks Arizona 19th on its State Tax Competitiveness Index.
+Arizona employs a flat individual income tax at 2.5%, a 5.6% state sales tax, and a 4.9% corporate tax rate. The Tax Foundation ranks Arizona 19th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">2.5%</div>
+<div class="detail">Flat rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">5.6%</div>
+<div class="detail">Plus local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">4.9%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,20 @@ Arizona's tax structure. The Tax Foundation ranks Arizona 19th on its State Tax 
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| Over $0 | 2.5% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | County assessors, state oversight |
+| **Estate Tax** | None |
+| **Notable Credits** | Family Tax Credit, Dependent Tax Credit, Increased Excise Tax Credit |
+| **PTET Status** | Adopted — pass-through entity tax available |
+| **Federal Conformity** | Rolling conformity to IRC |
 
 ## Revenue Composition
 
@@ -62,14 +67,15 @@ How Arizona generates its state tax revenue, by source:
 
 | Dimension | Arizona | Hawaii |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Flat 2.5% | Data pending |
+| Sales Tax | 5.6% (+ local) | Data pending |
 | Competitiveness Rank | 19th | 43rd |
 
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Adopted — pass-through entity tax available
+- **Federal Conformity**: Rolling conformity to IRC
+- **SALT Cap Impact**: Low
 
 ## Data Sources & Citations
 

@@ -4,25 +4,25 @@
 
 ## Overview
 
-Georgia's tax structure. The Tax Foundation ranks Georgia 18th on its State Tax Competitiveness Index.
+Georgia employs a flat individual income tax at 5.39%, a 4.0% state sales tax, and a 5.75% corporate tax rate. The Tax Foundation ranks Georgia 18th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">5.39%</div>
+<div class="detail">Flat rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">4.0%</div>
+<div class="detail">Plus local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">5.75%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,20 @@ Georgia's tax structure. The Tax Foundation ranks Georgia 18th on its State Tax 
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| Over $0 | 5.39% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | County boards of assessors, state equalization |
+| **Estate Tax** | None |
+| **Notable Credits** | Low-Income Credit, Child and Dependent Care Credit |
+| **PTET Status** | Adopted — pass-through entity tax available |
+| **Federal Conformity** | Selective conformity to IRC |
 
 ## Revenue Composition
 
@@ -62,14 +67,21 @@ How Georgia generates its state tax revenue, by source:
 
 | Dimension | Georgia | Florida |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | None |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Flat 5.39% | None |
+| Sales Tax | 4.0% (+ local) | 6.0% (+ local) |
 | Competitiveness Rank | 18th | 4th |
 
+## Historical Context
+
+- **1929**: Individual income tax enacted with graduated rates
+- **1951**: Sales tax enacted at 3%, raised to 4% in 1989
+- **2024**: Converted from graduated (top rate 5.75%) to flat 5.49%
+- **2025**: Rate reduced to 5.39%, with scheduled reductions to 4.99% floor
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Adopted — pass-through entity tax available
+- **Federal Conformity**: Selective conformity to IRC
+- **SALT Cap Impact**: Moderate
 
 ## Data Sources & Citations
 

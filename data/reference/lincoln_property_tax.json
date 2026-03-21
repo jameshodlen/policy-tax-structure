@@ -35,6 +35,70 @@
       "levy_limits": true,
       "assessment_limits": false,
       "truth_in_taxation": false
+    },
+    "TX": {
+      "cities": [
+        {"city": "Houston", "homestead_rate": 2.03, "commercial_rate": 2.03, "industrial_rate": 2.03, "apartment_rate": 2.03},
+        {"city": "Dallas", "homestead_rate": 1.93, "commercial_rate": 1.93, "industrial_rate": 1.93, "apartment_rate": 1.93},
+        {"city": "San Antonio", "homestead_rate": 2.15, "commercial_rate": 2.15, "industrial_rate": 2.15, "apartment_rate": 2.15},
+        {"city": "Austin", "homestead_rate": 1.68, "commercial_rate": 1.68, "industrial_rate": 1.68, "apartment_rate": 1.68}
+      ],
+      "assessment_practice": "County appraisal districts; state Comptroller equalizes",
+      "classification": false,
+      "classification_detail": null,
+      "homestead_exemptions": "Mandatory $100,000 homestead exemption (school districts), additional for 65+/disabled",
+      "circuit_breaker": false,
+      "circuit_breaker_detail": null,
+      "levy_limits": true,
+      "assessment_limits": true,
+      "truth_in_taxation": true
+    },
+    "NJ": {
+      "cities": [
+        {"city": "Newark", "homestead_rate": 3.12, "commercial_rate": 3.12, "industrial_rate": 3.12, "apartment_rate": 3.12},
+        {"city": "Jersey City", "homestead_rate": 1.66, "commercial_rate": 1.66, "industrial_rate": 1.66, "apartment_rate": 1.66},
+        {"city": "Trenton", "homestead_rate": 3.41, "commercial_rate": 3.41, "industrial_rate": 3.41, "apartment_rate": 3.41}
+      ],
+      "assessment_practice": "Local tax assessors; county boards of taxation equalize",
+      "classification": false,
+      "classification_detail": null,
+      "homestead_exemptions": "Homestead Benefit Program (rebate for qualifying homeowners)",
+      "circuit_breaker": true,
+      "circuit_breaker_detail": "Senior Freeze program for 65+ and disabled homeowners",
+      "levy_limits": true,
+      "assessment_limits": false,
+      "truth_in_taxation": false
+    },
+    "CA": {
+      "cities": [
+        {"city": "Los Angeles", "homestead_rate": 0.72, "commercial_rate": 0.72, "industrial_rate": 0.72, "apartment_rate": 0.72},
+        {"city": "San Francisco", "homestead_rate": 0.64, "commercial_rate": 0.64, "industrial_rate": 0.64, "apartment_rate": 0.64},
+        {"city": "San Diego", "homestead_rate": 0.73, "commercial_rate": 0.73, "industrial_rate": 0.73, "apartment_rate": 0.73}
+      ],
+      "assessment_practice": "County assessors; Proposition 13 limits assessment increases to 2%/year from purchase price",
+      "classification": false,
+      "classification_detail": null,
+      "homestead_exemptions": "Homeowners' Exemption ($7,000 reduction in assessed value)",
+      "circuit_breaker": false,
+      "circuit_breaker_detail": null,
+      "levy_limits": true,
+      "assessment_limits": true,
+      "truth_in_taxation": false
+    },
+    "IL": {
+      "cities": [
+        {"city": "Chicago", "homestead_rate": 1.85, "commercial_rate": 3.65, "industrial_rate": 3.65, "apartment_rate": 2.58},
+        {"city": "Springfield", "homestead_rate": 2.23, "commercial_rate": 2.23, "industrial_rate": 2.23, "apartment_rate": 2.23}
+      ],
+      "assessment_practice": "Township assessors (Cook County) / County supervisors of assessments; state equalization factor",
+      "classification": true,
+      "classification_detail": "Cook County uses classification — residential assessed at 10% of market value, commercial at 25%",
+      "homestead_exemptions": "General Homestead Exemption ($10,000 Cook County, $6,000 elsewhere)",
+      "circuit_breaker": true,
+      "circuit_breaker_detail": "Senior Citizens Property Tax Grant (circuit breaker for 65+ with income under $65,000)",
+      "levy_limits": true,
+      "assessment_limits": false,
+      "truth_in_taxation": true
     }
   }
 }

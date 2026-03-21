@@ -16,5 +16,75 @@
     {"year": 1992, "event": "Estate tax repealed"},
     {"year": 2011, "event": "2011–2015: Significant tax cuts under Governor Walker, including income tax rate reductions"},
     {"year": 2023, "event": "2023–2025: Legislative proposals to flatten income tax to single rate; none enacted as of early 2026"}
+  ],
+  "IA": [
+    {"year": 1934, "event": "Individual income tax enacted"},
+    {"year": 1967, "event": "Sales tax enacted at 3%"},
+    {"year": 2018, "event": "Tax reform legislation signed, beginning phased rate reductions"},
+    {"year": 2022, "event": "Governor signs legislation converting to flat tax, phased 2023-2026"},
+    {"year": 2026, "event": "Flat rate of 3.9% takes effect, completing transition from 8.98% top rate"}
+  ],
+  "GA": [
+    {"year": 1929, "event": "Individual income tax enacted with graduated rates"},
+    {"year": 1951, "event": "Sales tax enacted at 3%, raised to 4% in 1989"},
+    {"year": 2024, "event": "Converted from graduated (top rate 5.75%) to flat 5.49%"},
+    {"year": 2025, "event": "Rate reduced to 5.39%, with scheduled reductions to 4.99% floor"}
+  ],
+  "CA": [
+    {"year": 1935, "event": "Individual income tax enacted with graduated rates"},
+    {"year": 1978, "event": "Proposition 13 passes — caps property tax rate at 1%, limits assessment increases to 2%/year"},
+    {"year": 2004, "event": "Mental Health Services Act (Prop 63) adds 1% surcharge on income over $1M"},
+    {"year": 2012, "event": "Proposition 30 temporarily raises top rate to 13.3% (highest in nation)"},
+    {"year": 2016, "event": "Proposition 55 extends Prop 30 top rates through 2030"},
+    {"year": 2024, "event": "Mental Health Services Tax extended. CalEITC expanded."}
+  ],
+  "TX": [
+    {"year": 1961, "event": "Sales tax enacted at 2%, gradually raised to 6.25% by 1990"},
+    {"year": 1991, "event": "Franchise tax reformed to include partnerships and corporations"},
+    {"year": 1993, "event": "Constitutional amendment prohibits personal income tax without voter approval"},
+    {"year": 2006, "event": "Franchise tax replaced with Margins Tax (reformed business tax)"},
+    {"year": 2023, "event": "$18 billion property tax relief package signed. Franchise tax threshold raised."}
+  ],
+  "FL": [
+    {"year": 1924, "event": "State constitution prohibits individual income tax"},
+    {"year": 1949, "event": "Corporate income tax enacted"},
+    {"year": 1971, "event": "Sales tax rate raised to 4%, reaching current 6% by 1988"},
+    {"year": 1992, "event": "Save Our Homes amendment caps homestead assessment increases at 3%/year"},
+    {"year": 2024, "event": "Homestead exemption increased. Corporate rate held at 5.5%."}
+  ],
+  "NY": [
+    {"year": 1919, "event": "Individual income tax enacted — one of the first states"},
+    {"year": 2009, "event": "'Millionaire's tax' surcharge enacted on high earners"},
+    {"year": 2011, "event": "Tax reform restructures brackets, top rate initially set to expire"},
+    {"year": 2021, "event": "Top rate raised to 10.9% on income over $25M, new brackets added"},
+    {"year": 2023, "event": "Top rate of 10.9% extended through 2027. PTET expanded."}
+  ],
+  "IL": [
+    {"year": 1969, "event": "Individual income tax enacted at flat 2.5% (flat from inception)"},
+    {"year": 2011, "event": "Temporary increase to 5.0% (from 3.0%)"},
+    {"year": 2015, "event": "Rate reverts to 3.75%"},
+    {"year": 2017, "event": "Permanent rate of 4.95% enacted, ending budget impasse"},
+    {"year": 2020, "event": "Graduated tax ballot measure (Fair Tax Amendment) fails — voters reject switch from flat rate"}
+  ],
+  "TN": [
+    {"year": 1929, "event": "Hall Tax enacted — tax on interest and dividend income only"},
+    {"year": 1947, "event": "Sales tax enacted at 2%, gradually raised to 7% by 2002"},
+    {"year": 2016, "event": "Hall Tax phase-out begins, reducing rate from 6% by 1%/year"},
+    {"year": 2021, "event": "Hall Tax fully eliminated — Tennessee becomes true no-income-tax state"}
+  ],
+  "NC": [
+    {"year": 1921, "event": "Individual income tax enacted with graduated rates"},
+    {"year": 2013, "event": "Tax reform signed — converts graduated income tax to flat 5.8%"},
+    {"year": 2014, "event": "Flat rate takes effect. Corporate rate begins scheduled reductions."},
+    {"year": 2021, "event": "Rate reduced to 5.25%, with trigger mechanism for further reductions"},
+    {"year": 2026, "event": "Rate at 4.25%, corporate rate at 2.5% with scheduled elimination by 2030"}
+  ],
+  "WA": [
+    {"year": 1935, "event": "Business and Occupation (B&O) tax enacted — gross receipts tax, not income tax"},
+    {"year": 1966, "event": "Sales tax rate set at 4.5%, reaching current 6.5% by 1983"},
+    {"year": 2010, "event": "Income tax ballot initiative (I-1098) rejected by voters"},
+    {"year": 2021, "event": "Capital gains tax of 7% enacted on gains over $250,000"},
+    {"year": 2023, "event": "State Supreme Court upholds capital gains tax (classified as excise tax)"},
+    {"year": 2025, "event": "Capital gains tax rate increased to 9.9%"}
   ]
 }

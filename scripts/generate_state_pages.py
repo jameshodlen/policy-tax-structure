@@ -134,10 +134,16 @@ def _build_overview(abbr: str, profile: dict, tf_data: dict | None) -> str:
 
     # ITEP assessment
     if abbr in ITEP_PROGRESSIVE:
-        parts.append(
-            f"{name} is one of only six states (plus DC) that ITEP identifies "
-            "as reducing income inequality through its tax code."
-        )
+        if abbr == "DC":
+            parts.append(
+                "The District of Columbia is one of only seven jurisdictions that ITEP "
+                "identifies as reducing income inequality through its tax code."
+            )
+        else:
+            parts.append(
+                f"{name} is one of only six states (plus DC) that ITEP identifies "
+                "as reducing income inequality through its tax code."
+            )
     elif abbr in ITEP_MOST_REGRESSIVE:
         parts.append(
             f"ITEP ranks {name}'s tax system among the 10 most regressive in "
@@ -291,6 +297,11 @@ How {{ state_name }} generates its state tax revenue, by source:
 </canvas>
 </div>
 
+{% if itep_partial -%}
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for {{ state_name }}. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+{% endif -%}
 === "Tax Foundation View"
 
 {% if has_tf_data -%}
@@ -509,6 +520,7 @@ def generate_state_page(
         conformity_text=conformity_text,
         has_revenue_data=profile.get("revenue_composition") is not None,
         has_itep_data=profile.get("effective_rates_by_quintile") is not None,
+        itep_partial=bool((profile.get("effective_rates_by_quintile") or {}).get("_partial")),
         has_tf_data=overall_rank is not None,
         tf_rank_text=tf_rank_text,
         is_progressive=abbr in ITEP_PROGRESSIVE,
