@@ -81,6 +81,12 @@ nav:
   - Analysis:
     - Overview: analysis/index.md
     - "Who Actually Pays?": analysis/who-actually-pays.md
+    - "The Flat Tax Revolution": analysis/flat-tax-revolution.md
+    - "SALT Cap & PTET": analysis/salt-ptet.md
+    - "Tax Competition & Migration": analysis/tax-competition-migration.md
+    - "Tax Expenditures": analysis/tax-expenditures.md
+    - "Emerging Tax Bases": analysis/emerging-tax-bases.md
+    - "Property Tax Deep Dive": analysis/property-tax.md
   - Data Sources: data/index.md
   - Methodology:
     - Overview: methodology/index.md

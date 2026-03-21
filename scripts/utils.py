@@ -16,7 +16,7 @@ from typing import Any, Optional
 
 import requests
 
-from scripts.config import RAW_DIR, PROCESSED_DIR, SITE_DIR, CACHE_DIR
+from scripts.config import RAW_DIR, PROCESSED_DIR, REFERENCE_DIR, SITE_DIR, CACHE_DIR
 
 
 # ---------------------------------------------------------------------------
@@ -44,7 +44,7 @@ def setup_logging(name: str = "pipeline", level: int = logging.INFO) -> logging.
 
 def ensure_dirs() -> None:
     """Create all required data directories if they do not exist."""
-    for d in (RAW_DIR, PROCESSED_DIR, SITE_DIR, CACHE_DIR):
+    for d in (RAW_DIR, PROCESSED_DIR, REFERENCE_DIR, SITE_DIR, CACHE_DIR):
         os.makedirs(d, exist_ok=True)
 
 
@@ -155,3 +155,169 @@ def check_nulls(records: list[dict], fields: list[str], label: str) -> int:
     if null_count:
         logger.warning("%s: %d null values across fields %s", label, null_count, fields)
     return null_count
+
+
+# ---------------------------------------------------------------------------
+# Profile schema validation
+# ---------------------------------------------------------------------------
+
+_REQUIRED_KEYS = ["state", "abbreviation", "last_updated"]
+
+_TAX_STRUCTURE_KEYS = [
+    "income_tax_type", "income_tax_brackets", "sales_tax_rate",
+    "local_sales_tax", "corporate_tax_rate", "property_tax_admin",
+    "estate_tax", "notable_credits",
+]
+
+_ECONOMIC_CONTEXT_KEYS = [
+    "median_household_income", "per_capita_income", "gdp_per_capita",
+    "population", "unemployment_rate",
+]
+
+_COMPETITIVENESS_KEYS = [
+    "overall_rank", "corporate_rank", "individual_income_rank",
+    "sales_tax_rank", "property_tax_rank", "unemployment_insurance_rank",
+]
+
+
+def validate_profile_schema(profile: dict, strict: bool = False) -> list[str]:
+    """
+    Validate a generated state profile against the expected schema.
+
+    Parameters
+    ----------
+    profile : dict
+        The state profile to validate.
+    strict : bool
+        If True, require all fields to be non-null (use for MN/WI).
+        If False, allow nulls for partially-populated states.
+
+    Returns
+    -------
+    list[str]
+        List of error/warning strings. Empty list means valid.
+    """
+    errors = []
+
+    # Required top-level keys
+    for key in _REQUIRED_KEYS:
+        if key not in profile:
+            errors.append(f"Missing required key: {key}")
+        elif profile[key] is None:
+            errors.append(f"Required key '{key}' is null")
+
+    # tax_structure
+    ts = profile.get("tax_structure")
+    if ts is None:
+        if strict:
+            errors.append("tax_structure is null (strict mode)")
+    elif not isinstance(ts, dict):
+        errors.append("tax_structure is not a dict")
+    elif strict:
+        for k in _TAX_STRUCTURE_KEYS:
+            if ts.get(k) is None:
+                errors.append(f"tax_structure.{k} is null (strict mode)")
+
+    # revenue_composition
+    rc = profile.get("revenue_composition")
+    if rc is None:
+        if strict:
+            errors.append("revenue_composition is null (strict mode)")
+    elif not isinstance(rc, dict):
+        errors.append("revenue_composition is not a dict")
+    else:
+        labels = rc.get("labels")
+        datasets = rc.get("datasets")
+        if not isinstance(labels, list) or not labels:
+            errors.append("revenue_composition.labels is missing or empty")
+        elif not all(isinstance(l, str) for l in labels):
+            errors.append("revenue_composition.labels contains non-string elements")
+        if not isinstance(datasets, list) or not datasets:
+            errors.append("revenue_composition.datasets is missing or empty")
+        else:
+            ds = datasets[0]
+            if not isinstance(ds, dict):
+                errors.append("revenue_composition.datasets[0] is not a dict")
+            else:
+                data = ds.get("data")
+                if not isinstance(data, list):
+                    errors.append("revenue_composition.datasets[0].data is not a list")
+                elif not all(isinstance(v, (int, float)) for v in data):
+                    errors.append("revenue_composition.datasets[0].data contains non-numeric values")
+
+    # effective_rates_by_quintile
+    er = profile.get("effective_rates_by_quintile")
+    if er is None:
+        if strict:
+            errors.append("effective_rates_by_quintile is null (strict mode)")
+    elif not isinstance(er, dict):
+        errors.append("effective_rates_by_quintile is not a dict")
+    else:
+        labels = er.get("labels")
+        datasets = er.get("datasets")
+        if not isinstance(labels, list) or len(labels) != 7:
+            errors.append("effective_rates_by_quintile.labels should have 7 items")
+        if not isinstance(datasets, list) or len(datasets) < 1:
+            errors.append("effective_rates_by_quintile.datasets is missing or empty")
+        else:
+            for i, ds in enumerate(datasets):
+                if not isinstance(ds, dict):
+                    errors.append(f"effective_rates_by_quintile.datasets[{i}] is not a dict")
+                    continue
+                if "label" not in ds:
+                    errors.append(f"effective_rates_by_quintile.datasets[{i}] missing 'label'")
+                data = ds.get("data")
+                if not isinstance(data, list) or len(data) != 7:
+                    errors.append(f"effective_rates_by_quintile.datasets[{i}].data should have 7 items")
+                if "backgroundColor" not in ds:
+                    errors.append(f"effective_rates_by_quintile.datasets[{i}] missing 'backgroundColor'")
+
+    # economic_context
+    ec = profile.get("economic_context")
+    if ec is None:
+        if strict:
+            errors.append("economic_context is null (strict mode)")
+    elif not isinstance(ec, dict):
+        errors.append("economic_context is not a dict")
+    elif strict:
+        for k in _ECONOMIC_CONTEXT_KEYS:
+            if ec.get(k) is None:
+                errors.append(f"economic_context.{k} is null (strict mode)")
+
+    # competitiveness_index
+    ci = profile.get("competitiveness_index")
+    if ci is None:
+        if strict:
+            errors.append("competitiveness_index is null (strict mode)")
+    elif not isinstance(ci, dict):
+        errors.append("competitiveness_index is not a dict")
+    else:
+        for k in _COMPETITIVENESS_KEYS:
+            val = ci.get(k)
+            if val is None:
+                if strict:
+                    errors.append(f"competitiveness_index.{k} is null (strict mode)")
+            elif not isinstance(val, int) or val < 1 or val > 51:
+                errors.append(f"competitiveness_index.{k} = {val} is not a valid rank (1-51)")
+
+    # key_facts
+    kf = profile.get("key_facts")
+    if kf is None:
+        if strict:
+            errors.append("key_facts is null (strict mode)")
+    elif not isinstance(kf, dict):
+        errors.append("key_facts is not a dict")
+
+    # migration (optional — only validate structure if present)
+    mig = profile.get("migration")
+    if mig is not None:
+        if not isinstance(mig, dict):
+            errors.append("migration is not a dict")
+
+    # property_tax (optional — only validate structure if present)
+    pt = profile.get("property_tax")
+    if pt is not None:
+        if not isinstance(pt, dict):
+            errors.append("property_tax is not a dict")
+
+    return errors

@@ -1,0 +1,9 @@
+{
+  "_metadata": {
+    "source": "IRS Statistics of Income, Migration Data",
+    "tax_year": 2022,
+    "url": "https://www.irs.gov/statistics/soi-tax-stats-migration-data",
+    "notes": "Placeholder for manual data entry. Populate states with migration flow data from IRS SOI CSV files."
+  },
+  "states": {}
+}

@@ -58,6 +58,11 @@ def run_pipeline(
     skip_bea: bool = False,
     skip_fred: bool = False,
     skip_treasury: bool = False,
+    skip_itep: bool = False,
+    skip_taxfoundation: bool = False,
+    skip_irs_migration: bool = False,
+    skip_lincoln: bool = False,
+    skip_pages: bool = False,
 ) -> dict:
     """
     Run the full data pipeline.
@@ -70,6 +75,14 @@ def run_pipeline(
         If set, only build the profile for this state abbreviation.
     skip_census, skip_bea, skip_fred, skip_treasury : bool
         Skip individual fetch steps.
+    skip_itep, skip_taxfoundation : bool
+        Skip ITEP or Tax Foundation processing steps.
+    skip_irs_migration : bool
+        Skip IRS SOI migration data fetch.
+    skip_lincoln : bool
+        Skip Lincoln Institute property tax processing.
+    skip_pages : bool
+        Skip state page markdown generation.
 
     Returns
     -------
@@ -113,16 +126,60 @@ def run_pipeline(
             )
         else:
             logger.info("Skipping Treasury fiscal fetch")
+        # Step 4b: IRS SOI Migration data
+        if not skip_irs_migration:
+            from scripts.fetch_irs_soi_migration import fetch_irs_soi_migration
+            results["irs_migration"] = _run_step(
+                "IRS SOI Migration Data", fetch_irs_soi_migration
+            )
+        else:
+            logger.info("Skipping IRS SOI migration fetch")
     else:
         logger.info("Skipping all fetch steps (--skip-fetch)")
 
-    # Step 5: Build state profiles
+    # Step 5: ITEP Who Pays processing
+    if not skip_itep:
+        from scripts.process_itep_whopays import process_itep_whopays
+        results["itep_whopays"] = _run_step("ITEP Who Pays Processing", process_itep_whopays)
+    else:
+        logger.info("Skipping ITEP Who Pays processing")
+
+    # Step 6: Tax Foundation Index processing
+    if not skip_taxfoundation:
+        from scripts.process_tax_foundation import process_tax_foundation
+        results["tax_foundation"] = _run_step(
+            "Tax Foundation Index Processing", process_tax_foundation
+        )
+    else:
+        logger.info("Skipping Tax Foundation processing")
+
+    # Step 6b: Lincoln Institute property tax processing
+    if not skip_lincoln:
+        from scripts.process_lincoln_property import process_lincoln_property
+        results["lincoln_property"] = _run_step(
+            "Lincoln Property Tax Processing", process_lincoln_property
+        )
+    else:
+        logger.info("Skipping Lincoln property tax processing")
+
+    # Step 7: Build state profiles
     from scripts.build_state_profiles import build_all_profiles
     results["build_profiles"] = _run_step(
         "Build State Profiles",
         build_all_profiles,
         state_filter=state_filter,
     )
+
+    # Step 8: Generate state pages
+    if not skip_pages:
+        from scripts.generate_state_pages import generate_all_pages
+        results["generate_pages"] = _run_step(
+            "Generate State Pages",
+            generate_all_pages,
+            state_filter=state_filter,
+        )
+    else:
+        logger.info("Skipping state page generation")
 
     # Summary
     total_elapsed = time.time() - total_start
@@ -184,6 +241,26 @@ Examples:
         "--skip-treasury", action="store_true",
         help="Skip the Treasury fiscal data fetch",
     )
+    parser.add_argument(
+        "--skip-itep", action="store_true",
+        help="Skip the ITEP Who Pays processing step",
+    )
+    parser.add_argument(
+        "--skip-taxfoundation", action="store_true",
+        help="Skip the Tax Foundation Index processing step",
+    )
+    parser.add_argument(
+        "--skip-irs-migration", action="store_true",
+        help="Skip the IRS SOI migration data fetch",
+    )
+    parser.add_argument(
+        "--skip-lincoln", action="store_true",
+        help="Skip the Lincoln Institute property tax processing",
+    )
+    parser.add_argument(
+        "--skip-pages", action="store_true",
+        help="Skip state page markdown generation",
+    )
 
     args = parser.parse_args()
 
@@ -194,6 +271,11 @@ Examples:
         skip_bea=args.skip_bea,
         skip_fred=args.skip_fred,
         skip_treasury=args.skip_treasury,
+        skip_itep=args.skip_itep,
+        skip_taxfoundation=args.skip_taxfoundation,
+        skip_irs_migration=args.skip_irs_migration,
+        skip_lincoln=args.skip_lincoln,
+        skip_pages=args.skip_pages,
     )
 
     # Exit with non-zero status if any step failed

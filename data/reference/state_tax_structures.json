@@ -1,0 +1,70 @@
+{
+  "_template": {
+    "tax_structure": {
+      "income_tax_type": null,
+      "income_tax_brackets": [],
+      "sales_tax_rate": null,
+      "local_sales_tax": null,
+      "clothing_exempt": null,
+      "corporate_tax_rate": null,
+      "property_tax_admin": null,
+      "estate_tax": null,
+      "estate_tax_exemption": null,
+      "notable_credits": []
+    },
+    "key_facts": {
+      "ptet_adopted": null,
+      "salt_impact": null,
+      "federal_conformity": null,
+      "recent_changes": null
+    }
+  },
+  "MN": {
+    "tax_structure": {
+      "income_tax_type": "graduated",
+      "income_tax_brackets": [
+        {"rate": 5.35, "min": 0, "max": 30070},
+        {"rate": 6.8, "min": 30070, "max": 98760},
+        {"rate": 7.85, "min": 98760, "max": 193240},
+        {"rate": 9.85, "min": 193240, "max": null}
+      ],
+      "sales_tax_rate": 6.875,
+      "local_sales_tax": true,
+      "clothing_exempt": true,
+      "corporate_tax_rate": 9.8,
+      "property_tax_admin": "Local assessment, state aids and credits",
+      "estate_tax": true,
+      "estate_tax_exemption": 3000000,
+      "notable_credits": ["Working Family Credit", "K-12 Education Credit", "Child Tax Credit", "Renter's Property Tax Refund"]
+    },
+    "key_facts": {
+      "ptet_adopted": true,
+      "salt_impact": "high",
+      "federal_conformity": "rolling",
+      "recent_changes": "2023: Enacted Child Tax Credit ($1,750/child), expanded Working Family Credit, added free school meals funding"
+    }
+  },
+  "WI": {
+    "tax_structure": {
+      "income_tax_type": "graduated",
+      "income_tax_brackets": [
+        {"rate": 3.5, "min": 0, "max": 14320},
+        {"rate": 4.4, "min": 14320, "max": 28640},
+        {"rate": 5.3, "min": 28640, "max": 315310},
+        {"rate": 7.65, "min": 315310, "max": null}
+      ],
+      "sales_tax_rate": 5.0,
+      "local_sales_tax": false,
+      "corporate_tax_rate": 7.9,
+      "property_tax_admin": "Local assessment, state equalization",
+      "estate_tax": false,
+      "notable_credits": ["Homestead Credit", "Earned Income Tax Credit (state)"]
+    },
+    "key_facts": {
+      "ptet_adopted": true,
+      "salt_impact": "moderate",
+      "federal_conformity": "selective",
+      "recent_changes": "2023: Reduced second bracket from 4.4% to 4.4% (no change in recent sessions despite proposals)"
+    }
+  }
+}

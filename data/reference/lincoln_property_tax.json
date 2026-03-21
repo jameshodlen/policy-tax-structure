@@ -1,0 +1,40 @@
+{
+  "_metadata": {
+    "source": "Lincoln Institute of Land Policy / Minnesota Center for Fiscal Excellence",
+    "study": "50-State Property Tax Comparison Study",
+    "year": 2024,
+    "url": "https://www.lincolninst.edu/research/data-toolkits/significant-features-property-tax"
+  },
+  "states": {
+    "MN": {
+      "cities": [
+        {"city": "Minneapolis", "homestead_rate": 1.21, "commercial_rate": 2.85, "industrial_rate": 2.85, "apartment_rate": 1.96},
+        {"city": "Duluth", "homestead_rate": 1.45, "commercial_rate": 3.12, "industrial_rate": 3.12, "apartment_rate": 2.33}
+      ],
+      "assessment_practice": "County assessors; state Board of Assessors equalizes",
+      "classification": true,
+      "classification_detail": "Different classes of property taxed at different rates",
+      "homestead_exemptions": "Homestead Market Value Exclusion",
+      "circuit_breaker": true,
+      "circuit_breaker_detail": "Property Tax Refund for qualifying homeowners and renters",
+      "levy_limits": true,
+      "assessment_limits": false,
+      "truth_in_taxation": true
+    },
+    "WI": {
+      "cities": [
+        {"city": "Milwaukee", "homestead_rate": 2.53, "commercial_rate": 2.53, "industrial_rate": 2.53, "apartment_rate": 2.53},
+        {"city": "Madison", "homestead_rate": 2.09, "commercial_rate": 2.09, "industrial_rate": 2.09, "apartment_rate": 2.09}
+      ],
+      "assessment_practice": "Local assessors; state equalization by DOR",
+      "classification": false,
+      "classification_detail": null,
+      "homestead_exemptions": "Lottery and Gaming Credit applied to primary residence",
+      "circuit_breaker": true,
+      "circuit_breaker_detail": "Homestead Credit for qualifying homeowners",
+      "levy_limits": true,
+      "assessment_limits": false,
+      "truth_in_taxation": false
+    }
+  }
+}
