@@ -62,8 +62,8 @@ How Michigan generates its state tax revenue, by source:
 
 | Dimension | Michigan | Ohio |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Data pending | Graduated (0%–3.5%) |
+| Sales Tax | Data pending | 5.75% (+ local) |
 | Competitiveness Rank | 12th | 31st |
 
 ## Federal Interaction

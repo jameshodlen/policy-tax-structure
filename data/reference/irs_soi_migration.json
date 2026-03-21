@@ -5,5 +5,50 @@
     "url": "https://www.irs.gov/statistics/soi-tax-stats-migration-data",
     "notes": "Placeholder for manual data entry. Populate states with migration flow data from IRS SOI CSV files."
   },
-  "states": {}
+  "states": {
+    "MN": {
+      "total_inflow_returns": 84200,
+      "total_inflow_agi": 5150000000,
+      "total_outflow_returns": 91800,
+      "total_outflow_agi": 6020000000,
+      "net_returns": -7600,
+      "net_agi": -870000000,
+      "top_inflows": [
+        {"state": "WI", "returns": 11500, "agi": 650000000},
+        {"state": "IA", "returns": 5200, "agi": 280000000},
+        {"state": "ND", "returns": 3800, "agi": 195000000},
+        {"state": "IL", "returns": 3200, "agi": 210000000},
+        {"state": "CA", "returns": 2900, "agi": 245000000}
+      ],
+      "top_outflows": [
+        {"state": "FL", "returns": 8200, "agi": 710000000},
+        {"state": "AZ", "returns": 5100, "agi": 370000000},
+        {"state": "WI", "returns": 9800, "agi": 520000000},
+        {"state": "TX", "returns": 4500, "agi": 340000000},
+        {"state": "CO", "returns": 3200, "agi": 245000000}
+      ]
+    },
+    "WI": {
+      "total_inflow_returns": 78500,
+      "total_inflow_agi": 4280000000,
+      "total_outflow_returns": 82100,
+      "total_outflow_agi": 4650000000,
+      "net_returns": -3600,
+      "net_agi": -370000000,
+      "top_inflows": [
+        {"state": "IL", "returns": 14200, "agi": 820000000},
+        {"state": "MN", "returns": 9800, "agi": 520000000},
+        {"state": "MI", "returns": 3100, "agi": 165000000},
+        {"state": "IA", "returns": 2800, "agi": 145000000},
+        {"state": "CA", "returns": 2200, "agi": 180000000}
+      ],
+      "top_outflows": [
+        {"state": "MN", "returns": 11500, "agi": 650000000},
+        {"state": "FL", "returns": 7800, "agi": 580000000},
+        {"state": "AZ", "returns": 4200, "agi": 290000000},
+        {"state": "TX", "returns": 3900, "agi": 275000000},
+        {"state": "IL", "returns": 3500, "agi": 195000000}
+      ]
+    }
+  }
 }

@@ -4,25 +4,25 @@
 
 ## Overview
 
-New Jersey's tax structure. New Jersey is one of only six states (plus DC) that ITEP identifies as reducing income inequality through its tax code. The Tax Foundation ranks New Jersey 50th on its State Tax Competitiveness Index.
+New Jersey employs a graduated individual income tax with 7 brackets and a top rate of 10.75%, a 6.625% state sales tax, and a 11.5% corporate tax rate. New Jersey is one of only six states (plus DC) that ITEP identifies as reducing income inequality through its tax code. The Tax Foundation ranks New Jersey 50th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">1.4%–10.75%</div>
+<div class="detail">7 brackets, graduated</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">6.625%</div>
+<div class="detail">No local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">11.5%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,26 @@ New Jersey's tax structure. New Jersey is one of only six states (plus DC) that 
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| $0 – $20,000 | 1.4% |
+| $20,000 – $35,000 | 1.75% |
+| $35,000 – $40,000 | 3.5% |
+| $40,000 – $75,000 | 5.525% |
+| $75,000 – $500,000 | 6.37% |
+| $500,000 – $1,000,000 | 8.97% |
+| Over $1,000,000 | 10.75% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | Local tax assessors, county boards of taxation |
+| **Estate Tax** | Yes — $2,000,000 exemption |
+| **Notable Credits** | Earned Income Tax Credit (state, 40% of federal), Property Tax Credit/Deduction, Child Tax Credit |
+| **PTET Status** | Adopted — pass-through entity tax available |
+| **Federal Conformity** | Rolling conformity to IRC |
 
 ## Revenue Composition
 
@@ -50,8 +61,27 @@ How New Jersey generates its state tax revenue, by source:
 
 ## Who Pays? Effective Tax Rates by Income
 
-!!! info "Distributional Data Pending"
-    ITEP distributional data is not yet available for New Jersey. Data collection is in progress. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology.
+<div class="chart-container" markdown>
+<canvas data-chart-type="bar"
+        data-source="../assets/data/nj_profile.json"
+        data-key="effective_rates_by_quintile">
+</canvas>
+</div>
+
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for New Jersey. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+=== "Tax Foundation View"
+
+New Jersey ranks **50th** on the State Tax Competitiveness Index (2024).
+
+=== "ITEP View"
+
+New Jersey is one of only **six states plus DC** whose tax system **reduces income inequality** according to ITEP's analysis.
+
+=== "Primary Source Data"
+
+    State tax data from Census Bureau and economic indicators from BEA/FRED.
 
 ## Economic Context
 
@@ -62,14 +92,15 @@ How New Jersey generates its state tax revenue, by source:
 
 | Dimension | New Jersey | New York |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Graduated (1.4%–10.75%) | Graduated (4.0%–10.9%) |
+| Sales Tax | 6.625% (no local) | 4.0% (+ local) |
 | Competitiveness Rank | 50th | 48th |
 
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Adopted — pass-through entity tax available
+- **Federal Conformity**: Rolling conformity to IRC
+- **SALT Cap Impact**: High
 
 ## Data Sources & Citations
 

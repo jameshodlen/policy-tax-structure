@@ -63,7 +63,7 @@ How Oklahoma generates its state tax revenue, by source:
 | Dimension | Oklahoma | Texas |
 |-----------|-----------|-----------|
 | Income Tax | Data pending | None |
-| Sales Tax | Data pending | Data pending |
+| Sales Tax | Data pending | 6.25% (+ local) |
 | Competitiveness Rank | 20th | 14th |
 
 ## Federal Interaction

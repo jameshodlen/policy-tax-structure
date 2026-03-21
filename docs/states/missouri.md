@@ -62,8 +62,8 @@ How Missouri generates its state tax revenue, by source:
 
 | Dimension | Missouri | Iowa |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Data pending | Flat 3.9% |
+| Sales Tax | Data pending | 6.0% (+ local) |
 | Competitiveness Rank | 15th | 24th |
 
 ## Federal Interaction

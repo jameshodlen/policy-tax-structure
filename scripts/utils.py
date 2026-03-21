@@ -255,8 +255,10 @@ def validate_profile_schema(profile: dict, strict: bool = False) -> list[str]:
     else:
         labels = er.get("labels")
         datasets = er.get("datasets")
-        if not isinstance(labels, list) or len(labels) != 7:
-            errors.append("effective_rates_by_quintile.labels should have 7 items")
+        is_partial = er.get("_partial", False)
+        expected_len = 2 if is_partial else 7
+        if not isinstance(labels, list) or len(labels) != expected_len:
+            errors.append(f"effective_rates_by_quintile.labels should have {expected_len} items")
         if not isinstance(datasets, list) or len(datasets) < 1:
             errors.append("effective_rates_by_quintile.datasets is missing or empty")
         else:
@@ -267,8 +269,8 @@ def validate_profile_schema(profile: dict, strict: bool = False) -> list[str]:
                 if "label" not in ds:
                     errors.append(f"effective_rates_by_quintile.datasets[{i}] missing 'label'")
                 data = ds.get("data")
-                if not isinstance(data, list) or len(data) != 7:
-                    errors.append(f"effective_rates_by_quintile.datasets[{i}].data should have 7 items")
+                if not isinstance(data, list) or len(data) != expected_len:
+                    errors.append(f"effective_rates_by_quintile.datasets[{i}].data should have {expected_len} items")
                 if "backgroundColor" not in ds:
                     errors.append(f"effective_rates_by_quintile.datasets[{i}] missing 'backgroundColor'")
 

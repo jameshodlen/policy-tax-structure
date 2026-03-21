@@ -4,20 +4,20 @@
 
 ## Overview
 
-Ohio's tax structure. The Tax Foundation ranks Ohio 31st on its State Tax Competitiveness Index.
+Ohio employs a graduated individual income tax with 2 brackets and a top rate of 3.5%, a 5.75% state sales tax. The Tax Foundation ranks Ohio 31st on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">0%–3.5%</div>
+<div class="detail">2 brackets, graduated</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">5.75%</div>
+<div class="detail">Plus local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
@@ -31,15 +31,21 @@ Ohio's tax structure. The Tax Foundation ranks Ohio 31st on its State Tax Compet
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| $0 – $26,050 | 0% |
+| Over $26,050 | 3.5% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | County auditors, state Tax Commissioner equalizes |
+| **Estate Tax** | None |
+| **Notable Credits** | Earned Income Tax Credit, Retirement Income Credit |
+| **PTET Status** | Adopted — pass-through entity tax available |
+| **Federal Conformity** | Selective conformity to IRC |
 
 ## Revenue Composition
 
@@ -62,14 +68,15 @@ How Ohio generates its state tax revenue, by source:
 
 | Dimension | Ohio | Michigan |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Graduated (0%–3.5%) | Data pending |
+| Sales Tax | 5.75% (+ local) | Data pending |
 | Competitiveness Rank | 31st | 12th |
 
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Adopted — pass-through entity tax available
+- **Federal Conformity**: Selective conformity to IRC
+- **SALT Cap Impact**: Moderate
 
 ## Data Sources & Citations
 

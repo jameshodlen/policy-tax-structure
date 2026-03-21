@@ -4,7 +4,7 @@
 
 ## Overview
 
-District of Columbia's tax structure. District of Columbia is one of only six states (plus DC) that ITEP identifies as reducing income inequality through its tax code. The Tax Foundation ranks District of Columbia 38th on its State Tax Competitiveness Index.
+District of Columbia's tax structure. The District of Columbia is one of only seven jurisdictions that ITEP identifies as reducing income inequality through its tax code. The Tax Foundation ranks District of Columbia 38th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
@@ -50,8 +50,27 @@ How District of Columbia generates its state tax revenue, by source:
 
 ## Who Pays? Effective Tax Rates by Income
 
-!!! info "Distributional Data Pending"
-    ITEP distributional data is not yet available for District of Columbia. Data collection is in progress. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology.
+<div class="chart-container" markdown>
+<canvas data-chart-type="bar"
+        data-source="../assets/data/dc_profile.json"
+        data-key="effective_rates_by_quintile">
+</canvas>
+</div>
+
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for District of Columbia. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+=== "Tax Foundation View"
+
+District of Columbia ranks **38th** on the State Tax Competitiveness Index (2024).
+
+=== "ITEP View"
+
+District of Columbia is one of only **six states plus DC** whose tax system **reduces income inequality** according to ITEP's analysis.
+
+=== "Primary Source Data"
+
+    State tax data from Census Bureau and economic indicators from BEA/FRED.
 
 ## Economic Context
 

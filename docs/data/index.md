@@ -111,11 +111,29 @@ Our automated pipeline runs the following scripts in sequence:
 | `fetch_bea_regional.py` | BEA | Ready (requires API key) |
 | `fetch_fred_series.py` | FRED | Ready (requires API key) |
 | `fetch_treasury_fiscal.py` | Treasury | Ready (open API) |
+| `fetch_irs_soi_migration.py` | IRS SOI | Ready (CSV download) |
+| `process_itep_whopays.py` | ITEP Reference Data | Ready |
+| `process_tax_foundation.py` | Tax Foundation Reference Data | Ready |
+| `process_lincoln_property.py` | Lincoln Institute Reference Data | Ready |
 | `build_state_profiles.py` | All processed data | Ready |
+| `generate_state_pages.py` | Profile JSON + reference data | Ready |
 
-Run the full pipeline: `python scripts/run_pipeline.py`
+Run the full pipeline: `python -m scripts.run_pipeline`
 
 See the [GitHub repository](https://github.com/jameshodlen/policy-tax-structure) for pipeline source code and documentation.
+
+## Reference Data
+
+Some data sources (ITEP, Tax Foundation, Lincoln Institute) publish in reports rather than APIs. We maintain structured reference files (`data/reference/`) that are validated through the pipeline alongside API-sourced data. These files are version-controlled and updated as new editions are published.
+
+| Reference File | Source | Coverage |
+|---------------|--------|----------|
+| `itep_whopays.json` | ITEP Who Pays? | 18 states (expanding) |
+| `tax_foundation_index.json` | Tax Foundation Competitiveness Index | 51 jurisdictions (complete) |
+| `state_tax_structures.json` | Tax Foundation Facts & Figures + state DORs | 22 states (expanding) |
+| `lincoln_property_tax.json` | Lincoln Institute | 6 states (expanding) |
+| `state_tax_history.json` | Public records | 12 states (expanding) |
+| `irs_soi_migration.json` | IRS SOI | 2 states (CSV pipeline operational) |
 
 ---
 

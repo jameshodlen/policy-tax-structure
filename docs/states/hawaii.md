@@ -62,8 +62,8 @@ How Hawaii generates its state tax revenue, by source:
 
 | Dimension | Hawaii | Arizona |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Data pending | Flat 2.5% |
+| Sales Tax | Data pending | 5.6% (+ local) |
 | Competitiveness Rank | 43rd | 19th |
 
 ## Federal Interaction

@@ -4,25 +4,25 @@
 
 ## Overview
 
-Mississippi's tax structure. The Tax Foundation ranks Mississippi 35th on its State Tax Competitiveness Index.
+Mississippi employs a flat individual income tax at 4.0%, a 7.0% state sales tax, and a 5.0% corporate tax rate. The Tax Foundation ranks Mississippi 35th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">4.0%</div>
+<div class="detail">Flat rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">7.0%</div>
+<div class="detail">No local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">5.0%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,20 @@ Mississippi's tax structure. The Tax Foundation ranks Mississippi 35th on its St
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| Over $0 | 4.0% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | County assessors, state Tax Commission equalizes |
+| **Estate Tax** | None |
+| **Notable Credits** | Earned Income Tax Credit (limited) |
+| **PTET Status** | Not adopted |
+| **Federal Conformity** | Selective conformity to IRC |
 
 ## Revenue Composition
 
@@ -62,14 +67,15 @@ How Mississippi generates its state tax revenue, by source:
 
 | Dimension | Mississippi | Arkansas |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Flat 4.0% | Data pending |
+| Sales Tax | 7.0% (no local) | Data pending |
 | Competitiveness Rank | 35th | 40th |
 
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Not adopted
+- **Federal Conformity**: Selective conformity to IRC
+- **SALT Cap Impact**: Low
 
 ## Data Sources & Citations
 

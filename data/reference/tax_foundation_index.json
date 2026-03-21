@@ -3,225 +3,232 @@
     "source": "Tax Foundation, State Tax Competitiveness Index",
     "edition": "2026 (11th Edition)",
     "url": "https://taxfoundation.org/research/all/state/2026-state-tax-competitiveness-index/",
-    "rank_categories": ["overall_rank", "corporate_rank", "individual_income_rank", "sales_tax_rank", "property_tax_rank", "unemployment_insurance_rank"],
-    "note": "Rankings on 150+ variables across 5 categories. 50 states + DC ranked 1-51. MN and WI have full sub-category ranks. Other states have overall_rank only."
+    "rank_categories": [
+      "overall_rank",
+      "corporate_rank",
+      "individual_income_rank",
+      "sales_tax_rank",
+      "property_tax_rank",
+      "unemployment_insurance_rank"
+    ],
+    "note": "Rankings on 150+ variables across 5 categories. 50 states + DC ranked 1-51. All entries have full 6-rank data."
   },
   "states": {
     "WY": {
       "overall_rank": 1,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 1,
+      "individual_income_rank": 8,
+      "sales_tax_rank": 6,
+      "property_tax_rank": 2,
+      "unemployment_insurance_rank": 22
     },
     "SD": {
       "overall_rank": 2,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 3,
+      "individual_income_rank": 4,
+      "sales_tax_rank": 20,
+      "property_tax_rank": 27,
+      "unemployment_insurance_rank": 2
     },
     "AK": {
       "overall_rank": 3,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 28,
+      "individual_income_rank": 1,
+      "sales_tax_rank": 1,
+      "property_tax_rank": 16,
+      "unemployment_insurance_rank": 46
     },
     "FL": {
       "overall_rank": 4,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 11,
+      "individual_income_rank": 2,
+      "sales_tax_rank": 22,
+      "property_tax_rank": 32,
+      "unemployment_insurance_rank": 1
     },
     "MT": {
       "overall_rank": 5,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 16,
+      "individual_income_rank": 23,
+      "sales_tax_rank": 3,
+      "property_tax_rank": 13,
+      "unemployment_insurance_rank": 31
     },
     "NH": {
       "overall_rank": 6,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 47,
+      "individual_income_rank": 9,
+      "sales_tax_rank": 4,
+      "property_tax_rank": 48,
+      "unemployment_insurance_rank": 10
     },
     "NV": {
       "overall_rank": 7,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 4,
+      "individual_income_rank": 3,
+      "sales_tax_rank": 32,
+      "property_tax_rank": 3,
+      "unemployment_insurance_rank": 32
     },
     "IN": {
       "overall_rank": 8,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 12,
+      "individual_income_rank": 12,
+      "sales_tax_rank": 24,
+      "property_tax_rank": 29,
+      "unemployment_insurance_rank": 15
     },
     "NC": {
       "overall_rank": 9,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 2,
+      "individual_income_rank": 15,
+      "sales_tax_rank": 19,
+      "property_tax_rank": 22,
+      "unemployment_insurance_rank": 11
     },
     "UT": {
       "overall_rank": 10,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 7,
+      "individual_income_rank": 20,
+      "sales_tax_rank": 10,
+      "property_tax_rank": 5,
+      "unemployment_insurance_rank": 18
     },
     "TN": {
       "overall_rank": 11,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 14,
+      "individual_income_rank": 5,
+      "sales_tax_rank": 49,
+      "property_tax_rank": 20,
+      "unemployment_insurance_rank": 4
     },
     "MI": {
       "overall_rank": 12,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 13,
+      "individual_income_rank": 13,
+      "sales_tax_rank": 17,
+      "property_tax_rank": 43,
+      "unemployment_insurance_rank": 27
     },
     "ID": {
       "overall_rank": 13,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 20,
+      "individual_income_rank": 22,
+      "sales_tax_rank": 9,
+      "property_tax_rank": 4,
+      "unemployment_insurance_rank": 8
     },
     "TX": {
       "overall_rank": 14,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 8,
+      "individual_income_rank": 6,
+      "sales_tax_rank": 35,
+      "property_tax_rank": 44,
+      "unemployment_insurance_rank": 16
     },
     "MO": {
       "overall_rank": 15,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 6,
+      "individual_income_rank": 26,
+      "sales_tax_rank": 18,
+      "property_tax_rank": 24,
+      "unemployment_insurance_rank": 17
     },
     "WA": {
       "overall_rank": 16,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 24,
+      "individual_income_rank": 7,
+      "sales_tax_rank": 39,
+      "property_tax_rank": 34,
+      "unemployment_insurance_rank": 51
     },
     "CO": {
       "overall_rank": 17,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 9,
+      "individual_income_rank": 17,
+      "sales_tax_rank": 7,
+      "property_tax_rank": 8,
+      "unemployment_insurance_rank": 19
     },
     "GA": {
       "overall_rank": 18,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 18,
+      "individual_income_rank": 21,
+      "sales_tax_rank": 16,
+      "property_tax_rank": 18,
+      "unemployment_insurance_rank": 14
     },
     "AZ": {
       "overall_rank": 19,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 17,
+      "individual_income_rank": 16,
+      "sales_tax_rank": 28,
+      "property_tax_rank": 6,
+      "unemployment_insurance_rank": 7
     },
     "OK": {
       "overall_rank": 20,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 10,
+      "individual_income_rank": 28,
+      "sales_tax_rank": 38,
+      "property_tax_rank": 14,
+      "unemployment_insurance_rank": 12
     },
     "AL": {
       "overall_rank": 21,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 26,
+      "individual_income_rank": 31,
+      "sales_tax_rank": 48,
+      "property_tax_rank": 11,
+      "unemployment_insurance_rank": 9
     },
     "ND": {
       "overall_rank": 22,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 15,
+      "individual_income_rank": 10,
+      "sales_tax_rank": 14,
+      "property_tax_rank": 17,
+      "unemployment_insurance_rank": 28
     },
     "VA": {
       "overall_rank": 23,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 25,
+      "individual_income_rank": 32,
+      "sales_tax_rank": 8,
+      "property_tax_rank": 25,
+      "unemployment_insurance_rank": 5
     },
     "IA": {
       "overall_rank": 24,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 29,
+      "individual_income_rank": 24,
+      "sales_tax_rank": 23,
+      "property_tax_rank": 35,
+      "unemployment_insurance_rank": 21
     },
     "SC": {
       "overall_rank": 25,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 23,
+      "individual_income_rank": 33,
+      "sales_tax_rank": 11,
+      "property_tax_rank": 10,
+      "unemployment_insurance_rank": 13
     },
     "PA": {
       "overall_rank": 26,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 44,
+      "individual_income_rank": 11,
+      "sales_tax_rank": 31,
+      "property_tax_rank": 37,
+      "unemployment_insurance_rank": 44
     },
     "KS": {
       "overall_rank": 27,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 22,
+      "individual_income_rank": 29,
+      "sales_tax_rank": 37,
+      "property_tax_rank": 41,
+      "unemployment_insurance_rank": 20
     },
     "WI": {
       "overall_rank": 28,
@@ -233,131 +240,131 @@
     },
     "NE": {
       "overall_rank": 29,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 19,
+      "individual_income_rank": 36,
+      "sales_tax_rank": 15,
+      "property_tax_rank": 45,
+      "unemployment_insurance_rank": 6
     },
     "DE": {
       "overall_rank": 30,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 51,
+      "individual_income_rank": 43,
+      "sales_tax_rank": 2,
+      "property_tax_rank": 12,
+      "unemployment_insurance_rank": 29
     },
     "OH": {
       "overall_rank": 31,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 5,
+      "individual_income_rank": 25,
+      "sales_tax_rank": 29,
+      "property_tax_rank": 40,
+      "unemployment_insurance_rank": 34
     },
     "KY": {
       "overall_rank": 32,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 27,
+      "individual_income_rank": 19,
+      "sales_tax_rank": 21,
+      "property_tax_rank": 23,
+      "unemployment_insurance_rank": 49
     },
     "ME": {
       "overall_rank": 33,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 33,
+      "individual_income_rank": 39,
+      "sales_tax_rank": 12,
+      "property_tax_rank": 42,
+      "unemployment_insurance_rank": 30
     },
     "RI": {
       "overall_rank": 34,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 31,
+      "individual_income_rank": 38,
+      "sales_tax_rank": 42,
+      "property_tax_rank": 38,
+      "unemployment_insurance_rank": 41
     },
     "MS": {
       "overall_rank": 35,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 21,
+      "individual_income_rank": 18,
+      "sales_tax_rank": 44,
+      "property_tax_rank": 21,
+      "unemployment_insurance_rank": 3
     },
     "IL": {
       "overall_rank": 36,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 37,
+      "individual_income_rank": 14,
+      "sales_tax_rank": 36,
+      "property_tax_rank": 51,
+      "unemployment_insurance_rank": 36
     },
     "MA": {
       "overall_rank": 37,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 34,
+      "individual_income_rank": 44,
+      "sales_tax_rank": 26,
+      "property_tax_rank": 39,
+      "unemployment_insurance_rank": 35
     },
     "DC": {
       "overall_rank": 38,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 38,
+      "individual_income_rank": 41,
+      "sales_tax_rank": 27,
+      "property_tax_rank": 15,
+      "unemployment_insurance_rank": 37
     },
     "NM": {
       "overall_rank": 39,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 30,
+      "individual_income_rank": 27,
+      "sales_tax_rank": 33,
+      "property_tax_rank": 1,
+      "unemployment_insurance_rank": 24
     },
     "AR": {
       "overall_rank": 40,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 42,
+      "individual_income_rank": 35,
+      "sales_tax_rank": 50,
+      "property_tax_rank": 19,
+      "unemployment_insurance_rank": 33
     },
     "OR": {
       "overall_rank": 41,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 32,
+      "individual_income_rank": 45,
+      "sales_tax_rank": 5,
+      "property_tax_rank": 30,
+      "unemployment_insurance_rank": 45
     },
     "LA": {
       "overall_rank": 42,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 39,
+      "individual_income_rank": 34,
+      "sales_tax_rank": 51,
+      "property_tax_rank": 26,
+      "unemployment_insurance_rank": 23
     },
     "HI": {
       "overall_rank": 43,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 36,
+      "individual_income_rank": 49,
+      "sales_tax_rank": 34,
+      "property_tax_rank": 7,
+      "unemployment_insurance_rank": 39
     },
     "VT": {
       "overall_rank": 44,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 49,
+      "individual_income_rank": 48,
+      "sales_tax_rank": 40,
+      "property_tax_rank": 49,
+      "unemployment_insurance_rank": 47
     },
     "MN": {
       "overall_rank": 45,
@@ -369,51 +376,51 @@
     },
     "MD": {
       "overall_rank": 46,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 40,
+      "individual_income_rank": 42,
+      "sales_tax_rank": 25,
+      "property_tax_rank": 33,
+      "unemployment_insurance_rank": 26
     },
     "WV": {
       "overall_rank": 47,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 43,
+      "individual_income_rank": 37,
+      "sales_tax_rank": 46,
+      "property_tax_rank": 9,
+      "unemployment_insurance_rank": 43
     },
     "NY": {
       "overall_rank": 48,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 41,
+      "individual_income_rank": 47,
+      "sales_tax_rank": 41,
+      "property_tax_rank": 46,
+      "unemployment_insurance_rank": 42
     },
     "CA": {
       "overall_rank": 49,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 45,
+      "individual_income_rank": 51,
+      "sales_tax_rank": 47,
+      "property_tax_rank": 31,
+      "unemployment_insurance_rank": 38
     },
     "NJ": {
       "overall_rank": 50,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 50,
+      "individual_income_rank": 50,
+      "sales_tax_rank": 45,
+      "property_tax_rank": 50,
+      "unemployment_insurance_rank": 50
     },
     "CT": {
       "overall_rank": 51,
-      "corporate_rank": null,
-      "individual_income_rank": null,
-      "sales_tax_rank": null,
-      "property_tax_rank": null,
-      "unemployment_insurance_rank": null
+      "corporate_rank": 48,
+      "individual_income_rank": 40,
+      "sales_tax_rank": 43,
+      "property_tax_rank": 47,
+      "unemployment_insurance_rank": 48
     }
   }
 }

@@ -78,6 +78,16 @@ nav:
     - Overview: states/index.md
     - Wisconsin: states/wisconsin.md
     - Minnesota: states/minnesota.md
+    - California: states/california.md
+    - Florida: states/florida.md
+    - Texas: states/texas.md
+    - New York: states/new-york.md
+    - Illinois: states/illinois.md
+    - Iowa: states/iowa.md
+    - Georgia: states/georgia.md
+    - Tennessee: states/tennessee.md
+    - Washington: states/washington.md
+    - New Jersey: states/new-jersey.md
   - Analysis:
     - Overview: analysis/index.md
     - "Who Actually Pays?": analysis/who-actually-pays.md

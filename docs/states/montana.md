@@ -4,15 +4,15 @@
 
 ## Overview
 
-Montana's tax structure. The Tax Foundation ranks Montana 5th on its State Tax Competitiveness Index.
+Montana employs a flat individual income tax at 5.9%, and a 6.75% corporate tax rate. The Tax Foundation ranks Montana 5th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">5.9%</div>
+<div class="detail">Flat rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
@@ -21,8 +21,8 @@ Montana's tax structure. The Tax Foundation ranks Montana 5th on its State Tax C
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">6.75%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,20 @@ Montana's tax structure. The Tax Foundation ranks Montana 5th on its State Tax C
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| Over $0 | 5.9% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | County assessors, state Department of Revenue equalizes |
+| **Estate Tax** | None |
+| **Notable Credits** | Earned Income Tax Credit (state), Elderly Homeowner/Renter Credit |
+| **PTET Status** | Adopted — pass-through entity tax available |
+| **Federal Conformity** | Selective conformity to IRC |
 
 ## Revenue Composition
 
@@ -62,14 +67,15 @@ How Montana generates its state tax revenue, by source:
 
 | Dimension | Montana | Idaho |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Flat 5.9% | Flat 5.8% |
+| Sales Tax | Data pending | 6.0% (+ local) |
 | Competitiveness Rank | 5th | 13th |
 
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Adopted — pass-through entity tax available
+- **Federal Conformity**: Selective conformity to IRC
+- **SALT Cap Impact**: Moderate
 
 ## Data Sources & Citations
 
