@@ -1,0 +1,81 @@
+{
+  "state": "North Dakota",
+  "abbreviation": "ND",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 0.0,
+        "min": 0,
+        "max": 55975
+      },
+      {
+        "rate": 1.95,
+        "min": 55975,
+        "max": 269100
+      },
+      {
+        "rate": 2.5,
+        "min": 269100,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 5.0,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 4.31,
+    "property_tax_admin": "County and city assessors. State Tax Commissioner provides oversight. True and full value assessment.",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "Property tax credit",
+      "Renaissance zone credits"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          8.8,
+          5.4
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 22,
+    "corporate_rank": 15,
+    "individual_income_rank": 10,
+    "sales_tax_rank": 14,
+    "property_tax_rank": 17,
+    "unemployment_insurance_rank": 28
+  },
+  "key_facts": {
+    "ptet_adopted": false,
+    "salt_impact": "low",
+    "federal_conformity": "rolling",
+    "recent_changes": "HB 1158 collapsed from 5 brackets to 3. First $55,975 is tax-free. Lowest top rate (2.5%) of any income-tax state."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  }
+}

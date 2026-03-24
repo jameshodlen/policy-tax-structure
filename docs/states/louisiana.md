@@ -4,25 +4,25 @@
 
 ## Overview
 
-Louisiana's tax structure. ITEP ranks Louisiana's tax system among the 10 most regressive in the nation, with lower-income households paying a higher effective tax rate than wealthier residents. The Tax Foundation ranks Louisiana 42nd on its State Tax Competitiveness Index.
+Louisiana employs a flat individual income tax at 3.0%, a 5.0% state sales tax, and a 5.5% corporate tax rate. ITEP ranks Louisiana's tax system among the 10 most regressive in the nation, with lower-income households paying a higher effective tax rate than wealthier residents. The Tax Foundation ranks Louisiana 42nd on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">3.0%</div>
+<div class="detail">Flat rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">5.0%</div>
+<div class="detail">Plus local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">5.5%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,20 @@ Louisiana's tax structure. ITEP ranks Louisiana's tax system among the 10 most r
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| Over $0 | 3.0% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | Parish assessors value property; Tax Commission equalizes. Assessed at 10% of fair market value for residential, 15% for other. |
+| **Estate Tax** | None |
+| **Notable Credits** | School Readiness Tax Credit, Motion picture production credit, Small EITC |
+| **PTET Status** | Adopted — pass-through entity tax available |
+| **Federal Conformity** | Selective conformity to IRC |
 
 ## Revenue Composition
 
@@ -81,14 +86,20 @@ ITEP ranks Louisiana's tax system among the **10 most regressive** in the nation
 
 | Dimension | Louisiana | Alabama |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Flat 3.0% | Graduated (2.0%–5.0%) |
+| Sales Tax | 5.0% (+ local) | 4.0% (+ local) |
 | Competitiveness Rank | 42nd | 21st |
 
+## Historical Context
+
+- **1934**: Individual income tax enacted with graduated rates
+- **1938**: Sales tax first adopted
+- **2024**: Major overhaul: flat 3% income tax (replacing graduated 1.85%-4.25%); corporate flattened to 5.5%; sales tax raised to 5%; franchise tax repealed (2026)
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Adopted — pass-through entity tax available
+- **Federal Conformity**: Selective conformity to IRC
+- **SALT Cap Impact**: Low
 
 ## Data Sources & Citations
 

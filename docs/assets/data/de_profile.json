@@ -1,0 +1,102 @@
+{
+  "state": "Delaware",
+  "abbreviation": "DE",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 0.0,
+        "min": 0,
+        "max": 2000
+      },
+      {
+        "rate": 2.2,
+        "min": 2000,
+        "max": 5000
+      },
+      {
+        "rate": 3.9,
+        "min": 5000,
+        "max": 10000
+      },
+      {
+        "rate": 4.8,
+        "min": 10000,
+        "max": 20000
+      },
+      {
+        "rate": 5.2,
+        "min": 20000,
+        "max": 25000
+      },
+      {
+        "rate": 5.55,
+        "min": 25000,
+        "max": 60000
+      },
+      {
+        "rate": 6.6,
+        "min": 60000,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": null,
+    "local_sales_tax": false,
+    "clothing_exempt": null,
+    "corporate_tax_rate": 8.7,
+    "property_tax_admin": "County-administered (3 counties). Relatively low effective rates (~0.48%). Gross receipts tax on businesses serves as partial substitute for sales tax.",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "No sales tax",
+      "Social Security benefits fully exempt",
+      "Itemized deduction for charitable contributions"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          6.3,
+          6.0
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 30,
+    "corporate_rank": 51,
+    "individual_income_rank": 43,
+    "sales_tax_rank": 2,
+    "property_tax_rank": 12,
+    "unemployment_insurance_rank": 29
+  },
+  "key_facts": {
+    "ptet_adopted": false,
+    "salt_impact": "moderate",
+    "federal_conformity": "rolling",
+    "recent_changes": "Selectively decoupled from OBBBA provisions: Section 174 R&E and full bonus depreciation retroactivity. Decoupling sunsets 2030. No PTET enacted (one of five income-tax states without one)."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  }
+}

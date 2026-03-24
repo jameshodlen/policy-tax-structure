@@ -55,8 +55,27 @@ How Kentucky generates its state tax revenue, by source:
 
 ## Who Pays? Effective Tax Rates by Income
 
-!!! info "Distributional Data Pending"
-    ITEP distributional data is not yet available for Kentucky. Data collection is in progress. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology.
+<div class="chart-container" markdown>
+<canvas data-chart-type="bar"
+        data-source="../assets/data/ky_profile.json"
+        data-key="effective_rates_by_quintile">
+</canvas>
+</div>
+
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for Kentucky. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+=== "Tax Foundation View"
+
+Kentucky ranks **32nd** on the State Tax Competitiveness Index (2024).
+
+=== "ITEP View"
+
+ITEP distributional analysis for Kentucky shows the effective state and local tax rates by income group.
+
+=== "Primary Source Data"
+
+    State tax data from Census Bureau and economic indicators from BEA/FRED.
 
 ## Economic Context
 
@@ -67,10 +86,16 @@ How Kentucky generates its state tax revenue, by source:
 
 | Dimension | Kentucky | West Virginia |
 |-----------|-----------|-----------|
-| Income Tax | Flat 3.5% | Data pending |
-| Sales Tax | 6.0% (no local) | Data pending |
+| Income Tax | Flat 3.5% | Graduated (2.22%–4.82%) |
+| Sales Tax | 6.0% (no local) | 6.0% (+ local) |
 | Competitiveness Rank | 32nd | 47th |
 
+## Historical Context
+
+- **1936**: Individual income tax established with graduated rates (2%-6%)
+- **2018**: Income tax converted to flat 5.0%; sales tax extended to many previously exempt services
+- **2022**: HB 8 enacted — trigger mechanism for phased reductions toward elimination
+- **2024**: Rate reduced to 4.0% (third trigger met). On track for 3.5% in 2026.
 ## Federal Interaction
 
 - **PTET Status**: Adopted — pass-through entity tax available

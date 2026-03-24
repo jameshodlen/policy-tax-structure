@@ -3,82 +3,638 @@
     "source": "ITEP, Who Pays? A Distributional Analysis of the Tax Systems in All 50 States",
     "edition": "7th Edition (2024)",
     "url": "https://itep.org/whopays/",
-    "quintile_labels": ["Lowest 20%", "Second 20%", "Middle 20%", "Fourth 20%", "Next 15%", "Next 4%", "Top 1%"],
-    "national_average": [11.4, 10.9, 10.2, 9.8, 9.4, 8.3, 7.2],
-    "note": "Effective state and local tax rates by income quintile. MN and WI have full quintile data from state profiles. Other states have Bottom 20% and Top 1% from analysis page; middle quintiles are null."
+    "quintile_labels": [
+      "Lowest 20%",
+      "Second 20%",
+      "Middle 20%",
+      "Fourth 20%",
+      "Next 15%",
+      "Next 4%",
+      "Top 1%"
+    ],
+    "national_average": [
+      11.4,
+      10.9,
+      10.2,
+      9.8,
+      9.4,
+      8.3,
+      7.2
+    ],
+    "note": "Effective state and local tax rates by income quintile. MN and WI have full quintile data from state profiles. Other states have Bottom 20% and Top 1% rates; middle quintiles are null. Some rates for states not in the original 10 most/least regressive lists are estimated from ITEP rankings and comparable state data."
   },
   "states": {
     "MN": {
-      "rates": [10.1, 10.3, 10.6, 11.0, 11.4, 11.8, 12.3],
+      "rates": [
+        10.1,
+        10.3,
+        10.6,
+        11.0,
+        11.4,
+        11.8,
+        12.3
+      ],
       "reduces_inequality": true
     },
     "WI": {
-      "rates": [8.9, 9.1, 9.4, 9.8, 10.1, 9.7, 7.7],
+      "rates": [
+        8.9,
+        9.1,
+        9.4,
+        9.8,
+        10.1,
+        9.7,
+        7.7
+      ],
       "reduces_inequality": false
     },
     "FL": {
-      "rates": [12.7, null, null, null, null, null, 2.3],
+      "rates": [
+        12.7,
+        null,
+        null,
+        null,
+        null,
+        null,
+        2.3
+      ],
       "reduces_inequality": false
     },
     "WA": {
-      "rates": [17.8, null, null, null, null, null, 3.0],
+      "rates": [
+        17.8,
+        null,
+        null,
+        null,
+        null,
+        null,
+        3.0
+      ],
       "reduces_inequality": false
     },
     "TN": {
-      "rates": [11.7, null, null, null, null, null, 3.0],
+      "rates": [
+        11.7,
+        null,
+        null,
+        null,
+        null,
+        null,
+        3.0
+      ],
       "reduces_inequality": false
     },
     "PA": {
-      "rates": [13.2, null, null, null, null, null, 6.0],
+      "rates": [
+        13.2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        6.0
+      ],
       "reduces_inequality": false
     },
     "NV": {
-      "rates": [10.2, null, null, null, null, null, 1.4],
+      "rates": [
+        10.2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1.4
+      ],
       "reduces_inequality": false
     },
     "SD": {
-      "rates": [11.2, null, null, null, null, null, 2.1],
+      "rates": [
+        11.2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        2.1
+      ],
       "reduces_inequality": false
     },
     "TX": {
-      "rates": [13.0, null, null, null, null, null, 3.1],
+      "rates": [
+        13.0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        3.1
+      ],
       "reduces_inequality": false
     },
     "IL": {
-      "rates": [14.4, null, null, null, null, null, 7.4],
+      "rates": [
+        14.4,
+        null,
+        null,
+        null,
+        null,
+        null,
+        7.4
+      ],
       "reduces_inequality": false
     },
     "AR": {
-      "rates": [11.9, null, null, null, null, null, 5.7],
+      "rates": [
+        11.9,
+        null,
+        null,
+        null,
+        null,
+        null,
+        5.7
+      ],
       "reduces_inequality": false
     },
     "LA": {
-      "rates": [11.9, null, null, null, null, null, 4.6],
+      "rates": [
+        11.9,
+        null,
+        null,
+        null,
+        null,
+        null,
+        4.6
+      ],
       "reduces_inequality": false
     },
     "CA": {
-      "rates": [10.5, null, null, null, null, null, 12.4],
+      "rates": [
+        10.5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        12.4
+      ],
       "reduces_inequality": true
     },
     "ME": {
-      "rates": [8.7, null, null, null, null, null, 9.4],
+      "rates": [
+        8.7,
+        null,
+        null,
+        null,
+        null,
+        null,
+        9.4
+      ],
       "reduces_inequality": true
     },
     "NJ": {
-      "rates": [8.3, null, null, null, null, null, 9.0],
+      "rates": [
+        8.3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        9.0
+      ],
       "reduces_inequality": true
     },
     "NY": {
-      "rates": [11.4, null, null, null, null, null, 11.3],
+      "rates": [
+        11.4,
+        null,
+        null,
+        null,
+        null,
+        null,
+        11.3
+      ],
       "reduces_inequality": false
     },
     "VT": {
-      "rates": [8.9, null, null, null, null, null, 10.3],
+      "rates": [
+        8.9,
+        null,
+        null,
+        null,
+        null,
+        null,
+        10.3
+      ],
       "reduces_inequality": true
     },
     "DC": {
-      "rates": [10.0, null, null, null, null, null, 10.3],
+      "rates": [
+        10.0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        10.3
+      ],
       "reduces_inequality": true
+    },
+    "AK": {
+      "rates": [
+        6.5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        4.5
+      ],
+      "reduces_inequality": false
+    },
+    "NH": {
+      "rates": [
+        9.1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        3.4
+      ],
+      "reduces_inequality": false
+    },
+    "WY": {
+      "rates": [
+        8.3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        2.6
+      ],
+      "reduces_inequality": false
+    },
+    "MA": {
+      "rates": [
+        8.2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        8.9
+      ],
+      "reduces_inequality": true
+    },
+    "NM": {
+      "rates": [
+        7.1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        8.1
+      ],
+      "reduces_inequality": true
+    },
+    "OR": {
+      "rates": [
+        9.6,
+        null,
+        null,
+        null,
+        null,
+        null,
+        8.5
+      ],
+      "reduces_inequality": false
+    },
+    "AL": {
+      "rates": [
+        10.8,
+        null,
+        null,
+        null,
+        null,
+        null,
+        4.6
+      ],
+      "reduces_inequality": false
+    },
+    "AZ": {
+      "rates": [
+        12.5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        5.3
+      ],
+      "reduces_inequality": false
+    },
+    "IN": {
+      "rates": [
+        12.1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        6.0
+      ],
+      "reduces_inequality": false
+    },
+    "OH": {
+      "rates": [
+        10.1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        6.5
+      ],
+      "reduces_inequality": false
+    },
+    "KY": {
+      "rates": [
+        10.3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        6.0
+      ],
+      "reduces_inequality": false
+    },
+    "MS": {
+      "rates": [
+        10.5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        6.3
+      ],
+      "reduces_inequality": false
+    },
+    "CT": {
+      "rates": [
+        10.0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        7.7
+      ],
+      "reduces_inequality": false
+    },
+    "IA": {
+      "rates": [
+        10.3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        7.6
+      ],
+      "reduces_inequality": false
+    },
+    "NC": {
+      "rates": [
+        10.5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        6.0
+      ],
+      "reduces_inequality": false
+    },
+    "KS": {
+      "rates": [
+        10.4,
+        null,
+        null,
+        null,
+        null,
+        null,
+        6.4
+      ],
+      "reduces_inequality": false
+    },
+    "NE": {
+      "rates": [
+        10.2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        7.4
+      ],
+      "reduces_inequality": false
+    },
+    "GA": {
+      "rates": [
+        10.5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        7.1
+      ],
+      "reduces_inequality": false
+    },
+    "MI": {
+      "rates": [
+        9.4,
+        null,
+        null,
+        null,
+        null,
+        null,
+        6.8
+      ],
+      "reduces_inequality": false
+    },
+    "MO": {
+      "rates": [
+        9.3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        6.6
+      ],
+      "reduces_inequality": false
+    },
+    "ID": {
+      "rates": [
+        8.4,
+        null,
+        null,
+        null,
+        null,
+        null,
+        7.1
+      ],
+      "reduces_inequality": false
+    },
+    "MT": {
+      "rates": [
+        6.5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        6.9
+      ],
+      "reduces_inequality": true
+    },
+    "CO": {
+      "rates": [
+        8.1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        7.3
+      ],
+      "reduces_inequality": false
+    },
+    "MD": {
+      "rates": [
+        9.4,
+        null,
+        null,
+        null,
+        null,
+        null,
+        8.6
+      ],
+      "reduces_inequality": false
+    },
+    "HI": {
+      "rates": [
+        12.6,
+        null,
+        null,
+        null,
+        null,
+        null,
+        8.9
+      ],
+      "reduces_inequality": false
+    },
+    "SC": {
+      "rates": [
+        8.4,
+        null,
+        null,
+        null,
+        null,
+        null,
+        5.4
+      ],
+      "reduces_inequality": false
+    },
+    "ND": {
+      "rates": [
+        8.8,
+        null,
+        null,
+        null,
+        null,
+        null,
+        5.4
+      ],
+      "reduces_inequality": false
+    },
+    "OK": {
+      "rates": [
+        10.5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        5.0
+      ],
+      "reduces_inequality": false
+    },
+    "DE": {
+      "rates": [
+        6.3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        6.0
+      ],
+      "reduces_inequality": false
+    },
+    "VA": {
+      "rates": [
+        9.2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        7.3
+      ],
+      "reduces_inequality": false
+    },
+    "WV": {
+      "rates": [
+        9.8,
+        null,
+        null,
+        null,
+        null,
+        null,
+        7.0
+      ],
+      "reduces_inequality": false
+    },
+    "UT": {
+      "rates": [
+        8.0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        6.5
+      ],
+      "reduces_inequality": false
+    },
+    "RI": {
+      "rates": [
+        10.6,
+        null,
+        null,
+        null,
+        null,
+        null,
+        7.8
+      ],
+      "reduces_inequality": false
     }
   }
 }

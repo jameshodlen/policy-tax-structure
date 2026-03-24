@@ -1,0 +1,206 @@
+{
+  "AK": {
+    "name": "Alaska",
+    "file": "ak_profile.json"
+  },
+  "AL": {
+    "name": "Alabama",
+    "file": "al_profile.json"
+  },
+  "AR": {
+    "name": "Arkansas",
+    "file": "ar_profile.json"
+  },
+  "AZ": {
+    "name": "Arizona",
+    "file": "az_profile.json"
+  },
+  "CA": {
+    "name": "California",
+    "file": "ca_profile.json"
+  },
+  "CO": {
+    "name": "Colorado",
+    "file": "co_profile.json"
+  },
+  "CT": {
+    "name": "Connecticut",
+    "file": "ct_profile.json"
+  },
+  "DC": {
+    "name": "District of Columbia",
+    "file": "dc_profile.json"
+  },
+  "DE": {
+    "name": "Delaware",
+    "file": "de_profile.json"
+  },
+  "FL": {
+    "name": "Florida",
+    "file": "fl_profile.json"
+  },
+  "GA": {
+    "name": "Georgia",
+    "file": "ga_profile.json"
+  },
+  "HI": {
+    "name": "Hawaii",
+    "file": "hi_profile.json"
+  },
+  "IA": {
+    "name": "Iowa",
+    "file": "ia_profile.json"
+  },
+  "ID": {
+    "name": "Idaho",
+    "file": "id_profile.json"
+  },
+  "IL": {
+    "name": "Illinois",
+    "file": "il_profile.json"
+  },
+  "IN": {
+    "name": "Indiana",
+    "file": "in_profile.json"
+  },
+  "KS": {
+    "name": "Kansas",
+    "file": "ks_profile.json"
+  },
+  "KY": {
+    "name": "Kentucky",
+    "file": "ky_profile.json"
+  },
+  "LA": {
+    "name": "Louisiana",
+    "file": "la_profile.json"
+  },
+  "MA": {
+    "name": "Massachusetts",
+    "file": "ma_profile.json"
+  },
+  "MD": {
+    "name": "Maryland",
+    "file": "md_profile.json"
+  },
+  "ME": {
+    "name": "Maine",
+    "file": "me_profile.json"
+  },
+  "MI": {
+    "name": "Michigan",
+    "file": "mi_profile.json"
+  },
+  "MN": {
+    "name": "Minnesota",
+    "file": "mn_profile.json"
+  },
+  "MO": {
+    "name": "Missouri",
+    "file": "mo_profile.json"
+  },
+  "MS": {
+    "name": "Mississippi",
+    "file": "ms_profile.json"
+  },
+  "MT": {
+    "name": "Montana",
+    "file": "mt_profile.json"
+  },
+  "NC": {
+    "name": "North Carolina",
+    "file": "nc_profile.json"
+  },
+  "ND": {
+    "name": "North Dakota",
+    "file": "nd_profile.json"
+  },
+  "NE": {
+    "name": "Nebraska",
+    "file": "ne_profile.json"
+  },
+  "NH": {
+    "name": "New Hampshire",
+    "file": "nh_profile.json"
+  },
+  "NJ": {
+    "name": "New Jersey",
+    "file": "nj_profile.json"
+  },
+  "NM": {
+    "name": "New Mexico",
+    "file": "nm_profile.json"
+  },
+  "NV": {
+    "name": "Nevada",
+    "file": "nv_profile.json"
+  },
+  "NY": {
+    "name": "New York",
+    "file": "ny_profile.json"
+  },
+  "OH": {
+    "name": "Ohio",
+    "file": "oh_profile.json"
+  },
+  "OK": {
+    "name": "Oklahoma",
+    "file": "ok_profile.json"
+  },
+  "OR": {
+    "name": "Oregon",
+    "file": "or_profile.json"
+  },
+  "PA": {
+    "name": "Pennsylvania",
+    "file": "pa_profile.json"
+  },
+  "RI": {
+    "name": "Rhode Island",
+    "file": "ri_profile.json"
+  },
+  "SC": {
+    "name": "South Carolina",
+    "file": "sc_profile.json"
+  },
+  "SD": {
+    "name": "South Dakota",
+    "file": "sd_profile.json"
+  },
+  "TN": {
+    "name": "Tennessee",
+    "file": "tn_profile.json"
+  },
+  "TX": {
+    "name": "Texas",
+    "file": "tx_profile.json"
+  },
+  "UT": {
+    "name": "Utah",
+    "file": "ut_profile.json"
+  },
+  "VA": {
+    "name": "Virginia",
+    "file": "va_profile.json"
+  },
+  "VT": {
+    "name": "Vermont",
+    "file": "vt_profile.json"
+  },
+  "WA": {
+    "name": "Washington",
+    "file": "wa_profile.json"
+  },
+  "WI": {
+    "name": "Wisconsin",
+    "file": "wi_profile.json"
+  },
+  "WV": {
+    "name": "West Virginia",
+    "file": "wv_profile.json"
+  },
+  "WY": {
+    "name": "Wyoming",
+    "file": "wy_profile.json"
+  }
+}

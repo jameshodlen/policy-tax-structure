@@ -1,0 +1,153 @@
+{
+  "state": "California",
+  "abbreviation": "CA",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 1.0,
+        "min": 0,
+        "max": 10412
+      },
+      {
+        "rate": 2.0,
+        "min": 10412,
+        "max": 24684
+      },
+      {
+        "rate": 4.0,
+        "min": 24684,
+        "max": 38959
+      },
+      {
+        "rate": 6.0,
+        "min": 38959,
+        "max": 54081
+      },
+      {
+        "rate": 8.0,
+        "min": 54081,
+        "max": 68350
+      },
+      {
+        "rate": 9.3,
+        "min": 68350,
+        "max": 349137
+      },
+      {
+        "rate": 10.3,
+        "min": 349137,
+        "max": 418961
+      },
+      {
+        "rate": 11.3,
+        "min": 418961,
+        "max": 698271
+      },
+      {
+        "rate": 12.3,
+        "min": 698271,
+        "max": 1000000
+      },
+      {
+        "rate": 13.3,
+        "min": 1000000,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 7.25,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 8.84,
+    "property_tax_admin": "County assessors, Prop 13 limits assessment increases to 2%/year",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "California Earned Income Tax Credit",
+      "Young Child Tax Credit",
+      "Renter's Credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          10.5,
+          12.4
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 49,
+    "corporate_rank": 45,
+    "individual_income_rank": 51,
+    "sales_tax_rank": 47,
+    "property_tax_rank": 31,
+    "unemployment_insurance_rank": 38
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "high",
+    "federal_conformity": "selective",
+    "recent_changes": "2024: Mental Health Services Tax extended (additional 1% on income over $1M). CalEITC expanded."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "Los Angeles",
+        "homestead_rate": 0.72,
+        "commercial_rate": 0.72,
+        "industrial_rate": 0.72,
+        "apartment_rate": 0.72
+      },
+      {
+        "city": "San Francisco",
+        "homestead_rate": 0.64,
+        "commercial_rate": 0.64,
+        "industrial_rate": 0.64,
+        "apartment_rate": 0.64
+      },
+      {
+        "city": "San Diego",
+        "homestead_rate": 0.73,
+        "commercial_rate": 0.73,
+        "industrial_rate": 0.73,
+        "apartment_rate": 0.73
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 0.7,
+      "rate_range": "0.64% - 0.73%",
+      "commercial_to_residential_ratio": 1.0
+    },
+    "assessment_practice": "County assessors; Proposition 13 limits assessment increases to 2%/year from purchase price",
+    "classification": false,
+    "circuit_breaker": false,
+    "relief_programs": [
+      "Homeowners' Exemption ($7,000 reduction in assessed value)"
+    ]
+  }
+}

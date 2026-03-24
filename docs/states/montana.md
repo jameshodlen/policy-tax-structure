@@ -55,8 +55,27 @@ How Montana generates its state tax revenue, by source:
 
 ## Who Pays? Effective Tax Rates by Income
 
-!!! info "Distributional Data Pending"
-    ITEP distributional data is not yet available for Montana. Data collection is in progress. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology.
+<div class="chart-container" markdown>
+<canvas data-chart-type="bar"
+        data-source="../assets/data/mt_profile.json"
+        data-key="effective_rates_by_quintile">
+</canvas>
+</div>
+
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for Montana. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+=== "Tax Foundation View"
+
+Montana ranks **5th** on the State Tax Competitiveness Index (2024).
+
+=== "ITEP View"
+
+ITEP distributional analysis for Montana shows the effective state and local tax rates by income group.
+
+=== "Primary Source Data"
+
+    State tax data from Census Bureau and economic indicators from BEA/FRED.
 
 ## Economic Context
 
@@ -67,10 +86,15 @@ How Montana generates its state tax revenue, by source:
 
 | Dimension | Montana | Idaho |
 |-----------|-----------|-----------|
-| Income Tax | Flat 5.9% | Flat 5.8% |
+| Income Tax | Flat 5.9% | Flat 5.3% |
 | Sales Tax | Data pending | 6.0% (+ local) |
 | Competitiveness Rank | 5th | 13th |
 
+## Historical Context
+
+- **1933**: Individual income tax enacted
+- **2021**: Structural tax reform — rates reduced, 16 tax credits repealed, corporate apportionment reformed
+- **2024**: Income tax simplified to two-bracket system (4.7% and 5.9%)
 ## Federal Interaction
 
 - **PTET Status**: Adopted — pass-through entity tax available

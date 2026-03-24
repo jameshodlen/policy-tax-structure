@@ -4,25 +4,25 @@
 
 ## Overview
 
-District of Columbia's tax structure. The District of Columbia is one of only seven jurisdictions that ITEP identifies as reducing income inequality through its tax code. The Tax Foundation ranks District of Columbia 38th on its State Tax Competitiveness Index.
+District of Columbia employs a graduated individual income tax with 7 brackets and a top rate of 10.75%, a 6.5% state sales tax, and a 8.25% corporate tax rate. The District of Columbia is one of only seven jurisdictions that ITEP identifies as reducing income inequality through its tax code. The Tax Foundation ranks District of Columbia 38th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">4.0%–10.75%</div>
+<div class="detail">7 brackets, graduated</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">6.5%</div>
+<div class="detail">No local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">8.25%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,26 @@ District of Columbia's tax structure. The District of Columbia is one of only se
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| $0 – $10,000 | 4.0% |
+| $10,000 – $40,000 | 6.0% |
+| $40,000 – $60,000 | 6.5% |
+| $60,000 – $250,000 | 8.5% |
+| $250,000 – $500,000 | 9.25% |
+| $500,000 – $1,000,000 | 9.75% |
+| Over $1,000,000 | 10.75% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | DC Office of Tax and Revenue. Residential rate $0.85 per $100 assessed value. Commercial $1.65 per $100. Assessed annually at 100% market value. |
+| **Estate Tax** | Yes — $4,873,200 exemption |
+| **Notable Credits** | State EITC (100% of federal credit), Young Child Tax Credit ($420/child under 6), Schedule H Homeowner/Renter Property Tax Credit |
+| **PTET Status** | Not adopted |
+| **Federal Conformity** | Rolling conformity to IRC |
 
 ## Revenue Composition
 
@@ -81,14 +92,21 @@ District of Columbia is one of only **six states plus DC** whose tax system **re
 
 | Dimension | District of Columbia | Maryland |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Graduated (4.0%–10.75%) | Graduated (2.0%–6.5%) |
+| Sales Tax | 6.5% (no local) | 6.0% (no local) |
 | Competitiveness Rank | 38th | 46th |
 
+## Historical Context
+
+- **1939**: Individual income tax first enacted (DC Income Tax Act of 1939)
+- **1949**: Sales tax first imposed
+- **2021**: Top rate raised to 10.75%; earned income credit increased
+- **2025**: Sales tax increased from 6.0% to 6.5% (rising to 7.0% in Oct 2026)
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Not adopted
+- **Federal Conformity**: Rolling conformity to IRC
+- **SALT Cap Impact**: High
 
 ## Data Sources & Citations
 

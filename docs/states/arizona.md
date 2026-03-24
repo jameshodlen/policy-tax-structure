@@ -55,8 +55,27 @@ How Arizona generates its state tax revenue, by source:
 
 ## Who Pays? Effective Tax Rates by Income
 
-!!! info "Distributional Data Pending"
-    ITEP distributional data is not yet available for Arizona. Data collection is in progress. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology.
+<div class="chart-container" markdown>
+<canvas data-chart-type="bar"
+        data-source="../assets/data/az_profile.json"
+        data-key="effective_rates_by_quintile">
+</canvas>
+</div>
+
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for Arizona. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+=== "Tax Foundation View"
+
+Arizona ranks **19th** on the State Tax Competitiveness Index (2024).
+
+=== "ITEP View"
+
+ITEP distributional analysis for Arizona shows the effective state and local tax rates by income group.
+
+=== "Primary Source Data"
+
+    State tax data from Census Bureau and economic indicators from BEA/FRED.
 
 ## Economic Context
 
@@ -67,10 +86,16 @@ How Arizona generates its state tax revenue, by source:
 
 | Dimension | Arizona | Hawaii |
 |-----------|-----------|-----------|
-| Income Tax | Flat 2.5% | Data pending |
-| Sales Tax | 5.6% (+ local) | Data pending |
+| Income Tax | Flat 2.5% | Graduated (1.4%–11.0%) |
+| Sales Tax | 5.6% (+ local) | 4.0% (+ local) |
 | Competitiveness Rank | 19th | 43rd |
 
+## Historical Context
+
+- **1933**: Individual income tax and Transaction Privilege Tax (sales tax) both enacted
+- **2021**: Legislature passed flat income tax legislation
+- **2023**: Flat 2.5% individual income tax rate takes full effect (down from graduated rates topping ~4.5%)
+- **2025**: Corporate income tax rate reduced to 4.9%
 ## Federal Interaction
 
 - **PTET Status**: Adopted — pass-through entity tax available

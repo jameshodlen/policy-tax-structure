@@ -1,0 +1,95 @@
+{
+  "state": "New Hampshire",
+  "abbreviation": "NH",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "none",
+    "income_tax_brackets": [],
+    "sales_tax_rate": null,
+    "local_sales_tax": false,
+    "clothing_exempt": null,
+    "corporate_tax_rate": 7.5,
+    "property_tax_admin": "Local municipal assessors. No statewide property tax. Among the highest effective property tax rates in the nation (~1.86%).",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "No individual income tax",
+      "No sales tax"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          9.1,
+          3.4
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 6,
+    "corporate_rank": 47,
+    "individual_income_rank": 9,
+    "sales_tax_rank": 4,
+    "property_tax_rank": 48,
+    "unemployment_insurance_rank": 10
+  },
+  "key_facts": {
+    "ptet_adopted": false,
+    "salt_impact": "none",
+    "federal_conformity": "static",
+    "recent_changes": "Interest & Dividends tax fully repealed Jan 1, 2025. NH is now a true no-income-tax state. Business Profits Tax 7.5% + Business Enterprise Tax 0.55%."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "Manchester",
+        "homestead_rate": 2.32,
+        "commercial_rate": 2.32,
+        "industrial_rate": 2.32,
+        "apartment_rate": 2.32
+      },
+      {
+        "city": "Nashua",
+        "homestead_rate": 2.14,
+        "commercial_rate": 2.14,
+        "industrial_rate": 2.14,
+        "apartment_rate": 2.14
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 2.23,
+      "rate_range": "2.14% - 2.32%",
+      "commercial_to_residential_ratio": 1.0
+    },
+    "assessment_practice": "Local selectmen/assessors. Full and true value. Among highest effective rates nationally.",
+    "classification": false,
+    "circuit_breaker": true,
+    "relief_programs": [
+      "Elderly exemption (locality-specific); veterans' tax credit ($750 minimum)",
+      "Low and Moderate Income Homeowners Property Tax Relief (state-funded)"
+    ]
+  }
+}

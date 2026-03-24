@@ -85,8 +85,8 @@ ITEP ranks Texas's tax system among the **10 most regressive** in the nation.
 
 | Dimension | Texas | Oklahoma |
 |-----------|-----------|-----------|
-| Income Tax | None | Data pending |
-| Sales Tax | 6.25% (+ local) | Data pending |
+| Income Tax | None | Graduated (0.25%–4.75%) |
+| Sales Tax | 6.25% (+ local) | 4.5% (+ local) |
 | Competitiveness Rank | 14th | 20th |
 
 ## Historical Context

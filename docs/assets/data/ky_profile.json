@@ -1,0 +1,71 @@
+{
+  "state": "Kentucky",
+  "abbreviation": "KY",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "flat",
+    "income_tax_brackets": [
+      {
+        "rate": 3.5,
+        "min": 0,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 6.0,
+    "local_sales_tax": false,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 5.0,
+    "property_tax_admin": "County property valuation administrators, state oversight",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "Family Size Tax Credit",
+      "Child and Dependent Care Credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          10.3,
+          6.0
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 32,
+    "corporate_rank": 27,
+    "individual_income_rank": 19,
+    "sales_tax_rank": 21,
+    "property_tax_rank": 23,
+    "unemployment_insurance_rank": 49
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "low",
+    "federal_conformity": "selective",
+    "recent_changes": "2024: Rate triggered down from 4.0% to 3.5% after meeting revenue benchmarks. Originally flat at 5.0% in 2018."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  }
+}

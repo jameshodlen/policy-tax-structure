@@ -4,25 +4,25 @@
 
 ## Overview
 
-Pennsylvania's tax structure. ITEP ranks Pennsylvania's tax system among the 10 most regressive in the nation, with lower-income households paying a higher effective tax rate than wealthier residents. The Tax Foundation ranks Pennsylvania 26th on its State Tax Competitiveness Index.
+Pennsylvania employs a flat individual income tax at 3.07%, a 6.0% state sales tax, and a 7.99% corporate tax rate. ITEP ranks Pennsylvania's tax system among the 10 most regressive in the nation, with lower-income households paying a higher effective tax rate than wealthier residents. The Tax Foundation ranks Pennsylvania 26th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">3.07%</div>
+<div class="detail">Flat rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">6.0%</div>
+<div class="detail">Plus local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">7.99%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,20 @@ Pennsylvania's tax structure. ITEP ranks Pennsylvania's tax system among the 10 
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| Over $0 | 3.07% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | County-administered. Assessment practices vary widely. Some counties use outdated base years. State oversight through State Tax Equalization Board. |
+| **Estate Tax** | None |
+| **Notable Credits** | Working Pennsylvanians Tax Credit (state EITC, enacted Nov 2025), Property Tax/Rent Rebate Program |
+| **PTET Status** | Not adopted |
+| **Federal Conformity** | Selective conformity to IRC |
 
 ## Revenue Composition
 
@@ -81,14 +86,20 @@ ITEP ranks Pennsylvania's tax system among the **10 most regressive** in the nat
 
 | Dimension | Pennsylvania | Delaware |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Flat 3.07% | Graduated (0.0%–6.6%) |
+| Sales Tax | 6.0% (+ local) | Data pending |
 | Competitiveness Rank | 26th | 30th |
 
+## Historical Context
+
+- **1953**: Sales tax enacted
+- **1971**: Individual income tax enacted at flat 2.8% (flat rate constitutionally required)
+- **2025**: Corporate rate phasing from 9.99% to 4.99% by 2031 (currently 7.99%). Working Pennsylvanians Tax Credit (state EITC) enacted.
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Not adopted
+- **Federal Conformity**: Selective conformity to IRC
+- **SALT Cap Impact**: Moderate
 
 ## Data Sources & Citations
 

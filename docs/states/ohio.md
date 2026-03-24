@@ -56,8 +56,27 @@ How Ohio generates its state tax revenue, by source:
 
 ## Who Pays? Effective Tax Rates by Income
 
-!!! info "Distributional Data Pending"
-    ITEP distributional data is not yet available for Ohio. Data collection is in progress. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology.
+<div class="chart-container" markdown>
+<canvas data-chart-type="bar"
+        data-source="../assets/data/oh_profile.json"
+        data-key="effective_rates_by_quintile">
+</canvas>
+</div>
+
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for Ohio. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+=== "Tax Foundation View"
+
+Ohio ranks **31st** on the State Tax Competitiveness Index (2024).
+
+=== "ITEP View"
+
+ITEP distributional analysis for Ohio shows the effective state and local tax rates by income group.
+
+=== "Primary Source Data"
+
+    State tax data from Census Bureau and economic indicators from BEA/FRED.
 
 ## Economic Context
 
@@ -68,10 +87,17 @@ How Ohio generates its state tax revenue, by source:
 
 | Dimension | Ohio | Michigan |
 |-----------|-----------|-----------|
-| Income Tax | Graduated (0%–3.5%) | Data pending |
-| Sales Tax | 5.75% (+ local) | Data pending |
+| Income Tax | Graduated (0%–3.5%) | Flat 4.25% |
+| Sales Tax | 5.75% (+ local) | 6.0% (no local) |
 | Competitiveness Rank | 31st | 12th |
 
+## Historical Context
+
+- **1935**: Sales tax enacted
+- **1972**: Individual income tax enacted
+- **2005**: HB 66: Corporate franchise/tangible property tax phased out; Commercial Activity Tax (CAT) phased in; 21% income tax cut
+- **2023**: CAT exclusion threshold raised; top income tax rate cut to 3.5%
+- **2025**: Rate reduced to 3.5%. CAT threshold raised to $6M, eliminating it for most small businesses.
 ## Federal Interaction
 
 - **PTET Status**: Adopted — pass-through entity tax available

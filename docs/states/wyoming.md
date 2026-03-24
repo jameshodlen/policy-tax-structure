@@ -4,7 +4,7 @@
 
 ## Overview
 
-Wyoming does not levy an individual income tax, relying instead on sales taxes, property taxes, and other revenue sources. The Tax Foundation ranks Wyoming 1st on its State Tax Competitiveness Index.
+Wyoming does not levy an individual income tax, a 4.0% state sales tax. The Tax Foundation ranks Wyoming 1st on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
@@ -16,8 +16,8 @@ Wyoming does not levy an individual income tax, relying instead on sales taxes, 
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">4.0%</div>
+<div class="detail">Plus local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
@@ -39,10 +39,10 @@ Wyoming does not levy an individual income tax. This places it among nine states
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
+| **Property Tax** | County assessors. State Department of Revenue provides oversight. Full market value assessment for minerals; 9.5% of fair market value for residential. |
+| **Estate Tax** | None |
+| **Notable Credits** | No individual income tax, No corporate income tax, Property tax refund for veterans |
+| **PTET Status** | Not adopted |
 | **Federal Conformity** | Data pending |
 
 ## Revenue Composition
@@ -54,8 +54,27 @@ How Wyoming generates its state tax revenue, by source:
 
 ## Who Pays? Effective Tax Rates by Income
 
-!!! info "Distributional Data Pending"
-    ITEP distributional data is not yet available for Wyoming. Data collection is in progress. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology.
+<div class="chart-container" markdown>
+<canvas data-chart-type="bar"
+        data-source="../assets/data/wy_profile.json"
+        data-key="effective_rates_by_quintile">
+</canvas>
+</div>
+
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for Wyoming. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+=== "Tax Foundation View"
+
+Wyoming ranks **1st** on the State Tax Competitiveness Index (2024).
+
+=== "ITEP View"
+
+ITEP distributional analysis for Wyoming shows the effective state and local tax rates by income group.
+
+=== "Primary Source Data"
+
+    State tax data from Census Bureau and economic indicators from BEA/FRED.
 
 ## Economic Context
 
@@ -67,13 +86,19 @@ How Wyoming generates its state tax revenue, by source:
 | Dimension | Wyoming | Alaska |
 |-----------|-----------|-----------|
 | Income Tax | None | None |
-| Sales Tax | Data pending | Data pending |
+| Sales Tax | 4.0% (+ local) | Data pending |
 | Competitiveness Rank | 1st | 3rd |
 
+## Historical Context
+
+- **1935**: Sales tax enacted as 'temporary emergency measure'
+- **1969**: Mineral severance tax enacted at 1%
+- **2025**: No income tax (constitutional barrier). Revenue dependent on mineral severance/sales taxes. Ranks #1 on Tax Foundation competitiveness index.
 ## Federal Interaction
 
-- **PTET Status**: Data pending
+- **PTET Status**: Not adopted
 - **Federal Conformity**: Data pending
+- **SALT Cap Impact**: None
 
 ## Data Sources & Citations
 

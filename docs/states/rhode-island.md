@@ -4,25 +4,25 @@
 
 ## Overview
 
-Rhode Island's tax structure. The Tax Foundation ranks Rhode Island 34th on its State Tax Competitiveness Index.
+Rhode Island employs a graduated individual income tax with 3 brackets and a top rate of 5.99%, a 7.0% state sales tax, and a 7.0% corporate tax rate. The Tax Foundation ranks Rhode Island 34th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">3.75%–5.99%</div>
+<div class="detail">3 brackets, graduated</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">7.0%</div>
+<div class="detail">No local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">7.0%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,22 @@ Rhode Island's tax structure. The Tax Foundation ranks Rhode Island 34th on its 
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| $0 – $77,450 | 3.75% |
+| $77,450 – $176,050 | 4.75% |
+| Over $176,050 | 5.99% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | Municipal assessors. Among the highest effective property tax rates in the nation. Full and fair cash value assessment. |
+| **Estate Tax** | Yes — $1,802,431 exemption |
+| **Notable Credits** | EITC, Property tax circuit breaker, Wavemaker Fellowship (student loan credit) |
+| **PTET Status** | Adopted — pass-through entity tax available |
+| **Federal Conformity** | Rolling conformity to IRC |
 
 ## Revenue Composition
 
@@ -50,8 +57,27 @@ How Rhode Island generates its state tax revenue, by source:
 
 ## Who Pays? Effective Tax Rates by Income
 
-!!! info "Distributional Data Pending"
-    ITEP distributional data is not yet available for Rhode Island. Data collection is in progress. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology.
+<div class="chart-container" markdown>
+<canvas data-chart-type="bar"
+        data-source="../assets/data/ri_profile.json"
+        data-key="effective_rates_by_quintile">
+</canvas>
+</div>
+
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for Rhode Island. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+=== "Tax Foundation View"
+
+Rhode Island ranks **34th** on the State Tax Competitiveness Index (2024).
+
+=== "ITEP View"
+
+ITEP distributional analysis for Rhode Island shows the effective state and local tax rates by income group.
+
+=== "Primary Source Data"
+
+    State tax data from Census Bureau and economic indicators from BEA/FRED.
 
 ## Economic Context
 
@@ -62,14 +88,21 @@ How Rhode Island generates its state tax revenue, by source:
 
 | Dimension | Rhode Island | Maine |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Graduated (3.75%–5.99%) | Graduated (5.8%–7.15%) |
+| Sales Tax | 7.0% (no local) | 5.5% (no local) |
 | Competitiveness Rank | 34th | 33rd |
 
+## Historical Context
+
+- **1947**: Sales tax enacted
+- **1971**: Individual income tax enacted (originally piggyback on federal tax)
+- **2011**: Major income tax reform — replaced old structure with three brackets (3.75%-5.99%)
+- **2025**: PTET credit reduced to 90%. Decoupled from OBBBA tip/overtime exclusions.
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Adopted — pass-through entity tax available
+- **Federal Conformity**: Rolling conformity to IRC
+- **SALT Cap Impact**: Moderate
 
 ## Data Sources & Citations
 

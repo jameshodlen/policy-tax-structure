@@ -96,6 +96,13 @@ New Jersey is one of only **six states plus DC** whose tax system **reduces inco
 | Sales Tax | 6.625% (no local) | 4.0% (+ local) |
 | Competitiveness Rank | 50th | 48th |
 
+## Historical Context
+
+- **1966**: Sales tax enacted at 3%
+- **1976**: Individual income tax enacted following court order on school funding
+- **2004**: Top rate of 8.97% established for income over $500K
+- **2018**: Top rate raised to 10.75% on income over $5M
+- **2025**: Corporate transit fee proposed. Child and dependent care credit expanded.
 ## Federal Interaction
 
 - **PTET Status**: Adopted — pass-through entity tax available

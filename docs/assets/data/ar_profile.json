@@ -1,0 +1,92 @@
+{
+  "state": "Arkansas",
+  "abbreviation": "AR",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 0.0,
+        "min": 0,
+        "max": 5499
+      },
+      {
+        "rate": 2.0,
+        "min": 5500,
+        "max": 10899
+      },
+      {
+        "rate": 3.0,
+        "min": 10900,
+        "max": 15599
+      },
+      {
+        "rate": 3.4,
+        "min": 15600,
+        "max": 25699
+      },
+      {
+        "rate": 3.9,
+        "min": 25700,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 6.5,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 4.3,
+    "property_tax_admin": "County-administered. Property assessed at 20% of market value. State Assessment Coordination Division provides oversight.",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "Social Security benefits fully exempt",
+      "Military income fully exempt",
+      "Annual back-to-school sales tax holiday"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          11.9,
+          5.7
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 40,
+    "corporate_rank": 42,
+    "individual_income_rank": 35,
+    "sales_tax_rank": 50,
+    "property_tax_rank": 19,
+    "unemployment_insurance_rank": 33
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "low",
+    "federal_conformity": "selective",
+    "recent_changes": "Top individual rate reduced from 4.4% to 3.9% effective Jan 1, 2025. Top corporate rate reduced to 4.3%. Grocery state sales tax eliminated effective Jan 1, 2026."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  }
+}

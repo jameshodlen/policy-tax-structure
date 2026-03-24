@@ -1,0 +1,142 @@
+{
+  "state": "New York",
+  "abbreviation": "NY",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 4.0,
+        "min": 0,
+        "max": 8500
+      },
+      {
+        "rate": 4.5,
+        "min": 8500,
+        "max": 11700
+      },
+      {
+        "rate": 5.25,
+        "min": 11700,
+        "max": 13900
+      },
+      {
+        "rate": 5.85,
+        "min": 13900,
+        "max": 80650
+      },
+      {
+        "rate": 6.25,
+        "min": 80650,
+        "max": 215400
+      },
+      {
+        "rate": 6.85,
+        "min": 215400,
+        "max": 1077550
+      },
+      {
+        "rate": 9.65,
+        "min": 1077550,
+        "max": 5000000
+      },
+      {
+        "rate": 10.3,
+        "min": 5000000,
+        "max": 25000000
+      },
+      {
+        "rate": 10.9,
+        "min": 25000000,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 4.0,
+    "local_sales_tax": true,
+    "clothing_exempt": true,
+    "corporate_tax_rate": 7.25,
+    "property_tax_admin": "Local assessors, state equalization rates",
+    "estate_tax": true,
+    "estate_tax_exemption": 6940000,
+    "notable_credits": [
+      "Earned Income Tax Credit (30% of federal)",
+      "Empire State Child Credit",
+      "Real Property Tax Credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          11.4,
+          11.3
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 48,
+    "corporate_rank": 41,
+    "individual_income_rank": 47,
+    "sales_tax_rank": 41,
+    "property_tax_rank": 46,
+    "unemployment_insurance_rank": 42
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "high",
+    "federal_conformity": "rolling",
+    "recent_changes": "2023: Top rate of 10.9% extended through 2027. PTET expanded."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "New York City",
+        "homestead_rate": 0.88,
+        "commercial_rate": 4.05,
+        "industrial_rate": 4.05,
+        "apartment_rate": 2.39
+      },
+      {
+        "city": "Buffalo",
+        "homestead_rate": 2.57,
+        "commercial_rate": 2.57,
+        "industrial_rate": 2.57,
+        "apartment_rate": 2.57
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 1.72,
+      "rate_range": "0.88% - 2.57%",
+      "commercial_to_residential_ratio": 1.92
+    },
+    "assessment_practice": "Local assessors (varying cycle); state Office of Real Property Tax Services provides oversight",
+    "classification": true,
+    "circuit_breaker": true,
+    "relief_programs": [
+      "STAR program — Basic ($30,000 exemption) and Enhanced ($74,900 for 65+)",
+      "NYC rent increase exemption (SCRIE/DRIE) and state School Tax Relief (STAR)"
+    ]
+  }
+}

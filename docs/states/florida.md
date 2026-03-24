@@ -85,7 +85,7 @@ ITEP ranks Florida's tax system among the **10 most regressive** in the nation.
 
 | Dimension | Florida | Georgia |
 |-----------|-----------|-----------|
-| Income Tax | None | Flat 5.39% |
+| Income Tax | None | Flat 5.19% |
 | Sales Tax | 6.0% (+ local) | 4.0% (+ local) |
 | Competitiveness Rank | 4th | 18th |
 

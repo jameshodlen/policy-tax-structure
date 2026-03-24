@@ -1,0 +1,139 @@
+{
+  "state": "Connecticut",
+  "abbreviation": "CT",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 2.0,
+        "min": 0,
+        "max": 10000
+      },
+      {
+        "rate": 4.5,
+        "min": 10000,
+        "max": 50000
+      },
+      {
+        "rate": 5.5,
+        "min": 50000,
+        "max": 100000
+      },
+      {
+        "rate": 6.0,
+        "min": 100000,
+        "max": 200000
+      },
+      {
+        "rate": 6.5,
+        "min": 200000,
+        "max": 250000
+      },
+      {
+        "rate": 6.9,
+        "min": 250000,
+        "max": 500000
+      },
+      {
+        "rate": 6.99,
+        "min": 500000,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 6.35,
+    "local_sales_tax": false,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 7.5,
+    "property_tax_admin": "169 municipalities. Property assessed at 70% of fair market value. Among the highest effective property tax rates in the US.",
+    "estate_tax": true,
+    "estate_tax_exemption": 13990000,
+    "notable_credits": [
+      "State EITC (40% of federal + $250 for families with children)",
+      "Property Tax Credit (up to $300)",
+      "Angel Investor Tax Credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          10.0,
+          7.7
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 51,
+    "corporate_rank": 48,
+    "individual_income_rank": 40,
+    "sales_tax_rank": 43,
+    "property_tax_rank": 47,
+    "unemployment_insurance_rank": 48
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "high",
+    "federal_conformity": "rolling",
+    "recent_changes": "PTET made elective (was mandatory) starting 2024. Bottom two marginal rates reduced. 10% corporate surcharge extended through 2028. Estate tax exemption increased to $13.99M."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "Hartford",
+        "homestead_rate": 3.7,
+        "commercial_rate": 3.7,
+        "industrial_rate": 3.7,
+        "apartment_rate": 3.7
+      },
+      {
+        "city": "Bridgeport",
+        "homestead_rate": 3.33,
+        "commercial_rate": 3.33,
+        "industrial_rate": 3.33,
+        "apartment_rate": 3.33
+      },
+      {
+        "city": "New Haven",
+        "homestead_rate": 3.24,
+        "commercial_rate": 3.24,
+        "industrial_rate": 3.24,
+        "apartment_rate": 3.24
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 3.42,
+      "rate_range": "3.24% - 3.70%",
+      "commercial_to_residential_ratio": 1.0
+    },
+    "assessment_practice": "169 municipalities assess at 70% of fair market value. No county government.",
+    "classification": false,
+    "circuit_breaker": true,
+    "relief_programs": [
+      "Local option property tax exemptions for veterans, elderly, disabled",
+      "Property Tax Credit for income-qualifying homeowners (up to $300)"
+    ]
+  }
+}

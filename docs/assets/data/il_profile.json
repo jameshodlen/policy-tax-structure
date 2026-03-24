@@ -1,0 +1,102 @@
+{
+  "state": "Illinois",
+  "abbreviation": "IL",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "flat",
+    "income_tax_brackets": [
+      {
+        "rate": 4.95,
+        "min": 0,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 6.25,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 9.5,
+    "property_tax_admin": "Township assessors (Cook County) / County supervisors of assessments, state equalization",
+    "estate_tax": true,
+    "estate_tax_exemption": 4000000,
+    "notable_credits": [
+      "Earned Income Tax Credit (state, 20% of federal)",
+      "Property Tax Credit",
+      "Education Expense Credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          14.4,
+          7.4
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 36,
+    "corporate_rank": 37,
+    "individual_income_rank": 14,
+    "sales_tax_rank": 36,
+    "property_tax_rank": 51,
+    "unemployment_insurance_rank": 36
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "high",
+    "federal_conformity": "rolling",
+    "recent_changes": "2020: Graduated tax ballot measure failed (Fair Tax Amendment). Flat rate of 4.95% remains."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "Chicago",
+        "homestead_rate": 1.85,
+        "commercial_rate": 3.65,
+        "industrial_rate": 3.65,
+        "apartment_rate": 2.58
+      },
+      {
+        "city": "Springfield",
+        "homestead_rate": 2.23,
+        "commercial_rate": 2.23,
+        "industrial_rate": 2.23,
+        "apartment_rate": 2.23
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 2.04,
+      "rate_range": "1.85% - 2.23%",
+      "commercial_to_residential_ratio": 1.44
+    },
+    "assessment_practice": "Township assessors (Cook County) / County supervisors of assessments; state equalization factor",
+    "classification": true,
+    "circuit_breaker": true,
+    "relief_programs": [
+      "General Homestead Exemption ($10,000 Cook County, $6,000 elsewhere)",
+      "Senior Citizens Property Tax Grant (circuit breaker for 65+ with income under $65,000)"
+    ]
+  }
+}

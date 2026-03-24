@@ -55,8 +55,27 @@ How Indiana generates its state tax revenue, by source:
 
 ## Who Pays? Effective Tax Rates by Income
 
-!!! info "Distributional Data Pending"
-    ITEP distributional data is not yet available for Indiana. Data collection is in progress. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology.
+<div class="chart-container" markdown>
+<canvas data-chart-type="bar"
+        data-source="../assets/data/in_profile.json"
+        data-key="effective_rates_by_quintile">
+</canvas>
+</div>
+
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for Indiana. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+=== "Tax Foundation View"
+
+Indiana ranks **8th** on the State Tax Competitiveness Index (2024).
+
+=== "ITEP View"
+
+ITEP distributional analysis for Indiana shows the effective state and local tax rates by income group.
+
+=== "Primary Source Data"
+
+    State tax data from Census Bureau and economic indicators from BEA/FRED.
 
 ## Economic Context
 
@@ -71,6 +90,11 @@ How Indiana generates its state tax revenue, by source:
 | Sales Tax | 7.0% (no local) | 6.25% (+ local) |
 | Competitiveness Rank | 8th | 36th |
 
+## Historical Context
+
+- **1963**: Individual income tax, corporate income tax, and retail sales tax all enacted simultaneously
+- **2008**: Major restructuring: property tax caps constitutionally enacted; sales tax raised to 7%
+- **2024**: Individual income tax rate reduced to 3.05% (continuing phased reductions from 3.23%)
 ## Federal Interaction
 
 - **PTET Status**: Adopted — pass-through entity tax available

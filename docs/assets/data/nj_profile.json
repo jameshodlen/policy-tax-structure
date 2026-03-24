@@ -1,0 +1,139 @@
+{
+  "state": "New Jersey",
+  "abbreviation": "NJ",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 1.4,
+        "min": 0,
+        "max": 20000
+      },
+      {
+        "rate": 1.75,
+        "min": 20000,
+        "max": 35000
+      },
+      {
+        "rate": 3.5,
+        "min": 35000,
+        "max": 40000
+      },
+      {
+        "rate": 5.525,
+        "min": 40000,
+        "max": 75000
+      },
+      {
+        "rate": 6.37,
+        "min": 75000,
+        "max": 500000
+      },
+      {
+        "rate": 8.97,
+        "min": 500000,
+        "max": 1000000
+      },
+      {
+        "rate": 10.75,
+        "min": 1000000,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 6.625,
+    "local_sales_tax": false,
+    "clothing_exempt": true,
+    "corporate_tax_rate": 11.5,
+    "property_tax_admin": "Local tax assessors, county boards of taxation",
+    "estate_tax": true,
+    "estate_tax_exemption": 2000000,
+    "notable_credits": [
+      "Earned Income Tax Credit (state, 40% of federal)",
+      "Property Tax Credit/Deduction",
+      "Child Tax Credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          8.3,
+          9.0
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 50,
+    "corporate_rank": 50,
+    "individual_income_rank": 50,
+    "sales_tax_rank": 45,
+    "property_tax_rank": 50,
+    "unemployment_insurance_rank": 50
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "high",
+    "federal_conformity": "rolling",
+    "recent_changes": "2023: ANCHOR property tax relief expanded. Corporate surcharge of 2.5% on income over $1M extended."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "Newark",
+        "homestead_rate": 3.12,
+        "commercial_rate": 3.12,
+        "industrial_rate": 3.12,
+        "apartment_rate": 3.12
+      },
+      {
+        "city": "Jersey City",
+        "homestead_rate": 1.66,
+        "commercial_rate": 1.66,
+        "industrial_rate": 1.66,
+        "apartment_rate": 1.66
+      },
+      {
+        "city": "Trenton",
+        "homestead_rate": 3.41,
+        "commercial_rate": 3.41,
+        "industrial_rate": 3.41,
+        "apartment_rate": 3.41
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 2.73,
+      "rate_range": "1.66% - 3.41%",
+      "commercial_to_residential_ratio": 1.0
+    },
+    "assessment_practice": "Local tax assessors; county boards of taxation equalize",
+    "classification": false,
+    "circuit_breaker": true,
+    "relief_programs": [
+      "Homestead Benefit Program (rebate for qualifying homeowners)",
+      "Senior Freeze program for 65+ and disabled homeowners"
+    ]
+  }
+}

@@ -55,8 +55,27 @@ How North Carolina generates its state tax revenue, by source:
 
 ## Who Pays? Effective Tax Rates by Income
 
-!!! info "Distributional Data Pending"
-    ITEP distributional data is not yet available for North Carolina. Data collection is in progress. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology.
+<div class="chart-container" markdown>
+<canvas data-chart-type="bar"
+        data-source="../assets/data/nc_profile.json"
+        data-key="effective_rates_by_quintile">
+</canvas>
+</div>
+
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for North Carolina. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+=== "Tax Foundation View"
+
+North Carolina ranks **9th** on the State Tax Competitiveness Index (2024).
+
+=== "ITEP View"
+
+ITEP distributional analysis for North Carolina shows the effective state and local tax rates by income group.
+
+=== "Primary Source Data"
+
+    State tax data from Census Bureau and economic indicators from BEA/FRED.
 
 ## Economic Context
 
@@ -73,11 +92,11 @@ How North Carolina generates its state tax revenue, by source:
 
 ## Historical Context
 
-- **1921**: Individual income tax enacted with graduated rates
-- **2013**: Tax reform signed — converts graduated income tax to flat 5.8%
-- **2014**: Flat rate takes effect. Corporate rate begins scheduled reductions.
-- **2021**: Rate reduced to 5.25%, with trigger mechanism for further reductions
-- **2026**: Rate at 4.25%, corporate rate at 2.5% with scheduled elimination by 2030
+- **1921**: Modern income tax enacted with graduated rates
+- **1933**: Sales tax enacted
+- **2013**: Major reform: graduated income tax replaced with flat 5.8%, corporate rate cuts begin
+- **2021**: SB 105: Phased rate reductions from 5.25% toward 3.99% by 2027; corporate phase-out by 2030
+- **2025**: Flat rate reaches 4.25%, on track for 3.99% in 2026
 ## Federal Interaction
 
 - **PTET Status**: Adopted — pass-through entity tax available

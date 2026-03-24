@@ -1,0 +1,82 @@
+{
+  "state": "Rhode Island",
+  "abbreviation": "RI",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 3.75,
+        "min": 0,
+        "max": 77450
+      },
+      {
+        "rate": 4.75,
+        "min": 77450,
+        "max": 176050
+      },
+      {
+        "rate": 5.99,
+        "min": 176050,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 7.0,
+    "local_sales_tax": false,
+    "clothing_exempt": true,
+    "corporate_tax_rate": 7.0,
+    "property_tax_admin": "Municipal assessors. Among the highest effective property tax rates in the nation. Full and fair cash value assessment.",
+    "estate_tax": true,
+    "estate_tax_exemption": 1802431,
+    "notable_credits": [
+      "EITC",
+      "Property tax circuit breaker",
+      "Wavemaker Fellowship (student loan credit)"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          10.6,
+          7.8
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 34,
+    "corporate_rank": 31,
+    "individual_income_rank": 38,
+    "sales_tax_rank": 42,
+    "property_tax_rank": 38,
+    "unemployment_insurance_rank": 41
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "moderate",
+    "federal_conformity": "rolling",
+    "recent_changes": "PTET credit reduced to 90%. Decoupled from OBBBA tip/overtime exclusions. Clothing items under $250 exempt from sales tax."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  }
+}

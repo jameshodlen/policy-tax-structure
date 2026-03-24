@@ -8,8 +8,20 @@
   "states": {
     "MN": {
       "cities": [
-        {"city": "Minneapolis", "homestead_rate": 1.21, "commercial_rate": 2.85, "industrial_rate": 2.85, "apartment_rate": 1.96},
-        {"city": "Duluth", "homestead_rate": 1.45, "commercial_rate": 3.12, "industrial_rate": 3.12, "apartment_rate": 2.33}
+        {
+          "city": "Minneapolis",
+          "homestead_rate": 1.21,
+          "commercial_rate": 2.85,
+          "industrial_rate": 2.85,
+          "apartment_rate": 1.96
+        },
+        {
+          "city": "Duluth",
+          "homestead_rate": 1.45,
+          "commercial_rate": 3.12,
+          "industrial_rate": 3.12,
+          "apartment_rate": 2.33
+        }
       ],
       "assessment_practice": "County assessors; state Board of Assessors equalizes",
       "classification": true,
@@ -23,8 +35,20 @@
     },
     "WI": {
       "cities": [
-        {"city": "Milwaukee", "homestead_rate": 2.53, "commercial_rate": 2.53, "industrial_rate": 2.53, "apartment_rate": 2.53},
-        {"city": "Madison", "homestead_rate": 2.09, "commercial_rate": 2.09, "industrial_rate": 2.09, "apartment_rate": 2.09}
+        {
+          "city": "Milwaukee",
+          "homestead_rate": 2.53,
+          "commercial_rate": 2.53,
+          "industrial_rate": 2.53,
+          "apartment_rate": 2.53
+        },
+        {
+          "city": "Madison",
+          "homestead_rate": 2.09,
+          "commercial_rate": 2.09,
+          "industrial_rate": 2.09,
+          "apartment_rate": 2.09
+        }
       ],
       "assessment_practice": "Local assessors; state equalization by DOR",
       "classification": false,
@@ -38,10 +62,34 @@
     },
     "TX": {
       "cities": [
-        {"city": "Houston", "homestead_rate": 2.03, "commercial_rate": 2.03, "industrial_rate": 2.03, "apartment_rate": 2.03},
-        {"city": "Dallas", "homestead_rate": 1.93, "commercial_rate": 1.93, "industrial_rate": 1.93, "apartment_rate": 1.93},
-        {"city": "San Antonio", "homestead_rate": 2.15, "commercial_rate": 2.15, "industrial_rate": 2.15, "apartment_rate": 2.15},
-        {"city": "Austin", "homestead_rate": 1.68, "commercial_rate": 1.68, "industrial_rate": 1.68, "apartment_rate": 1.68}
+        {
+          "city": "Houston",
+          "homestead_rate": 2.03,
+          "commercial_rate": 2.03,
+          "industrial_rate": 2.03,
+          "apartment_rate": 2.03
+        },
+        {
+          "city": "Dallas",
+          "homestead_rate": 1.93,
+          "commercial_rate": 1.93,
+          "industrial_rate": 1.93,
+          "apartment_rate": 1.93
+        },
+        {
+          "city": "San Antonio",
+          "homestead_rate": 2.15,
+          "commercial_rate": 2.15,
+          "industrial_rate": 2.15,
+          "apartment_rate": 2.15
+        },
+        {
+          "city": "Austin",
+          "homestead_rate": 1.68,
+          "commercial_rate": 1.68,
+          "industrial_rate": 1.68,
+          "apartment_rate": 1.68
+        }
       ],
       "assessment_practice": "County appraisal districts; state Comptroller equalizes",
       "classification": false,
@@ -55,9 +103,27 @@
     },
     "NJ": {
       "cities": [
-        {"city": "Newark", "homestead_rate": 3.12, "commercial_rate": 3.12, "industrial_rate": 3.12, "apartment_rate": 3.12},
-        {"city": "Jersey City", "homestead_rate": 1.66, "commercial_rate": 1.66, "industrial_rate": 1.66, "apartment_rate": 1.66},
-        {"city": "Trenton", "homestead_rate": 3.41, "commercial_rate": 3.41, "industrial_rate": 3.41, "apartment_rate": 3.41}
+        {
+          "city": "Newark",
+          "homestead_rate": 3.12,
+          "commercial_rate": 3.12,
+          "industrial_rate": 3.12,
+          "apartment_rate": 3.12
+        },
+        {
+          "city": "Jersey City",
+          "homestead_rate": 1.66,
+          "commercial_rate": 1.66,
+          "industrial_rate": 1.66,
+          "apartment_rate": 1.66
+        },
+        {
+          "city": "Trenton",
+          "homestead_rate": 3.41,
+          "commercial_rate": 3.41,
+          "industrial_rate": 3.41,
+          "apartment_rate": 3.41
+        }
       ],
       "assessment_practice": "Local tax assessors; county boards of taxation equalize",
       "classification": false,
@@ -71,9 +137,27 @@
     },
     "CA": {
       "cities": [
-        {"city": "Los Angeles", "homestead_rate": 0.72, "commercial_rate": 0.72, "industrial_rate": 0.72, "apartment_rate": 0.72},
-        {"city": "San Francisco", "homestead_rate": 0.64, "commercial_rate": 0.64, "industrial_rate": 0.64, "apartment_rate": 0.64},
-        {"city": "San Diego", "homestead_rate": 0.73, "commercial_rate": 0.73, "industrial_rate": 0.73, "apartment_rate": 0.73}
+        {
+          "city": "Los Angeles",
+          "homestead_rate": 0.72,
+          "commercial_rate": 0.72,
+          "industrial_rate": 0.72,
+          "apartment_rate": 0.72
+        },
+        {
+          "city": "San Francisco",
+          "homestead_rate": 0.64,
+          "commercial_rate": 0.64,
+          "industrial_rate": 0.64,
+          "apartment_rate": 0.64
+        },
+        {
+          "city": "San Diego",
+          "homestead_rate": 0.73,
+          "commercial_rate": 0.73,
+          "industrial_rate": 0.73,
+          "apartment_rate": 0.73
+        }
       ],
       "assessment_practice": "County assessors; Proposition 13 limits assessment increases to 2%/year from purchase price",
       "classification": false,
@@ -87,18 +171,456 @@
     },
     "IL": {
       "cities": [
-        {"city": "Chicago", "homestead_rate": 1.85, "commercial_rate": 3.65, "industrial_rate": 3.65, "apartment_rate": 2.58},
-        {"city": "Springfield", "homestead_rate": 2.23, "commercial_rate": 2.23, "industrial_rate": 2.23, "apartment_rate": 2.23}
+        {
+          "city": "Chicago",
+          "homestead_rate": 1.85,
+          "commercial_rate": 3.65,
+          "industrial_rate": 3.65,
+          "apartment_rate": 2.58
+        },
+        {
+          "city": "Springfield",
+          "homestead_rate": 2.23,
+          "commercial_rate": 2.23,
+          "industrial_rate": 2.23,
+          "apartment_rate": 2.23
+        }
       ],
       "assessment_practice": "Township assessors (Cook County) / County supervisors of assessments; state equalization factor",
       "classification": true,
-      "classification_detail": "Cook County uses classification — residential assessed at 10% of market value, commercial at 25%",
+      "classification_detail": "Cook County uses classification \u2014 residential assessed at 10% of market value, commercial at 25%",
       "homestead_exemptions": "General Homestead Exemption ($10,000 Cook County, $6,000 elsewhere)",
       "circuit_breaker": true,
       "circuit_breaker_detail": "Senior Citizens Property Tax Grant (circuit breaker for 65+ with income under $65,000)",
       "levy_limits": true,
       "assessment_limits": false,
       "truth_in_taxation": true
+    },
+    "NY": {
+      "cities": [
+        {
+          "city": "New York City",
+          "homestead_rate": 0.88,
+          "commercial_rate": 4.05,
+          "industrial_rate": 4.05,
+          "apartment_rate": 2.39
+        },
+        {
+          "city": "Buffalo",
+          "homestead_rate": 2.57,
+          "commercial_rate": 2.57,
+          "industrial_rate": 2.57,
+          "apartment_rate": 2.57
+        }
+      ],
+      "assessment_practice": "Local assessors (varying cycle); state Office of Real Property Tax Services provides oversight",
+      "classification": true,
+      "classification_detail": "NYC uses 4 property classes with different assessment ratios; rest of state varies",
+      "homestead_exemptions": "STAR program \u2014 Basic ($30,000 exemption) and Enhanced ($74,900 for 65+)",
+      "circuit_breaker": true,
+      "circuit_breaker_detail": "NYC rent increase exemption (SCRIE/DRIE) and state School Tax Relief (STAR)",
+      "levy_limits": true,
+      "assessment_limits": false,
+      "truth_in_taxation": false
+    },
+    "FL": {
+      "cities": [
+        {
+          "city": "Miami",
+          "homestead_rate": 1.82,
+          "commercial_rate": 1.82,
+          "industrial_rate": 1.82,
+          "apartment_rate": 1.82
+        },
+        {
+          "city": "Jacksonville",
+          "homestead_rate": 1.48,
+          "commercial_rate": 1.48,
+          "industrial_rate": 1.48,
+          "apartment_rate": 1.48
+        },
+        {
+          "city": "Tampa",
+          "homestead_rate": 1.73,
+          "commercial_rate": 1.73,
+          "industrial_rate": 1.73,
+          "apartment_rate": 1.73
+        }
+      ],
+      "assessment_practice": "County property appraisers; state Department of Revenue equalizes",
+      "classification": false,
+      "classification_detail": null,
+      "homestead_exemptions": "Save Our Homes: $50,000 homestead exemption; 3%/year assessment cap for homestead",
+      "circuit_breaker": false,
+      "circuit_breaker_detail": null,
+      "levy_limits": true,
+      "assessment_limits": true,
+      "truth_in_taxation": true
+    },
+    "PA": {
+      "cities": [
+        {
+          "city": "Philadelphia",
+          "homestead_rate": 1.4,
+          "commercial_rate": 1.4,
+          "industrial_rate": 1.4,
+          "apartment_rate": 1.4
+        },
+        {
+          "city": "Pittsburgh",
+          "homestead_rate": 2.16,
+          "commercial_rate": 2.16,
+          "industrial_rate": 2.16,
+          "apartment_rate": 2.16
+        }
+      ],
+      "assessment_practice": "County-administered with widely varying practices. Some counties use outdated base years.",
+      "classification": false,
+      "classification_detail": null,
+      "homestead_exemptions": "Optional county homestead/farmstead exclusion (Act 50)",
+      "circuit_breaker": true,
+      "circuit_breaker_detail": "Property Tax/Rent Rebate Program for 65+, widows/widowers, and disabled",
+      "levy_limits": true,
+      "assessment_limits": false,
+      "truth_in_taxation": false
+    },
+    "OH": {
+      "cities": [
+        {
+          "city": "Columbus",
+          "homestead_rate": 1.81,
+          "commercial_rate": 2.58,
+          "industrial_rate": 2.58,
+          "apartment_rate": 2.58
+        },
+        {
+          "city": "Cleveland",
+          "homestead_rate": 2.17,
+          "commercial_rate": 3.1,
+          "industrial_rate": 3.1,
+          "apartment_rate": 3.1
+        }
+      ],
+      "assessment_practice": "County auditors. Triennial reappraisals with sexennial physical inspections.",
+      "classification": true,
+      "classification_detail": "Residential/agricultural assessed at 35% of market value; commercial at 35% but different rollback percentages",
+      "homestead_exemptions": "Homestead exemption for 65+ and disabled ($26,200 reduction in market value)",
+      "circuit_breaker": false,
+      "circuit_breaker_detail": null,
+      "levy_limits": true,
+      "assessment_limits": false,
+      "truth_in_taxation": false
+    },
+    "GA": {
+      "cities": [
+        {
+          "city": "Atlanta",
+          "homestead_rate": 1.19,
+          "commercial_rate": 1.19,
+          "industrial_rate": 1.19,
+          "apartment_rate": 1.19
+        },
+        {
+          "city": "Savannah",
+          "homestead_rate": 1.28,
+          "commercial_rate": 1.28,
+          "industrial_rate": 1.28,
+          "apartment_rate": 1.28
+        }
+      ],
+      "assessment_practice": "County tax assessors. Assessed at 40% of fair market value.",
+      "classification": false,
+      "classification_detail": null,
+      "homestead_exemptions": "Basic homestead exemption varies by county ($2,000-$50,000+); additional for 62+",
+      "circuit_breaker": false,
+      "circuit_breaker_detail": null,
+      "levy_limits": false,
+      "assessment_limits": false,
+      "truth_in_taxation": false
+    },
+    "MA": {
+      "cities": [
+        {
+          "city": "Boston",
+          "homestead_rate": 1.03,
+          "commercial_rate": 2.29,
+          "industrial_rate": 2.29,
+          "apartment_rate": 2.29
+        },
+        {
+          "city": "Worcester",
+          "homestead_rate": 1.57,
+          "commercial_rate": 3.22,
+          "industrial_rate": 3.22,
+          "apartment_rate": 3.22
+        }
+      ],
+      "assessment_practice": "Local assessors at full and fair cash value. Triennial certification by DOR.",
+      "classification": true,
+      "classification_detail": "Municipalities may adopt classification to tax commercial/industrial at higher rate than residential",
+      "homestead_exemptions": "Residential exemption (adopted locally); property tax deferral for 65+",
+      "circuit_breaker": true,
+      "circuit_breaker_detail": "Senior Circuit Breaker Tax Credit for 65+ homeowners/renters",
+      "levy_limits": true,
+      "assessment_limits": false,
+      "truth_in_taxation": false
+    },
+    "CO": {
+      "cities": [
+        {
+          "city": "Denver",
+          "homestead_rate": 0.56,
+          "commercial_rate": 1.96,
+          "industrial_rate": 1.96,
+          "apartment_rate": 1.96
+        },
+        {
+          "city": "Colorado Springs",
+          "homestead_rate": 0.52,
+          "commercial_rate": 1.82,
+          "industrial_rate": 1.82,
+          "apartment_rate": 1.82
+        }
+      ],
+      "assessment_practice": "64 county assessors. Residential at 6.7% of actual value; commercial at 29%.",
+      "classification": true,
+      "classification_detail": "Residential property assessed at 6.7% of actual value; non-residential at 29%",
+      "homestead_exemptions": "Senior Homestead Exemption (50% of first $200,000 for 65+, 10-year residency)",
+      "circuit_breaker": true,
+      "circuit_breaker_detail": "Property Tax/Rent/Heat Rebate for 65+ and disabled with income under $16,925",
+      "levy_limits": true,
+      "assessment_limits": false,
+      "truth_in_taxation": true
+    },
+    "CT": {
+      "cities": [
+        {
+          "city": "Hartford",
+          "homestead_rate": 3.7,
+          "commercial_rate": 3.7,
+          "industrial_rate": 3.7,
+          "apartment_rate": 3.7
+        },
+        {
+          "city": "Bridgeport",
+          "homestead_rate": 3.33,
+          "commercial_rate": 3.33,
+          "industrial_rate": 3.33,
+          "apartment_rate": 3.33
+        },
+        {
+          "city": "New Haven",
+          "homestead_rate": 3.24,
+          "commercial_rate": 3.24,
+          "industrial_rate": 3.24,
+          "apartment_rate": 3.24
+        }
+      ],
+      "assessment_practice": "169 municipalities assess at 70% of fair market value. No county government.",
+      "classification": false,
+      "classification_detail": null,
+      "homestead_exemptions": "Local option property tax exemptions for veterans, elderly, disabled",
+      "circuit_breaker": true,
+      "circuit_breaker_detail": "Property Tax Credit for income-qualifying homeowners (up to $300)",
+      "levy_limits": false,
+      "assessment_limits": false,
+      "truth_in_taxation": false
+    },
+    "VA": {
+      "cities": [
+        {
+          "city": "Virginia Beach",
+          "homestead_rate": 0.95,
+          "commercial_rate": 0.95,
+          "industrial_rate": 0.95,
+          "apartment_rate": 0.95
+        },
+        {
+          "city": "Richmond",
+          "homestead_rate": 1.2,
+          "commercial_rate": 1.2,
+          "industrial_rate": 1.2,
+          "apartment_rate": 1.2
+        },
+        {
+          "city": "Norfolk",
+          "homestead_rate": 1.15,
+          "commercial_rate": 1.15,
+          "industrial_rate": 1.15,
+          "apartment_rate": 1.15
+        }
+      ],
+      "assessment_practice": "Local commissioners of the revenue or assessors. Fair market value. Annual or biennial reassessment.",
+      "classification": false,
+      "classification_detail": null,
+      "homestead_exemptions": "Real estate tax exemption for 65+ and disabled (locality-specific income/asset limits)",
+      "circuit_breaker": true,
+      "circuit_breaker_detail": "Local tax relief programs for elderly and disabled (mandated by state, implemented by localities)",
+      "levy_limits": false,
+      "assessment_limits": false,
+      "truth_in_taxation": false
+    },
+    "MI": {
+      "cities": [
+        {
+          "city": "Detroit",
+          "homestead_rate": 2.59,
+          "commercial_rate": 4.13,
+          "industrial_rate": 4.13,
+          "apartment_rate": 4.13
+        },
+        {
+          "city": "Grand Rapids",
+          "homestead_rate": 1.71,
+          "commercial_rate": 2.74,
+          "industrial_rate": 2.74,
+          "apartment_rate": 2.74
+        }
+      ],
+      "assessment_practice": "Local assessors. Assessed at 50% of true cash value. Proposal A caps taxable value increases at lesser of inflation or 5%.",
+      "classification": true,
+      "classification_detail": "Homestead vs non-homestead: non-homestead pays additional school operating millage (~18 mills)",
+      "homestead_exemptions": "Principal Residence Exemption (exempt from 18-mill school operating tax)",
+      "circuit_breaker": true,
+      "circuit_breaker_detail": "Homestead Property Tax Credit for homeowners and renters with household income under $63,000",
+      "levy_limits": true,
+      "assessment_limits": true,
+      "truth_in_taxation": true
+    },
+    "NH": {
+      "cities": [
+        {
+          "city": "Manchester",
+          "homestead_rate": 2.32,
+          "commercial_rate": 2.32,
+          "industrial_rate": 2.32,
+          "apartment_rate": 2.32
+        },
+        {
+          "city": "Nashua",
+          "homestead_rate": 2.14,
+          "commercial_rate": 2.14,
+          "industrial_rate": 2.14,
+          "apartment_rate": 2.14
+        }
+      ],
+      "assessment_practice": "Local selectmen/assessors. Full and true value. Among highest effective rates nationally.",
+      "classification": false,
+      "classification_detail": null,
+      "homestead_exemptions": "Elderly exemption (locality-specific); veterans' tax credit ($750 minimum)",
+      "circuit_breaker": true,
+      "circuit_breaker_detail": "Low and Moderate Income Homeowners Property Tax Relief (state-funded)",
+      "levy_limits": false,
+      "assessment_limits": false,
+      "truth_in_taxation": false
+    },
+    "WA": {
+      "cities": [
+        {
+          "city": "Seattle",
+          "homestead_rate": 0.87,
+          "commercial_rate": 0.87,
+          "industrial_rate": 0.87,
+          "apartment_rate": 0.87
+        },
+        {
+          "city": "Spokane",
+          "homestead_rate": 1.12,
+          "commercial_rate": 1.12,
+          "industrial_rate": 1.12,
+          "apartment_rate": 1.12
+        }
+      ],
+      "assessment_practice": "County assessors. Assessed at 100% of true and fair value.",
+      "classification": false,
+      "classification_detail": null,
+      "homestead_exemptions": "Senior/Disabled Exemption for 61+ with income under $58,423",
+      "circuit_breaker": true,
+      "circuit_breaker_detail": "Property Tax Deferral Program for qualifying seniors, disabled, and limited-income homeowners",
+      "levy_limits": true,
+      "assessment_limits": false,
+      "truth_in_taxation": false
+    },
+    "NC": {
+      "cities": [
+        {
+          "city": "Charlotte",
+          "homestead_rate": 1.02,
+          "commercial_rate": 1.02,
+          "industrial_rate": 1.02,
+          "apartment_rate": 1.02
+        },
+        {
+          "city": "Raleigh",
+          "homestead_rate": 0.96,
+          "commercial_rate": 0.96,
+          "industrial_rate": 0.96,
+          "apartment_rate": 0.96
+        }
+      ],
+      "assessment_practice": "County tax administrators. Assessed at true value in money. Octennial revaluation cycle.",
+      "classification": false,
+      "classification_detail": null,
+      "homestead_exemptions": "Homestead exclusion for 65+/disabled ($35,600-$50,000 based on income)",
+      "circuit_breaker": true,
+      "circuit_breaker_detail": "Circuit breaker tax deferment for 65+ and disabled with income under $57,050",
+      "levy_limits": false,
+      "assessment_limits": false,
+      "truth_in_taxation": false
+    },
+    "OR": {
+      "cities": [
+        {
+          "city": "Portland",
+          "homestead_rate": 1.04,
+          "commercial_rate": 1.04,
+          "industrial_rate": 1.04,
+          "apartment_rate": 1.04
+        },
+        {
+          "city": "Salem",
+          "homestead_rate": 1.22,
+          "commercial_rate": 1.22,
+          "industrial_rate": 1.22,
+          "apartment_rate": 1.22
+        }
+      ],
+      "assessment_practice": "County assessors. Measure 5 caps rates at $5/$1,000 for education, $10/$1,000 for general government. Measure 50 froze assessed values at 1995-96 levels with 3%/year growth cap.",
+      "classification": false,
+      "classification_detail": null,
+      "homestead_exemptions": "Disabled Veteran Exemption; senior/disabled deferral program",
+      "circuit_breaker": true,
+      "circuit_breaker_detail": "Senior/Disabled Property Tax Deferral; elderly rental assistance",
+      "levy_limits": true,
+      "assessment_limits": true,
+      "truth_in_taxation": false
+    },
+    "SC": {
+      "cities": [
+        {
+          "city": "Charleston",
+          "homestead_rate": 0.53,
+          "commercial_rate": 0.88,
+          "industrial_rate": 0.88,
+          "apartment_rate": 0.88
+        },
+        {
+          "city": "Columbia",
+          "homestead_rate": 0.56,
+          "commercial_rate": 0.93,
+          "industrial_rate": 0.93,
+          "apartment_rate": 0.93
+        }
+      ],
+      "assessment_practice": "County assessors. Owner-occupied residential at 4% of FMV; commercial at 6%; other residential at 6%.",
+      "classification": true,
+      "classification_detail": "Owner-occupied residential assessed at 4% of FMV; commercial at 6%; agricultural at use-value",
+      "homestead_exemptions": "Homestead exemption for 65+/disabled (exempt from school operating taxes)",
+      "circuit_breaker": false,
+      "circuit_breaker_detail": null,
+      "levy_limits": true,
+      "assessment_limits": true,
+      "truth_in_taxation": false
     }
   }
 }

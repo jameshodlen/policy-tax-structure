@@ -1,0 +1,100 @@
+{
+  "state": "Georgia",
+  "abbreviation": "GA",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "flat",
+    "income_tax_brackets": [
+      {
+        "rate": 5.19,
+        "min": 0,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 4.0,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 5.75,
+    "property_tax_admin": "County boards of assessors, state equalization",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "Low-Income Credit",
+      "Child and Dependent Care Credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          10.5,
+          7.1
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 18,
+    "corporate_rank": 18,
+    "individual_income_rank": 21,
+    "sales_tax_rank": 16,
+    "property_tax_rank": 18,
+    "unemployment_insurance_rank": 14
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "moderate",
+    "federal_conformity": "selective",
+    "recent_changes": "2025: Flat rate reduced from 5.39% to 5.19%. Scheduled reductions continue with 4.99% floor via revenue triggers."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "Atlanta",
+        "homestead_rate": 1.19,
+        "commercial_rate": 1.19,
+        "industrial_rate": 1.19,
+        "apartment_rate": 1.19
+      },
+      {
+        "city": "Savannah",
+        "homestead_rate": 1.28,
+        "commercial_rate": 1.28,
+        "industrial_rate": 1.28,
+        "apartment_rate": 1.28
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 1.23,
+      "rate_range": "1.19% - 1.28%",
+      "commercial_to_residential_ratio": 1.0
+    },
+    "assessment_practice": "County tax assessors. Assessed at 40% of fair market value.",
+    "classification": false,
+    "circuit_breaker": false,
+    "relief_programs": [
+      "Basic homestead exemption varies by county ($2,000-$50,000+); additional for 62+"
+    ]
+  }
+}
