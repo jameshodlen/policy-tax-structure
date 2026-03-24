@@ -1,0 +1,72 @@
+{
+  "state": "Arizona",
+  "abbreviation": "AZ",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "flat",
+    "income_tax_brackets": [
+      {
+        "rate": 2.5,
+        "min": 0,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 5.6,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 4.9,
+    "property_tax_admin": "County assessors, state oversight",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "Family Tax Credit",
+      "Dependent Tax Credit",
+      "Increased Excise Tax Credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          12.5,
+          5.3
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 19,
+    "corporate_rank": 17,
+    "individual_income_rank": 16,
+    "sales_tax_rank": 28,
+    "property_tax_rank": 6,
+    "unemployment_insurance_rank": 7
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "low",
+    "federal_conformity": "rolling",
+    "recent_changes": "2023: Flat rate of 2.5% took effect, down from graduated structure with 4.5% top rate."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  }
+}

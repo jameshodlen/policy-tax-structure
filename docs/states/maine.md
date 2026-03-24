@@ -4,25 +4,25 @@
 
 ## Overview
 
-Maine's tax structure. Maine is one of only six states (plus DC) that ITEP identifies as reducing income inequality through its tax code. The Tax Foundation ranks Maine 33rd on its State Tax Competitiveness Index.
+Maine employs a graduated individual income tax with 3 brackets and a top rate of 7.15%, a 5.5% state sales tax, and a 8.93% corporate tax rate. Maine is one of only six states (plus DC) that ITEP identifies as reducing income inequality through its tax code. The Tax Foundation ranks Maine 33rd on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">5.8%–7.15%</div>
+<div class="detail">3 brackets, graduated</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">5.5%</div>
+<div class="detail">No local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">8.93%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,22 @@ Maine's tax structure. Maine is one of only six states (plus DC) that ITEP ident
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| $0 – $26,800 | 5.8% |
+| $26,800 – $63,450 | 6.75% |
+| Over $63,450 | 7.15% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | Municipal assessors value property; State Property Tax Division provides oversight and equalization. |
+| **Estate Tax** | Yes — $7,000,000 exemption |
+| **Notable Credits** | EITC (50% of federal for childless workers), Child tax credit (doubled for under-6 in 2025), Property tax fairness credit |
+| **PTET Status** | Not adopted |
+| **Federal Conformity** | Selective conformity to IRC |
 
 ## Revenue Composition
 
@@ -81,14 +88,21 @@ Maine is one of only **six states plus DC** whose tax system **reduces income in
 
 | Dimension | Maine | Rhode Island |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Graduated (5.8%–7.15%) | Graduated (3.75%–5.99%) |
+| Sales Tax | 5.5% (no local) | 7.0% (no local) |
 | Competitiveness Rank | 33rd | 34th |
 
+## Historical Context
+
+- **1951**: Sales tax enacted
+- **1969**: Individual and corporate income taxes enacted
+- **2017**: 3% income tax surcharge on income over $200,000 enacted then repealed same year
+- **2025**: Child tax credit doubled for children under 6. PTET bill introduced but not enacted.
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Not adopted
+- **Federal Conformity**: Selective conformity to IRC
+- **SALT Cap Impact**: Moderate
 
 ## Data Sources & Citations
 

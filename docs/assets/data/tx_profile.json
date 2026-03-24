@@ -1,0 +1,105 @@
+{
+  "state": "Texas",
+  "abbreviation": "TX",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "none",
+    "income_tax_brackets": [],
+    "sales_tax_rate": 6.25,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": null,
+    "property_tax_admin": "County appraisal districts, state Comptroller equalizes",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": []
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          13.0,
+          3.1
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 14,
+    "corporate_rank": 8,
+    "individual_income_rank": 6,
+    "sales_tax_rank": 35,
+    "property_tax_rank": 44,
+    "unemployment_insurance_rank": 16
+  },
+  "key_facts": {
+    "ptet_adopted": false,
+    "salt_impact": "none",
+    "federal_conformity": null,
+    "recent_changes": "2023: $18 billion property tax relief package. Franchise tax threshold raised. No income tax — constitutional prohibition (1993)."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "Houston",
+        "homestead_rate": 2.03,
+        "commercial_rate": 2.03,
+        "industrial_rate": 2.03,
+        "apartment_rate": 2.03
+      },
+      {
+        "city": "Dallas",
+        "homestead_rate": 1.93,
+        "commercial_rate": 1.93,
+        "industrial_rate": 1.93,
+        "apartment_rate": 1.93
+      },
+      {
+        "city": "San Antonio",
+        "homestead_rate": 2.15,
+        "commercial_rate": 2.15,
+        "industrial_rate": 2.15,
+        "apartment_rate": 2.15
+      },
+      {
+        "city": "Austin",
+        "homestead_rate": 1.68,
+        "commercial_rate": 1.68,
+        "industrial_rate": 1.68,
+        "apartment_rate": 1.68
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 1.95,
+      "rate_range": "1.68% - 2.15%",
+      "commercial_to_residential_ratio": 1.0
+    },
+    "assessment_practice": "County appraisal districts; state Comptroller equalizes",
+    "classification": false,
+    "circuit_breaker": false,
+    "relief_programs": [
+      "Mandatory $100,000 homestead exemption (school districts), additional for 65+/disabled"
+    ]
+  }
+}

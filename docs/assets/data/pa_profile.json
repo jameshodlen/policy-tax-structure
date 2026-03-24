@@ -1,0 +1,101 @@
+{
+  "state": "Pennsylvania",
+  "abbreviation": "PA",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "flat",
+    "income_tax_brackets": [
+      {
+        "rate": 3.07,
+        "min": 0,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 6.0,
+    "local_sales_tax": true,
+    "clothing_exempt": true,
+    "corporate_tax_rate": 7.99,
+    "property_tax_admin": "County-administered. Assessment practices vary widely. Some counties use outdated base years. State oversight through State Tax Equalization Board.",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "Working Pennsylvanians Tax Credit (state EITC, enacted Nov 2025)",
+      "Property Tax/Rent Rebate Program"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          13.2,
+          6.0
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 26,
+    "corporate_rank": 44,
+    "individual_income_rank": 11,
+    "sales_tax_rank": 31,
+    "property_tax_rank": 37,
+    "unemployment_insurance_rank": 44
+  },
+  "key_facts": {
+    "ptet_adopted": false,
+    "salt_impact": "moderate",
+    "federal_conformity": "selective",
+    "recent_changes": "Corporate tax rate phasing from 9.99% to 4.99% by 2031 (currently 7.99%). Inheritance tax (0%-15% by relationship) still in effect. Flat income tax constitutionally required."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "Philadelphia",
+        "homestead_rate": 1.4,
+        "commercial_rate": 1.4,
+        "industrial_rate": 1.4,
+        "apartment_rate": 1.4
+      },
+      {
+        "city": "Pittsburgh",
+        "homestead_rate": 2.16,
+        "commercial_rate": 2.16,
+        "industrial_rate": 2.16,
+        "apartment_rate": 2.16
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 1.78,
+      "rate_range": "1.40% - 2.16%",
+      "commercial_to_residential_ratio": 1.0
+    },
+    "assessment_practice": "County-administered with widely varying practices. Some counties use outdated base years.",
+    "classification": false,
+    "circuit_breaker": true,
+    "relief_programs": [
+      "Optional county homestead/farmstead exclusion (Act 50)",
+      "Property Tax/Rent Rebate Program for 65+, widows/widowers, and disabled"
+    ]
+  }
+}

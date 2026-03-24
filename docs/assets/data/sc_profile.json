@@ -1,0 +1,111 @@
+{
+  "state": "South Carolina",
+  "abbreviation": "SC",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 0.0,
+        "min": 0,
+        "max": 3460
+      },
+      {
+        "rate": 3.0,
+        "min": 3460,
+        "max": 17330
+      },
+      {
+        "rate": 6.0,
+        "min": 17330,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 6.0,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 5.0,
+    "property_tax_admin": "County assessors. Different assessment ratios: 4% for owner-occupied residential, 6% for other residential, 10.5% for commercial.",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "Tuition tax credit",
+      "Two-wage earner credit",
+      "Child and dependent care credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          8.4,
+          5.4
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 25,
+    "corporate_rank": 23,
+    "individual_income_rank": 33,
+    "sales_tax_rank": 11,
+    "property_tax_rank": 10,
+    "unemployment_insurance_rank": 13
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "moderate",
+    "federal_conformity": "selective",
+    "recent_changes": "Top rate cut from 6.2% to 6.0% for 2025. H.4216 proposes flat 3.99% for 2026 with path toward elimination. PTET at flat 3%."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "Charleston",
+        "homestead_rate": 0.53,
+        "commercial_rate": 0.88,
+        "industrial_rate": 0.88,
+        "apartment_rate": 0.88
+      },
+      {
+        "city": "Columbia",
+        "homestead_rate": 0.56,
+        "commercial_rate": 0.93,
+        "industrial_rate": 0.93,
+        "apartment_rate": 0.93
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 0.55,
+      "rate_range": "0.53% - 0.56%",
+      "commercial_to_residential_ratio": 1.65
+    },
+    "assessment_practice": "County assessors. Owner-occupied residential at 4% of FMV; commercial at 6%; other residential at 6%.",
+    "classification": true,
+    "circuit_breaker": false,
+    "relief_programs": [
+      "Homestead exemption for 65+/disabled (exempt from school operating taxes)"
+    ]
+  }
+}

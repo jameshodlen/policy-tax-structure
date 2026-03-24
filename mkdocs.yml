@@ -76,18 +76,57 @@ nav:
   - Home: index.md
   - States:
     - Overview: states/index.md
-    - Wisconsin: states/wisconsin.md
-    - Minnesota: states/minnesota.md
+    - Alabama: states/alabama.md
+    - Alaska: states/alaska.md
+    - Arizona: states/arizona.md
+    - Arkansas: states/arkansas.md
     - California: states/california.md
+    - Colorado: states/colorado.md
+    - Connecticut: states/connecticut.md
+    - Delaware: states/delaware.md
+    - District of Columbia: states/district-of-columbia.md
     - Florida: states/florida.md
-    - Texas: states/texas.md
-    - New York: states/new-york.md
-    - Illinois: states/illinois.md
-    - Iowa: states/iowa.md
     - Georgia: states/georgia.md
-    - Tennessee: states/tennessee.md
-    - Washington: states/washington.md
+    - Hawaii: states/hawaii.md
+    - Idaho: states/idaho.md
+    - Illinois: states/illinois.md
+    - Indiana: states/indiana.md
+    - Iowa: states/iowa.md
+    - Kansas: states/kansas.md
+    - Kentucky: states/kentucky.md
+    - Louisiana: states/louisiana.md
+    - Maine: states/maine.md
+    - Maryland: states/maryland.md
+    - Massachusetts: states/massachusetts.md
+    - Michigan: states/michigan.md
+    - Minnesota: states/minnesota.md
+    - Mississippi: states/mississippi.md
+    - Missouri: states/missouri.md
+    - Montana: states/montana.md
+    - Nebraska: states/nebraska.md
+    - Nevada: states/nevada.md
+    - New Hampshire: states/new-hampshire.md
     - New Jersey: states/new-jersey.md
+    - New Mexico: states/new-mexico.md
+    - New York: states/new-york.md
+    - North Carolina: states/north-carolina.md
+    - North Dakota: states/north-dakota.md
+    - Ohio: states/ohio.md
+    - Oklahoma: states/oklahoma.md
+    - Oregon: states/oregon.md
+    - Pennsylvania: states/pennsylvania.md
+    - Rhode Island: states/rhode-island.md
+    - South Carolina: states/south-carolina.md
+    - South Dakota: states/south-dakota.md
+    - Tennessee: states/tennessee.md
+    - Texas: states/texas.md
+    - Utah: states/utah.md
+    - Vermont: states/vermont.md
+    - Virginia: states/virginia.md
+    - Washington: states/washington.md
+    - West Virginia: states/west-virginia.md
+    - Wisconsin: states/wisconsin.md
+    - Wyoming: states/wyoming.md
   - Analysis:
     - Overview: analysis/index.md
     - "Who Actually Pays?": analysis/who-actually-pays.md

@@ -1,0 +1,88 @@
+{
+  "state": "Vermont",
+  "abbreviation": "VT",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 3.35,
+        "min": 0,
+        "max": 45400
+      },
+      {
+        "rate": 6.6,
+        "min": 45400,
+        "max": 110050
+      },
+      {
+        "rate": 7.6,
+        "min": 110050,
+        "max": 229550
+      },
+      {
+        "rate": 8.75,
+        "min": 229550,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 6.0,
+    "local_sales_tax": true,
+    "clothing_exempt": true,
+    "corporate_tax_rate": 8.5,
+    "property_tax_admin": "Municipal listers. State oversight through Property Valuation and Review. Fair market value. Statewide education property tax.",
+    "estate_tax": true,
+    "estate_tax_exemption": 5000000,
+    "notable_credits": [
+      "EITC (expanded)",
+      "Child Tax Credit (extended to age 6)",
+      "Veteran Tax Credit (new 2025)",
+      "Renter rebate"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          8.9,
+          10.3
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 44,
+    "corporate_rank": 49,
+    "individual_income_rank": 48,
+    "sales_tax_rank": 40,
+    "property_tax_rank": 49,
+    "unemployment_insurance_rank": 47
+  },
+  "key_facts": {
+    "ptet_adopted": false,
+    "salt_impact": "moderate",
+    "federal_conformity": "selective",
+    "recent_changes": "Act 71 expanded EITC, extended Child Tax Credit to age 6, created Veteran Tax Credit, new 0.44% employer childcare payroll tax. One of only 5 income-tax states without PTET."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  }
+}

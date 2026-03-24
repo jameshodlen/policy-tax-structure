@@ -1,0 +1,98 @@
+{
+  "state": "Florida",
+  "abbreviation": "FL",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "none",
+    "income_tax_brackets": [],
+    "sales_tax_rate": 6.0,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 5.5,
+    "property_tax_admin": "County property appraisers, Save Our Homes assessment cap (3%/year)",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": []
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          12.7,
+          2.3
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 4,
+    "corporate_rank": 11,
+    "individual_income_rank": 2,
+    "sales_tax_rank": 22,
+    "property_tax_rank": 32,
+    "unemployment_insurance_rank": 1
+  },
+  "key_facts": {
+    "ptet_adopted": false,
+    "salt_impact": "none",
+    "federal_conformity": null,
+    "recent_changes": "2024: Homestead exemption increased. Corporate tax rate held at 5.5% (was temporarily 3.535% during COVID reductions)."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "Miami",
+        "homestead_rate": 1.82,
+        "commercial_rate": 1.82,
+        "industrial_rate": 1.82,
+        "apartment_rate": 1.82
+      },
+      {
+        "city": "Jacksonville",
+        "homestead_rate": 1.48,
+        "commercial_rate": 1.48,
+        "industrial_rate": 1.48,
+        "apartment_rate": 1.48
+      },
+      {
+        "city": "Tampa",
+        "homestead_rate": 1.73,
+        "commercial_rate": 1.73,
+        "industrial_rate": 1.73,
+        "apartment_rate": 1.73
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 1.68,
+      "rate_range": "1.48% - 1.82%",
+      "commercial_to_residential_ratio": 1.0
+    },
+    "assessment_practice": "County property appraisers; state Department of Revenue equalizes",
+    "classification": false,
+    "circuit_breaker": false,
+    "relief_programs": [
+      "Save Our Homes: $50,000 homestead exemption; 3%/year assessment cap for homestead"
+    ]
+  }
+}

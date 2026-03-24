@@ -4,14 +4,14 @@
 
 ## Overview
 
-Idaho employs a flat individual income tax at 5.8%, a 6.0% state sales tax, and a 5.8% corporate tax rate. The Tax Foundation ranks Idaho 13th on its State Tax Competitiveness Index.
+Idaho employs a flat individual income tax at 5.3%, a 6.0% state sales tax, and a 5.8% corporate tax rate. The Tax Foundation ranks Idaho 13th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">5.8%</div>
+<div class="value">5.3%</div>
 <div class="detail">Flat rate</div>
 </div>
 <div class="card" markdown>
@@ -35,7 +35,7 @@ Idaho employs a flat individual income tax at 5.8%, a 6.0% state sales tax, and 
 
 | Taxable Income | Rate |
 |---------------|------|
-| Over $0 | 5.8% |
+| Over $0 | 5.3% |
 ### Other Key Features
 
 | Category | Detail |
@@ -55,8 +55,27 @@ How Idaho generates its state tax revenue, by source:
 
 ## Who Pays? Effective Tax Rates by Income
 
-!!! info "Distributional Data Pending"
-    ITEP distributional data is not yet available for Idaho. Data collection is in progress. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology.
+<div class="chart-container" markdown>
+<canvas data-chart-type="bar"
+        data-source="../assets/data/id_profile.json"
+        data-key="effective_rates_by_quintile">
+</canvas>
+</div>
+
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for Idaho. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+=== "Tax Foundation View"
+
+Idaho ranks **13th** on the State Tax Competitiveness Index (2024).
+
+=== "ITEP View"
+
+ITEP distributional analysis for Idaho shows the effective state and local tax rates by income group.
+
+=== "Primary Source Data"
+
+    State tax data from Census Bureau and economic indicators from BEA/FRED.
 
 ## Economic Context
 
@@ -67,10 +86,16 @@ How Idaho generates its state tax revenue, by source:
 
 | Dimension | Idaho | Montana |
 |-----------|-----------|-----------|
-| Income Tax | Flat 5.8% | Flat 5.9% |
+| Income Tax | Flat 5.3% | Flat 5.9% |
 | Sales Tax | 6.0% (+ local) | Data pending |
 | Competitiveness Rank | 13th | 5th |
 
+## Historical Context
+
+- **1931**: Individual and corporate income taxes enacted
+- **1965**: Sales tax enacted at 3%
+- **2023**: Converted from graduated income tax to flat 5.8% rate
+- **2025**: Flat rate reduced to 5.3% (third consecutive annual cut)
 ## Federal Interaction
 
 - **PTET Status**: Adopted — pass-through entity tax available

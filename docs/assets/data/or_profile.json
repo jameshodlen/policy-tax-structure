@@ -1,0 +1,117 @@
+{
+  "state": "Oregon",
+  "abbreviation": "OR",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 4.75,
+        "min": 0,
+        "max": 4050
+      },
+      {
+        "rate": 6.75,
+        "min": 4050,
+        "max": 10200
+      },
+      {
+        "rate": 8.75,
+        "min": 10200,
+        "max": 125000
+      },
+      {
+        "rate": 9.9,
+        "min": 125000,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": null,
+    "local_sales_tax": false,
+    "clothing_exempt": null,
+    "corporate_tax_rate": 7.6,
+    "property_tax_admin": "County assessors, Measure 50 limits assessed value growth",
+    "estate_tax": true,
+    "estate_tax_exemption": 1000000,
+    "notable_credits": [
+      "Earned Income Tax Credit (state)",
+      "Oregon Kids' Credit",
+      "Working Family Household and Dependent Care Credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          9.6,
+          8.5
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 41,
+    "corporate_rank": 32,
+    "individual_income_rank": 45,
+    "sales_tax_rank": 5,
+    "property_tax_rank": 30,
+    "unemployment_insurance_rank": 45
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "high",
+    "federal_conformity": "rolling",
+    "recent_changes": "2023: Corporate Activity Tax retained. Kicker refund issued ($5.6 billion). No structural changes."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "Portland",
+        "homestead_rate": 1.04,
+        "commercial_rate": 1.04,
+        "industrial_rate": 1.04,
+        "apartment_rate": 1.04
+      },
+      {
+        "city": "Salem",
+        "homestead_rate": 1.22,
+        "commercial_rate": 1.22,
+        "industrial_rate": 1.22,
+        "apartment_rate": 1.22
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 1.13,
+      "rate_range": "1.04% - 1.22%",
+      "commercial_to_residential_ratio": 1.0
+    },
+    "assessment_practice": "County assessors. Measure 5 caps rates at $5/$1,000 for education, $10/$1,000 for general government. Measure 50 froze assessed values at 1995-96 levels with 3%/year growth cap.",
+    "classification": false,
+    "circuit_breaker": true,
+    "relief_programs": [
+      "Disabled Veteran Exemption; senior/disabled deferral program",
+      "Senior/Disabled Property Tax Deferral; elderly rental assistance"
+    ]
+  }
+}

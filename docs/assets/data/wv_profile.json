@@ -1,0 +1,92 @@
+{
+  "state": "West Virginia",
+  "abbreviation": "WV",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 2.22,
+        "min": 0,
+        "max": 10000
+      },
+      {
+        "rate": 2.96,
+        "min": 10000,
+        "max": 25000
+      },
+      {
+        "rate": 3.33,
+        "min": 25000,
+        "max": 40000
+      },
+      {
+        "rate": 4.44,
+        "min": 40000,
+        "max": 60000
+      },
+      {
+        "rate": 4.82,
+        "min": 60000,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 6.0,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 6.5,
+    "property_tax_admin": "County assessors. State Tax Commissioner provides oversight. Assessed at 60% of market value.",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "Senior citizen tax credit",
+      "Film industry investment credit",
+      "Manufacturing investment credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          9.8,
+          7.0
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 47,
+    "corporate_rank": 43,
+    "individual_income_rank": 37,
+    "sales_tax_rank": 46,
+    "property_tax_rank": 9,
+    "unemployment_insurance_rank": 43
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "moderate",
+    "federal_conformity": "selective",
+    "recent_changes": "Additional 2% rate cut in 2025 (SB 2033). Cumulative 20%+ reduction since 2023. Conformed to OBBBA. HB 3293 proposes corporate rate cut to 3.25% for 2026."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  }
+}

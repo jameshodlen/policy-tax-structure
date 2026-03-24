@@ -1,0 +1,100 @@
+{
+  "state": "North Carolina",
+  "abbreviation": "NC",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "flat",
+    "income_tax_brackets": [
+      {
+        "rate": 4.25,
+        "min": 0,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 4.75,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 2.5,
+    "property_tax_admin": "County assessors, state oversight",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "Child Tax Credit (limited)"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          10.5,
+          6.0
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 9,
+    "corporate_rank": 2,
+    "individual_income_rank": 15,
+    "sales_tax_rank": 19,
+    "property_tax_rank": 22,
+    "unemployment_insurance_rank": 11
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "moderate",
+    "federal_conformity": "rolling",
+    "recent_changes": "2014-2026: Ongoing rate reductions from original 5.8% flat rate. Corporate rate declining to 0% by 2030 under current triggers."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "Charlotte",
+        "homestead_rate": 1.02,
+        "commercial_rate": 1.02,
+        "industrial_rate": 1.02,
+        "apartment_rate": 1.02
+      },
+      {
+        "city": "Raleigh",
+        "homestead_rate": 0.96,
+        "commercial_rate": 0.96,
+        "industrial_rate": 0.96,
+        "apartment_rate": 0.96
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 0.99,
+      "rate_range": "0.96% - 1.02%",
+      "commercial_to_residential_ratio": 1.0
+    },
+    "assessment_practice": "County tax administrators. Assessed at true value in money. Octennial revaluation cycle.",
+    "classification": false,
+    "circuit_breaker": true,
+    "relief_programs": [
+      "Homestead exclusion for 65+/disabled ($35,600-$50,000 based on income)",
+      "Circuit breaker tax deferment for 65+ and disabled with income under $57,050"
+    ]
+  }
+}

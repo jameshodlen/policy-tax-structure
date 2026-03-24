@@ -58,8 +58,27 @@ How Oregon generates its state tax revenue, by source:
 
 ## Who Pays? Effective Tax Rates by Income
 
-!!! info "Distributional Data Pending"
-    ITEP distributional data is not yet available for Oregon. Data collection is in progress. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology.
+<div class="chart-container" markdown>
+<canvas data-chart-type="bar"
+        data-source="../assets/data/or_profile.json"
+        data-key="effective_rates_by_quintile">
+</canvas>
+</div>
+
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for Oregon. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+=== "Tax Foundation View"
+
+Oregon ranks **41st** on the State Tax Competitiveness Index (2024).
+
+=== "ITEP View"
+
+ITEP distributional analysis for Oregon shows the effective state and local tax rates by income group.
+
+=== "Primary Source Data"
+
+    State tax data from Census Bureau and economic indicators from BEA/FRED.
 
 ## Economic Context
 
@@ -74,6 +93,12 @@ How Oregon generates its state tax revenue, by source:
 | Sales Tax | Data pending | 6.5% (+ local) |
 | Competitiveness Rank | 41st | 16th |
 
+## Historical Context
+
+- **1930**: Individual income tax enacted (one of earliest western states)
+- **1990**: Measure 5 — caps property taxes; shifts school funding to state income tax
+- **2000**: 'Kicker' enshrined in constitution — tax revenue 2% above forecast must be refunded
+- **2020**: Corporate Activity Tax takes effect — Oregon's first broad-based business tax beyond corporate income tax
 ## Federal Interaction
 
 - **PTET Status**: Adopted — pass-through entity tax available

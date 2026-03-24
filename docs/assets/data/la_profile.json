@@ -1,0 +1,72 @@
+{
+  "state": "Louisiana",
+  "abbreviation": "LA",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "flat",
+    "income_tax_brackets": [
+      {
+        "rate": 3.0,
+        "min": 0,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 5.0,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 5.5,
+    "property_tax_admin": "Parish assessors value property; Tax Commission equalizes. Assessed at 10% of fair market value for residential, 15% for other.",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "School Readiness Tax Credit",
+      "Motion picture production credit",
+      "Small EITC"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          11.9,
+          4.6
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 42,
+    "corporate_rank": 39,
+    "individual_income_rank": 34,
+    "sales_tax_rank": 51,
+    "property_tax_rank": 26,
+    "unemployment_insurance_rank": 23
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "low",
+    "federal_conformity": "selective",
+    "recent_changes": "2024 special session: Complete tax overhaul effective 2025. Replaced graduated tax (up to 4.25%) with flat 3%. Corporate flattened to 5.5%. Sales tax raised from 4.45% to 5%. Franchise tax repealed effective 2026."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  }
+}

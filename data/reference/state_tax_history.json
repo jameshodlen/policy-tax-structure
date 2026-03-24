@@ -3,88 +3,957 @@
     "note": "Historical tax change timelines for state profiles. Populated from public records and state revenue department histories."
   },
   "MN": [
-    {"year": 1933, "event": "Individual income tax enacted (one of the earliest states)"},
-    {"year": 1967, "event": "Sales tax enacted at 3%, gradually raised to 6.875%"},
-    {"year": 1991, "event": "Fourth income tax bracket added (8.5% on high earners)"},
-    {"year": 2013, "event": "Top rate raised to 9.85% on income over ~$156,000 (adjusted annually)"},
-    {"year": 2014, "event": "Working Family Credit expanded"},
-    {"year": 2023, "event": "Major tax bill — Child Tax Credit enacted, additional property tax refund, K-12 credit expanded"}
+    {
+      "year": 1933,
+      "event": "Individual income tax enacted (one of the earliest states)"
+    },
+    {
+      "year": 1967,
+      "event": "Sales tax enacted at 3%, gradually raised to 6.875%"
+    },
+    {
+      "year": 1991,
+      "event": "Fourth income tax bracket added (8.5% on high earners)"
+    },
+    {
+      "year": 2013,
+      "event": "Top rate raised to 9.85% on income over ~$156,000 (adjusted annually)"
+    },
+    {
+      "year": 2014,
+      "event": "Working Family Credit expanded"
+    },
+    {
+      "year": 2023,
+      "event": "Major tax bill \u2014 Child Tax Credit enacted, additional property tax refund, K-12 credit expanded"
+    }
   ],
   "WI": [
-    {"year": 1911, "event": "Wisconsin becomes one of the first states to adopt an individual income tax"},
-    {"year": 1962, "event": "Sales tax enacted at 3%, raised to 5% in 1982"},
-    {"year": 1992, "event": "Estate tax repealed"},
-    {"year": 2011, "event": "2011–2015: Significant tax cuts under Governor Walker, including income tax rate reductions"},
-    {"year": 2023, "event": "2023–2025: Legislative proposals to flatten income tax to single rate; none enacted as of early 2026"}
+    {
+      "year": 1911,
+      "event": "Wisconsin becomes one of the first states to adopt an individual income tax"
+    },
+    {
+      "year": 1962,
+      "event": "Sales tax enacted at 3%, raised to 5% in 1982"
+    },
+    {
+      "year": 1992,
+      "event": "Estate tax repealed"
+    },
+    {
+      "year": 2011,
+      "event": "2011\u20132015: Significant tax cuts under Governor Walker, including income tax rate reductions"
+    },
+    {
+      "year": 2023,
+      "event": "2023\u20132025: Legislative proposals to flatten income tax to single rate; none enacted as of early 2026"
+    }
   ],
   "IA": [
-    {"year": 1934, "event": "Individual income tax enacted"},
-    {"year": 1967, "event": "Sales tax enacted at 3%"},
-    {"year": 2018, "event": "Tax reform legislation signed, beginning phased rate reductions"},
-    {"year": 2022, "event": "Governor signs legislation converting to flat tax, phased 2023-2026"},
-    {"year": 2026, "event": "Flat rate of 3.9% takes effect, completing transition from 8.98% top rate"}
+    {
+      "year": 1934,
+      "event": "Individual income tax enacted"
+    },
+    {
+      "year": 1967,
+      "event": "Sales tax enacted at 3%"
+    },
+    {
+      "year": 2018,
+      "event": "Tax reform legislation signed, beginning phased rate reductions"
+    },
+    {
+      "year": 2022,
+      "event": "Governor signs legislation converting to flat tax, phased 2023-2026"
+    },
+    {
+      "year": 2026,
+      "event": "Flat rate of 3.9% takes effect, completing transition from 8.98% top rate"
+    }
   ],
   "GA": [
-    {"year": 1929, "event": "Individual income tax enacted with graduated rates"},
-    {"year": 1951, "event": "Sales tax enacted at 3%, raised to 4% in 1989"},
-    {"year": 2024, "event": "Converted from graduated (top rate 5.75%) to flat 5.49%"},
-    {"year": 2025, "event": "Rate reduced to 5.39%, with scheduled reductions to 4.99% floor"}
+    {
+      "year": 1929,
+      "event": "Individual income tax enacted with graduated rates"
+    },
+    {
+      "year": 1951,
+      "event": "Sales tax enacted at 3%, raised to 4% in 1989"
+    },
+    {
+      "year": 2024,
+      "event": "Converted from graduated (top rate 5.75%) to flat 5.49%"
+    },
+    {
+      "year": 2025,
+      "event": "Rate reduced to 5.39%, with scheduled reductions to 4.99% floor"
+    }
   ],
   "CA": [
-    {"year": 1935, "event": "Individual income tax enacted with graduated rates"},
-    {"year": 1978, "event": "Proposition 13 passes — caps property tax rate at 1%, limits assessment increases to 2%/year"},
-    {"year": 2004, "event": "Mental Health Services Act (Prop 63) adds 1% surcharge on income over $1M"},
-    {"year": 2012, "event": "Proposition 30 temporarily raises top rate to 13.3% (highest in nation)"},
-    {"year": 2016, "event": "Proposition 55 extends Prop 30 top rates through 2030"},
-    {"year": 2024, "event": "Mental Health Services Tax extended. CalEITC expanded."}
+    {
+      "year": 1935,
+      "event": "Individual income tax enacted with graduated rates"
+    },
+    {
+      "year": 1978,
+      "event": "Proposition 13 passes \u2014 caps property tax rate at 1%, limits assessment increases to 2%/year"
+    },
+    {
+      "year": 2004,
+      "event": "Mental Health Services Act (Prop 63) adds 1% surcharge on income over $1M"
+    },
+    {
+      "year": 2012,
+      "event": "Proposition 30 temporarily raises top rate to 13.3% (highest in nation)"
+    },
+    {
+      "year": 2016,
+      "event": "Proposition 55 extends Prop 30 top rates through 2030"
+    },
+    {
+      "year": 2024,
+      "event": "Mental Health Services Tax extended. CalEITC expanded."
+    }
   ],
   "TX": [
-    {"year": 1961, "event": "Sales tax enacted at 2%, gradually raised to 6.25% by 1990"},
-    {"year": 1991, "event": "Franchise tax reformed to include partnerships and corporations"},
-    {"year": 1993, "event": "Constitutional amendment prohibits personal income tax without voter approval"},
-    {"year": 2006, "event": "Franchise tax replaced with Margins Tax (reformed business tax)"},
-    {"year": 2023, "event": "$18 billion property tax relief package signed. Franchise tax threshold raised."}
+    {
+      "year": 1961,
+      "event": "Sales tax enacted at 2%, gradually raised to 6.25% by 1990"
+    },
+    {
+      "year": 1991,
+      "event": "Franchise tax reformed to include partnerships and corporations"
+    },
+    {
+      "year": 1993,
+      "event": "Constitutional amendment prohibits personal income tax without voter approval"
+    },
+    {
+      "year": 2006,
+      "event": "Franchise tax replaced with Margins Tax (reformed business tax)"
+    },
+    {
+      "year": 2023,
+      "event": "$18 billion property tax relief package signed. Franchise tax threshold raised."
+    }
   ],
   "FL": [
-    {"year": 1924, "event": "State constitution prohibits individual income tax"},
-    {"year": 1949, "event": "Corporate income tax enacted"},
-    {"year": 1971, "event": "Sales tax rate raised to 4%, reaching current 6% by 1988"},
-    {"year": 1992, "event": "Save Our Homes amendment caps homestead assessment increases at 3%/year"},
-    {"year": 2024, "event": "Homestead exemption increased. Corporate rate held at 5.5%."}
+    {
+      "year": 1924,
+      "event": "State constitution prohibits individual income tax"
+    },
+    {
+      "year": 1949,
+      "event": "Corporate income tax enacted"
+    },
+    {
+      "year": 1971,
+      "event": "Sales tax rate raised to 4%, reaching current 6% by 1988"
+    },
+    {
+      "year": 1992,
+      "event": "Save Our Homes amendment caps homestead assessment increases at 3%/year"
+    },
+    {
+      "year": 2024,
+      "event": "Homestead exemption increased. Corporate rate held at 5.5%."
+    }
   ],
   "NY": [
-    {"year": 1919, "event": "Individual income tax enacted — one of the first states"},
-    {"year": 2009, "event": "'Millionaire's tax' surcharge enacted on high earners"},
-    {"year": 2011, "event": "Tax reform restructures brackets, top rate initially set to expire"},
-    {"year": 2021, "event": "Top rate raised to 10.9% on income over $25M, new brackets added"},
-    {"year": 2023, "event": "Top rate of 10.9% extended through 2027. PTET expanded."}
+    {
+      "year": 1919,
+      "event": "Individual income tax enacted \u2014 one of the first states"
+    },
+    {
+      "year": 2009,
+      "event": "'Millionaire's tax' surcharge enacted on high earners"
+    },
+    {
+      "year": 2011,
+      "event": "Tax reform restructures brackets, top rate initially set to expire"
+    },
+    {
+      "year": 2021,
+      "event": "Top rate raised to 10.9% on income over $25M, new brackets added"
+    },
+    {
+      "year": 2023,
+      "event": "Top rate of 10.9% extended through 2027. PTET expanded."
+    }
   ],
   "IL": [
-    {"year": 1969, "event": "Individual income tax enacted at flat 2.5% (flat from inception)"},
-    {"year": 2011, "event": "Temporary increase to 5.0% (from 3.0%)"},
-    {"year": 2015, "event": "Rate reverts to 3.75%"},
-    {"year": 2017, "event": "Permanent rate of 4.95% enacted, ending budget impasse"},
-    {"year": 2020, "event": "Graduated tax ballot measure (Fair Tax Amendment) fails — voters reject switch from flat rate"}
+    {
+      "year": 1969,
+      "event": "Individual income tax enacted at flat 2.5% (flat from inception)"
+    },
+    {
+      "year": 2011,
+      "event": "Temporary increase to 5.0% (from 3.0%)"
+    },
+    {
+      "year": 2015,
+      "event": "Rate reverts to 3.75%"
+    },
+    {
+      "year": 2017,
+      "event": "Permanent rate of 4.95% enacted, ending budget impasse"
+    },
+    {
+      "year": 2020,
+      "event": "Graduated tax ballot measure (Fair Tax Amendment) fails \u2014 voters reject switch from flat rate"
+    }
   ],
   "TN": [
-    {"year": 1929, "event": "Hall Tax enacted — tax on interest and dividend income only"},
-    {"year": 1947, "event": "Sales tax enacted at 2%, gradually raised to 7% by 2002"},
-    {"year": 2016, "event": "Hall Tax phase-out begins, reducing rate from 6% by 1%/year"},
-    {"year": 2021, "event": "Hall Tax fully eliminated — Tennessee becomes true no-income-tax state"}
+    {
+      "year": 1929,
+      "event": "Hall Tax enacted \u2014 tax on interest and dividend income only"
+    },
+    {
+      "year": 1947,
+      "event": "Sales tax enacted at 2%, gradually raised to 7% by 2002"
+    },
+    {
+      "year": 2016,
+      "event": "Hall Tax phase-out begins, reducing rate from 6% by 1%/year"
+    },
+    {
+      "year": 2021,
+      "event": "Hall Tax fully eliminated \u2014 Tennessee becomes true no-income-tax state"
+    }
   ],
   "NC": [
-    {"year": 1921, "event": "Individual income tax enacted with graduated rates"},
-    {"year": 2013, "event": "Tax reform signed — converts graduated income tax to flat 5.8%"},
-    {"year": 2014, "event": "Flat rate takes effect. Corporate rate begins scheduled reductions."},
-    {"year": 2021, "event": "Rate reduced to 5.25%, with trigger mechanism for further reductions"},
-    {"year": 2026, "event": "Rate at 4.25%, corporate rate at 2.5% with scheduled elimination by 2030"}
+    {
+      "year": 1921,
+      "event": "Modern income tax enacted with graduated rates"
+    },
+    {
+      "year": 1933,
+      "event": "Sales tax enacted"
+    },
+    {
+      "year": 2013,
+      "event": "Major reform: graduated income tax replaced with flat 5.8%, corporate rate cuts begin"
+    },
+    {
+      "year": 2021,
+      "event": "SB 105: Phased rate reductions from 5.25% toward 3.99% by 2027; corporate phase-out by 2030"
+    },
+    {
+      "year": 2025,
+      "event": "Flat rate reaches 4.25%, on track for 3.99% in 2026"
+    }
   ],
   "WA": [
-    {"year": 1935, "event": "Business and Occupation (B&O) tax enacted — gross receipts tax, not income tax"},
-    {"year": 1966, "event": "Sales tax rate set at 4.5%, reaching current 6.5% by 1983"},
-    {"year": 2010, "event": "Income tax ballot initiative (I-1098) rejected by voters"},
-    {"year": 2021, "event": "Capital gains tax of 7% enacted on gains over $250,000"},
-    {"year": 2023, "event": "State Supreme Court upholds capital gains tax (classified as excise tax)"},
-    {"year": 2025, "event": "Capital gains tax rate increased to 9.9%"}
+    {
+      "year": 1935,
+      "event": "Business and Occupation (B&O) tax enacted \u2014 gross receipts tax, not income tax"
+    },
+    {
+      "year": 1966,
+      "event": "Sales tax rate set at 4.5%, reaching current 6.5% by 1983"
+    },
+    {
+      "year": 2010,
+      "event": "Income tax ballot initiative (I-1098) rejected by voters"
+    },
+    {
+      "year": 2021,
+      "event": "Capital gains tax of 7% enacted on gains over $250,000"
+    },
+    {
+      "year": 2023,
+      "event": "State Supreme Court upholds capital gains tax (classified as excise tax)"
+    },
+    {
+      "year": 2025,
+      "event": "Capital gains tax rate increased to 9.9%"
+    }
+  ],
+  "AL": [
+    {
+      "year": 1933,
+      "event": "Individual income tax enacted with graduated rates (2% to 5%)"
+    },
+    {
+      "year": 1936,
+      "event": "Sales tax enacted at 2%"
+    },
+    {
+      "year": 1963,
+      "event": "Constitutional amendment increased allowable corporate income tax rate to 5%"
+    },
+    {
+      "year": 2021,
+      "event": "Single sales factor apportionment adopted for business income"
+    },
+    {
+      "year": 2025,
+      "event": "Grocery sales tax reduced; PTET election process simplified"
+    }
+  ],
+  "AK": [
+    {
+      "year": 1949,
+      "event": "Individual income tax enacted at 10% of federal tax liability"
+    },
+    {
+      "year": 1976,
+      "event": "Alaska Permanent Fund established, investing 25% of petroleum revenue"
+    },
+    {
+      "year": 1980,
+      "event": "Individual income tax repealed after Trans-Alaska Pipeline oil revenue surge (only state to repeal income tax)"
+    },
+    {
+      "year": 2013,
+      "event": "Oil tax reformed under SB 21, replacing ACES system"
+    }
+  ],
+  "AZ": [
+    {
+      "year": 1933,
+      "event": "Individual income tax and Transaction Privilege Tax (sales tax) both enacted"
+    },
+    {
+      "year": 2021,
+      "event": "Legislature passed flat income tax legislation"
+    },
+    {
+      "year": 2023,
+      "event": "Flat 2.5% individual income tax rate takes full effect (down from graduated rates topping ~4.5%)"
+    },
+    {
+      "year": 2025,
+      "event": "Corporate income tax rate reduced to 4.9%"
+    }
+  ],
+  "AR": [
+    {
+      "year": 1929,
+      "event": "Individual income tax enacted (Hall Net Income Tax Law) at top rate of 5%"
+    },
+    {
+      "year": 1935,
+      "event": "Sales tax enacted at 2%"
+    },
+    {
+      "year": 2022,
+      "event": "Income tax converted to flat 4.9% rate, beginning reduction trend"
+    },
+    {
+      "year": 2025,
+      "event": "Top rate reduced to 3.9%; grocery sales tax eliminated effective Jan 1, 2026"
+    }
+  ],
+  "CO": [
+    {
+      "year": 1987,
+      "event": "Income tax converted from graduated rates to flat 5.0% rate"
+    },
+    {
+      "year": 1992,
+      "event": "TABOR enacted \u2014 constitutional amendment limiting revenue growth, requiring voter approval for tax increases"
+    },
+    {
+      "year": 2020,
+      "event": "Proposition 116 reduces rate to 4.55%"
+    },
+    {
+      "year": 2022,
+      "event": "Proposition 121 reduces rate to 4.40%"
+    },
+    {
+      "year": 2024,
+      "event": "SB 24-228 creates TABOR-linked rate reduction mechanism; temporary rate of 4.25%"
+    }
+  ],
+  "CT": [
+    {
+      "year": 1991,
+      "event": "Individual income tax enacted at flat 4.5% under Gov. Weicker; sales tax cut from 8% to 6%"
+    },
+    {
+      "year": 1996,
+      "event": "Dual-bracket rate structure introduced (replacing flat rate)"
+    },
+    {
+      "year": 2009,
+      "event": "Top rate raised to 6.99% on income over $500,000; bracket count expanded"
+    },
+    {
+      "year": 2024,
+      "event": "PTET made elective (was mandatory). Bottom two marginal rates reduced. Estate tax exemption raised to near-federal levels."
+    }
+  ],
+  "DE": [
+    {
+      "year": 1970,
+      "event": "Modern personal income tax enacted (graduated rates, 2.2%-6.6%)"
+    },
+    {
+      "year": 2018,
+      "event": "Estate tax repealed"
+    },
+    {
+      "year": 2025,
+      "event": "Selectively decoupled from OBBBA provisions. No PTET enacted (one of five income-tax states without one)."
+    }
+  ],
+  "DC": [
+    {
+      "year": 1939,
+      "event": "Individual income tax first enacted (DC Income Tax Act of 1939)"
+    },
+    {
+      "year": 1949,
+      "event": "Sales tax first imposed"
+    },
+    {
+      "year": 2021,
+      "event": "Top rate raised to 10.75%; earned income credit increased"
+    },
+    {
+      "year": 2025,
+      "event": "Sales tax increased from 6.0% to 6.5% (rising to 7.0% in Oct 2026)"
+    }
+  ],
+  "HI": [
+    {
+      "year": 1901,
+      "event": "Income taxes among earliest in US territory"
+    },
+    {
+      "year": 1935,
+      "event": "General Excise Tax (GET) enacted at 4% \u2014 functions like a sales tax but levied on businesses"
+    },
+    {
+      "year": 1957,
+      "event": "Statehood; existing territorial tax system carried forward"
+    },
+    {
+      "year": 2024,
+      "event": "Act 46 (Green Affordability Plan II): Widened all 12 income brackets; doubled standard deduction. Act 50 reduced PTET rate."
+    }
+  ],
+  "ID": [
+    {
+      "year": 1931,
+      "event": "Individual and corporate income taxes enacted"
+    },
+    {
+      "year": 1965,
+      "event": "Sales tax enacted at 3%"
+    },
+    {
+      "year": 2023,
+      "event": "Converted from graduated income tax to flat 5.8% rate"
+    },
+    {
+      "year": 2025,
+      "event": "Flat rate reduced to 5.3% (third consecutive annual cut)"
+    }
+  ],
+  "IN": [
+    {
+      "year": 1963,
+      "event": "Individual income tax, corporate income tax, and retail sales tax all enacted simultaneously"
+    },
+    {
+      "year": 2008,
+      "event": "Major restructuring: property tax caps constitutionally enacted; sales tax raised to 7%"
+    },
+    {
+      "year": 2024,
+      "event": "Individual income tax rate reduced to 3.05% (continuing phased reductions from 3.23%)"
+    }
+  ],
+  "KS": [
+    {
+      "year": 1933,
+      "event": "Individual income tax enacted"
+    },
+    {
+      "year": 1937,
+      "event": "Sales tax enacted at 2%"
+    },
+    {
+      "year": 2012,
+      "event": "'Kansas Experiment' \u2014 top rate cut from 6.45% to 4.9%; pass-through income exempted; massive revenue shortfall followed"
+    },
+    {
+      "year": 2017,
+      "event": "Legislature overrides veto to repeal 2012 tax cuts; top rate raised to 5.7%"
+    },
+    {
+      "year": 2024,
+      "event": "SB 1: Consolidated 3 brackets to 2; top rate reduced to 5.58%; Social Security fully exempt"
+    }
+  ],
+  "KY": [
+    {
+      "year": 1936,
+      "event": "Individual income tax established with graduated rates (2%-6%)"
+    },
+    {
+      "year": 2018,
+      "event": "Income tax converted to flat 5.0%; sales tax extended to many previously exempt services"
+    },
+    {
+      "year": 2022,
+      "event": "HB 8 enacted \u2014 trigger mechanism for phased reductions toward elimination"
+    },
+    {
+      "year": 2024,
+      "event": "Rate reduced to 4.0% (third trigger met). On track for 3.5% in 2026."
+    }
+  ],
+  "LA": [
+    {
+      "year": 1934,
+      "event": "Individual income tax enacted with graduated rates"
+    },
+    {
+      "year": 1938,
+      "event": "Sales tax first adopted"
+    },
+    {
+      "year": 2024,
+      "event": "Major overhaul: flat 3% income tax (replacing graduated 1.85%-4.25%); corporate flattened to 5.5%; sales tax raised to 5%; franchise tax repealed (2026)"
+    }
+  ],
+  "ME": [
+    {
+      "year": 1951,
+      "event": "Sales tax enacted"
+    },
+    {
+      "year": 1969,
+      "event": "Individual and corporate income taxes enacted"
+    },
+    {
+      "year": 2017,
+      "event": "3% income tax surcharge on income over $200,000 enacted then repealed same year"
+    },
+    {
+      "year": 2025,
+      "event": "Child tax credit doubled for children under 6. PTET bill introduced but not enacted."
+    }
+  ],
+  "MD": [
+    {
+      "year": 1937,
+      "event": "Corporate income tax enacted"
+    },
+    {
+      "year": 1947,
+      "event": "Retail sales tax enacted at 2%"
+    },
+    {
+      "year": 2008,
+      "event": "Sales tax rate increased from 5% to 6%"
+    },
+    {
+      "year": 2025,
+      "event": "Two new top income tax brackets added (6.25%, 6.50%). New 2% capital gains surcharge for AGI over $350K. New 3% IT services sales tax."
+    }
+  ],
+  "MA": [
+    {
+      "year": 1916,
+      "event": "Individual income tax enacted (among earliest states)"
+    },
+    {
+      "year": 1966,
+      "event": "Sales tax enacted at 3%"
+    },
+    {
+      "year": 1980,
+      "event": "Proposition 2-1/2 enacted \u2014 caps property tax levies at 2.5% of assessed value"
+    },
+    {
+      "year": 2000,
+      "event": "Voters approve reducing income tax rate to 5% (took until 2020 to fully implement)"
+    },
+    {
+      "year": 2023,
+      "event": "'Millionaire\\'s tax' (4% surtax on income over ~$1M) takes effect via 2022 ballot measure"
+    }
+  ],
+  "MI": [
+    {
+      "year": 1933,
+      "event": "Sales tax enacted"
+    },
+    {
+      "year": 1967,
+      "event": "Individual income tax enacted at flat 2.6%"
+    },
+    {
+      "year": 1994,
+      "event": "Proposal A: sales tax raised to 6% to fund schools; income tax reduced; property tax reformed"
+    },
+    {
+      "year": 2007,
+      "event": "Income tax temporarily raised to 4.35% during fiscal crisis; gradually reduced back to 4.25%"
+    },
+    {
+      "year": 2025,
+      "event": "Decoupled from OBBBA provisions. FTE tax election deadline extended. Tipped/overtime deductions enacted."
+    }
+  ],
+  "MS": [
+    {
+      "year": 1912,
+      "event": "Individual income tax first enacted"
+    },
+    {
+      "year": 1930,
+      "event": "Sales tax first enacted (Mississippi was the first state to adopt a general sales tax)"
+    },
+    {
+      "year": 2022,
+      "event": "HB 531 converts graduated income tax to flat 5% rate"
+    },
+    {
+      "year": 2025,
+      "event": "'Build Up Mississippi Act' (HB 1) \u2014 phases income tax to 3% by 2030 with trigger toward elimination; grocery tax cut"
+    }
+  ],
+  "MO": [
+    {
+      "year": 1917,
+      "event": "Individual income tax enacted"
+    },
+    {
+      "year": 1937,
+      "event": "Sales tax enacted"
+    },
+    {
+      "year": 1980,
+      "event": "Hancock Amendment \u2014 caps state revenue as percentage of personal income, requires voter approval for tax increases"
+    },
+    {
+      "year": 2014,
+      "event": "Phased income tax rate cuts enacted; top rate gradually reduced from 6% toward 4.7%"
+    },
+    {
+      "year": 2025,
+      "event": "Top rate reduced to 4.7% via revenue trigger. 100% capital gains exclusion enacted."
+    }
+  ],
+  "MT": [
+    {
+      "year": 1933,
+      "event": "Individual income tax enacted"
+    },
+    {
+      "year": 2021,
+      "event": "Structural tax reform \u2014 rates reduced, 16 tax credits repealed, corporate apportionment reformed"
+    },
+    {
+      "year": 2024,
+      "event": "Income tax simplified to two-bracket system (4.7% and 5.9%)"
+    }
+  ],
+  "NE": [
+    {
+      "year": 1967,
+      "event": "Individual income tax, corporate income tax, and sales tax all enacted simultaneously"
+    },
+    {
+      "year": 2023,
+      "event": "LB 754 \u2014 largest income tax cut in state history; top rate phased from 6.64% to 3.99% by 2027"
+    },
+    {
+      "year": 2025,
+      "event": "Debate over pausing scheduled rate cuts due to revenue shortfalls"
+    }
+  ],
+  "NV": [
+    {
+      "year": 1955,
+      "event": "Sales and Use Tax Act enacted at 2%"
+    },
+    {
+      "year": 2015,
+      "event": "Commerce Tax enacted \u2014 gross receipts tax on businesses with Nevada revenue over $4M"
+    },
+    {
+      "year": 2025,
+      "event": "No income tax (constitutionally prohibited). Revenue depends on gaming taxes, sales tax, and payroll-based Modified Business Tax."
+    }
+  ],
+  "NH": [
+    {
+      "year": 1923,
+      "event": "Interest and Dividends (I&D) Tax enacted at 5% (only form of individual income tax)"
+    },
+    {
+      "year": 1970,
+      "event": "Business Profits Tax enacted"
+    },
+    {
+      "year": 2021,
+      "event": "Legislature passes phase-out of I&D Tax"
+    },
+    {
+      "year": 2025,
+      "event": "I&D Tax fully repealed \u2014 NH becomes true no-income-tax state"
+    }
+  ],
+  "NJ": [
+    {
+      "year": 1966,
+      "event": "Sales tax enacted at 3%"
+    },
+    {
+      "year": 1976,
+      "event": "Individual income tax enacted following court order on school funding"
+    },
+    {
+      "year": 2004,
+      "event": "Top rate of 8.97% established for income over $500K"
+    },
+    {
+      "year": 2018,
+      "event": "Top rate raised to 10.75% on income over $5M"
+    },
+    {
+      "year": 2025,
+      "event": "Corporate transit fee proposed. Child and dependent care credit expanded."
+    }
+  ],
+  "NM": [
+    {
+      "year": 1913,
+      "event": "Personal income tax first imposed"
+    },
+    {
+      "year": 1966,
+      "event": "Gross Receipts Tax enacted, replacing Emergency School Tax"
+    },
+    {
+      "year": 2022,
+      "event": "GRT rate reduced from 5.125% to 5%, further to 4.875% in 2023"
+    },
+    {
+      "year": 2025,
+      "event": "Income tax restructured to 6 brackets (1.5%-5.9%) under HB 252"
+    }
+  ],
+  "ND": [
+    {
+      "year": 1919,
+      "event": "Individual income tax enacted (first among neighboring states)"
+    },
+    {
+      "year": 1935,
+      "event": "Sales tax enacted at 2%"
+    },
+    {
+      "year": 2023,
+      "event": "HB 1158 \u2014 largest income tax cut in state history; brackets compressed from 5 to 3; first $55,975 tax-free"
+    }
+  ],
+  "OH": [
+    {
+      "year": 1935,
+      "event": "Sales tax enacted"
+    },
+    {
+      "year": 1972,
+      "event": "Individual income tax enacted"
+    },
+    {
+      "year": 2005,
+      "event": "HB 66: Corporate franchise/tangible property tax phased out; Commercial Activity Tax (CAT) phased in; 21% income tax cut"
+    },
+    {
+      "year": 2023,
+      "event": "CAT exclusion threshold raised; top income tax rate cut to 3.5%"
+    },
+    {
+      "year": 2025,
+      "event": "Rate reduced to 3.5%. CAT threshold raised to $6M, eliminating it for most small businesses."
+    }
+  ],
+  "OK": [
+    {
+      "year": 1915,
+      "event": "Individual income tax enacted"
+    },
+    {
+      "year": 1933,
+      "event": "State constitution amended to prohibit state-level property taxation"
+    },
+    {
+      "year": 2009,
+      "event": "Top rate cut from 7% to 5.5% over 2004-2009 period"
+    },
+    {
+      "year": 2025,
+      "event": "HB 2764: brackets consolidated from 6 to 3; top rate to 4.5% in 2026 with trigger toward elimination"
+    }
+  ],
+  "OR": [
+    {
+      "year": 1930,
+      "event": "Individual income tax enacted (one of earliest western states)"
+    },
+    {
+      "year": 1990,
+      "event": "Measure 5 \u2014 caps property taxes; shifts school funding to state income tax"
+    },
+    {
+      "year": 2000,
+      "event": "'Kicker' enshrined in constitution \u2014 tax revenue 2% above forecast must be refunded"
+    },
+    {
+      "year": 2020,
+      "event": "Corporate Activity Tax takes effect \u2014 Oregon's first broad-based business tax beyond corporate income tax"
+    }
+  ],
+  "PA": [
+    {
+      "year": 1953,
+      "event": "Sales tax enacted"
+    },
+    {
+      "year": 1971,
+      "event": "Individual income tax enacted at flat 2.8% (flat rate constitutionally required)"
+    },
+    {
+      "year": 2025,
+      "event": "Corporate rate phasing from 9.99% to 4.99% by 2031 (currently 7.99%). Working Pennsylvanians Tax Credit (state EITC) enacted."
+    }
+  ],
+  "RI": [
+    {
+      "year": 1947,
+      "event": "Sales tax enacted"
+    },
+    {
+      "year": 1971,
+      "event": "Individual income tax enacted (originally piggyback on federal tax)"
+    },
+    {
+      "year": 2011,
+      "event": "Major income tax reform \u2014 replaced old structure with three brackets (3.75%-5.99%)"
+    },
+    {
+      "year": 2025,
+      "event": "PTET credit reduced to 90%. Decoupled from OBBBA tip/overtime exclusions."
+    }
+  ],
+  "SC": [
+    {
+      "year": 1922,
+      "event": "Individual income tax first enacted"
+    },
+    {
+      "year": 1951,
+      "event": "Sales tax enacted at 3%"
+    },
+    {
+      "year": 2022,
+      "event": "Top rate reduced from 7% to 6.5% with triggers for further reductions"
+    },
+    {
+      "year": 2025,
+      "event": "Top rate cut to 6.0%. H.4216 proposes flat 3.99% for 2026 with path toward elimination."
+    }
+  ],
+  "SD": [
+    {
+      "year": 1935,
+      "event": "Sales tax enacted (no individual or corporate income tax ever enacted)"
+    },
+    {
+      "year": 2018,
+      "event": "South Dakota v. Wayfair \u2014 US Supreme Court case allows states to collect sales tax from remote sellers"
+    },
+    {
+      "year": 2023,
+      "event": "Sales tax rate reduced from 4.5% to 4.2% (temporary through June 2027)"
+    }
+  ],
+  "UT": [
+    {
+      "year": 1931,
+      "event": "Individual income tax enacted"
+    },
+    {
+      "year": 1933,
+      "event": "Sales tax enacted"
+    },
+    {
+      "year": 2008,
+      "event": "Income tax converted from graduated brackets to flat 5.0% rate"
+    },
+    {
+      "year": 2025,
+      "event": "Flat rate reduced to 4.50% (from 4.55%) \u2014 fourth consecutive annual cut via HB 106"
+    }
+  ],
+  "VT": [
+    {
+      "year": 1931,
+      "event": "Income tax enacted (replacing statewide property tax)"
+    },
+    {
+      "year": 1969,
+      "event": "Sales tax enacted at 3% (last state in US to adopt a sales tax)"
+    },
+    {
+      "year": 2025,
+      "event": "Act 71: expanded EITC, extended Child Tax Credit to age 6, created Veteran Tax Credit, new 0.44% employer childcare payroll tax"
+    }
+  ],
+  "VA": [
+    {
+      "year": 1843,
+      "event": "Individual income tax enacted (one of the earliest states in the nation)"
+    },
+    {
+      "year": 1966,
+      "event": "Retail Sales and Use Tax enacted at 2%"
+    },
+    {
+      "year": 2025,
+      "event": "Rolling conformity replaced with fixed date. PTET made permanent. EITC raised to 20%. Selective deconformity from OBBBA."
+    }
+  ],
+  "WV": [
+    {
+      "year": 1934,
+      "event": "Sales tax enacted"
+    },
+    {
+      "year": 1963,
+      "event": "Modern personal income tax enacted"
+    },
+    {
+      "year": 2023,
+      "event": "HB 2526 \u2014 largest income tax cut in state history (21.25% average reduction); top rate from 6.5% to 5.12%"
+    },
+    {
+      "year": 2025,
+      "event": "SB 2033 further reduces rates; five brackets now 2.22%-4.82%. Social Security exemption phasing to 100% by 2026."
+    }
+  ],
+  "WY": [
+    {
+      "year": 1935,
+      "event": "Sales tax enacted as 'temporary emergency measure'"
+    },
+    {
+      "year": 1969,
+      "event": "Mineral severance tax enacted at 1%"
+    },
+    {
+      "year": 2025,
+      "event": "No income tax (constitutional barrier). Revenue dependent on mineral severance/sales taxes. Ranks #1 on Tax Foundation competitiveness index."
+    }
   ]
 }

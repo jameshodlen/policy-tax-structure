@@ -1,0 +1,97 @@
+{
+  "state": "Oklahoma",
+  "abbreviation": "OK",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 0.25,
+        "min": 0,
+        "max": 1000
+      },
+      {
+        "rate": 0.75,
+        "min": 1000,
+        "max": 2500
+      },
+      {
+        "rate": 1.75,
+        "min": 2500,
+        "max": 3750
+      },
+      {
+        "rate": 2.75,
+        "min": 3750,
+        "max": 4900
+      },
+      {
+        "rate": 3.75,
+        "min": 4900,
+        "max": 7200
+      },
+      {
+        "rate": 4.75,
+        "min": 7200,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 4.5,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 4.0,
+    "property_tax_admin": "County assessors. State Equalization Board provides oversight. Fair cash value assessment.",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "Oklahoma Earned Income Credit",
+      "Child care/child tax credit",
+      "Investment/new jobs credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          10.5,
+          5.0
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 20,
+    "corporate_rank": 10,
+    "individual_income_rank": 28,
+    "sales_tax_rank": 38,
+    "property_tax_rank": 14,
+    "unemployment_insurance_rank": 12
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "low",
+    "federal_conformity": "rolling",
+    "recent_changes": "HB 2764 will cut top rate to 4.5% and consolidate to 3 brackets in 2026 with trigger mechanism toward elimination."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "state": "Alaska",
+  "abbreviation": "AK",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "none",
+    "income_tax_brackets": [],
+    "sales_tax_rate": null,
+    "local_sales_tax": true,
+    "clothing_exempt": null,
+    "corporate_tax_rate": 9.4,
+    "property_tax_admin": "Local municipalities and boroughs. No statewide property tax. Not all areas levy property tax.",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "Permanent Fund Dividend (~$1,000/year per resident)",
+      "No individual income tax"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          6.5,
+          4.5
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 3,
+    "corporate_rank": 28,
+    "individual_income_rank": 1,
+    "sales_tax_rank": 1,
+    "property_tax_rank": 16,
+    "unemployment_insurance_rank": 46
+  },
+  "key_facts": {
+    "ptet_adopted": false,
+    "salt_impact": "none",
+    "federal_conformity": "rolling",
+    "recent_changes": "No major individual tax changes (no individual income tax). Corporate tax brackets unchanged since 1994. PFD set at $1,000 for 2024-2025."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  }
+}

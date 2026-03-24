@@ -4,25 +4,25 @@
 
 ## Overview
 
-Arkansas's tax structure. ITEP ranks Arkansas's tax system among the 10 most regressive in the nation, with lower-income households paying a higher effective tax rate than wealthier residents. The Tax Foundation ranks Arkansas 40th on its State Tax Competitiveness Index.
+Arkansas employs a graduated individual income tax with 5 brackets and a top rate of 3.9%, a 6.5% state sales tax, and a 4.3% corporate tax rate. ITEP ranks Arkansas's tax system among the 10 most regressive in the nation, with lower-income households paying a higher effective tax rate than wealthier residents. The Tax Foundation ranks Arkansas 40th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">0.0%–3.9%</div>
+<div class="detail">5 brackets, graduated</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">6.5%</div>
+<div class="detail">Plus local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">4.3%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,24 @@ Arkansas's tax structure. ITEP ranks Arkansas's tax system among the 10 most reg
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| $0 – $5,499 | 0.0% |
+| $5,500 – $10,899 | 2.0% |
+| $10,900 – $15,599 | 3.0% |
+| $15,600 – $25,699 | 3.4% |
+| Over $25,700 | 3.9% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | County-administered. Property assessed at 20% of market value. State Assessment Coordination Division provides oversight. |
+| **Estate Tax** | None |
+| **Notable Credits** | Social Security benefits fully exempt, Military income fully exempt, Annual back-to-school sales tax holiday |
+| **PTET Status** | Adopted — pass-through entity tax available |
+| **Federal Conformity** | Selective conformity to IRC |
 
 ## Revenue Composition
 
@@ -81,14 +90,21 @@ ITEP ranks Arkansas's tax system among the **10 most regressive** in the nation.
 
 | Dimension | Arkansas | Mississippi |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Flat 4.0% |
-| Sales Tax | Data pending | 7.0% (no local) |
+| Income Tax | Graduated (0.0%–3.9%) | Flat 4.0% |
+| Sales Tax | 6.5% (+ local) | 7.0% (no local) |
 | Competitiveness Rank | 40th | 35th |
 
+## Historical Context
+
+- **1929**: Individual income tax enacted (Hall Net Income Tax Law) at top rate of 5%
+- **1935**: Sales tax enacted at 2%
+- **2022**: Income tax converted to flat 4.9% rate, beginning reduction trend
+- **2025**: Top rate reduced to 3.9%; grocery sales tax eliminated effective Jan 1, 2026
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Adopted — pass-through entity tax available
+- **Federal Conformity**: Selective conformity to IRC
+- **SALT Cap Impact**: Low
 
 ## Data Sources & Citations
 

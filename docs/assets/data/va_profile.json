@@ -1,0 +1,125 @@
+{
+  "state": "Virginia",
+  "abbreviation": "VA",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 2.0,
+        "min": 0,
+        "max": 3000
+      },
+      {
+        "rate": 3.0,
+        "min": 3000,
+        "max": 5000
+      },
+      {
+        "rate": 5.0,
+        "min": 5000,
+        "max": 17000
+      },
+      {
+        "rate": 5.75,
+        "min": 17000,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 4.3,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 6.0,
+    "property_tax_admin": "Local commissioners of the revenue or assessors. State oversight through Department of Taxation. Fair market value assessment.",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "EITC (raised to 20% of federal)",
+      "Land preservation credit",
+      "Historic rehabilitation credit",
+      "R&D credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          9.2,
+          7.3
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 23,
+    "corporate_rank": 25,
+    "individual_income_rank": 32,
+    "sales_tax_rank": 8,
+    "property_tax_rank": 25,
+    "unemployment_insurance_rank": 5
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "moderate",
+    "federal_conformity": "selective",
+    "recent_changes": "Rolling conformity replaced with fixed date (Dec 31, 2025). PTET made permanent. EITC raised to 20%. Standard deduction permanently increased. Selective deconformity from OBBBA."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "Virginia Beach",
+        "homestead_rate": 0.95,
+        "commercial_rate": 0.95,
+        "industrial_rate": 0.95,
+        "apartment_rate": 0.95
+      },
+      {
+        "city": "Richmond",
+        "homestead_rate": 1.2,
+        "commercial_rate": 1.2,
+        "industrial_rate": 1.2,
+        "apartment_rate": 1.2
+      },
+      {
+        "city": "Norfolk",
+        "homestead_rate": 1.15,
+        "commercial_rate": 1.15,
+        "industrial_rate": 1.15,
+        "apartment_rate": 1.15
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 1.1,
+      "rate_range": "0.95% - 1.20%",
+      "commercial_to_residential_ratio": 1.0
+    },
+    "assessment_practice": "Local commissioners of the revenue or assessors. Fair market value. Annual or biennial reassessment.",
+    "classification": false,
+    "circuit_breaker": true,
+    "relief_programs": [
+      "Real estate tax exemption for 65+ and disabled (locality-specific income/asset limits)",
+      "Local tax relief programs for elderly and disabled (mandated by state, implemented by localities)"
+    ]
+  }
+}

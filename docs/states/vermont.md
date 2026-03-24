@@ -4,25 +4,25 @@
 
 ## Overview
 
-Vermont's tax structure. Vermont is one of only six states (plus DC) that ITEP identifies as reducing income inequality through its tax code. The Tax Foundation ranks Vermont 44th on its State Tax Competitiveness Index.
+Vermont employs a graduated individual income tax with 4 brackets and a top rate of 8.75%, a 6.0% state sales tax, and a 8.5% corporate tax rate. Vermont is one of only six states (plus DC) that ITEP identifies as reducing income inequality through its tax code. The Tax Foundation ranks Vermont 44th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">3.35%–8.75%</div>
+<div class="detail">4 brackets, graduated</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">6.0%</div>
+<div class="detail">Plus local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">8.5%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,23 @@ Vermont's tax structure. Vermont is one of only six states (plus DC) that ITEP i
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| $0 – $45,400 | 3.35% |
+| $45,400 – $110,050 | 6.6% |
+| $110,050 – $229,550 | 7.6% |
+| Over $229,550 | 8.75% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | Municipal listers. State oversight through Property Valuation and Review. Fair market value. Statewide education property tax. |
+| **Estate Tax** | Yes — $5,000,000 exemption |
+| **Notable Credits** | EITC (expanded), Child Tax Credit (extended to age 6), Veteran Tax Credit (new 2025), Renter rebate |
+| **PTET Status** | Not adopted |
+| **Federal Conformity** | Selective conformity to IRC |
 
 ## Revenue Composition
 
@@ -81,14 +89,20 @@ Vermont is one of only **six states plus DC** whose tax system **reduces income 
 
 | Dimension | Vermont | New Hampshire |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | None |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | Graduated (3.35%–8.75%) | None |
+| Sales Tax | 6.0% (+ local) | Data pending |
 | Competitiveness Rank | 44th | 6th |
 
+## Historical Context
+
+- **1931**: Income tax enacted (replacing statewide property tax)
+- **1969**: Sales tax enacted at 3% (last state in US to adopt a sales tax)
+- **2025**: Act 71: expanded EITC, extended Child Tax Credit to age 6, created Veteran Tax Credit, new 0.44% employer childcare payroll tax
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Not adopted
+- **Federal Conformity**: Selective conformity to IRC
+- **SALT Cap Impact**: Moderate
 
 ## Data Sources & Citations
 

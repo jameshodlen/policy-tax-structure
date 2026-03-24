@@ -1,51 +1,82 @@
 {
   "state": "Wisconsin",
   "abbreviation": "WI",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-24",
   "tax_structure": {
     "income_tax_type": "graduated",
     "income_tax_brackets": [
-      {"rate": 3.5, "min": 0, "max": 14320},
-      {"rate": 4.4, "min": 14320, "max": 28640},
-      {"rate": 5.3, "min": 28640, "max": 315310},
-      {"rate": 7.65, "min": 315310, "max": null}
+      {
+        "rate": 3.5,
+        "min": 0,
+        "max": 14320
+      },
+      {
+        "rate": 4.4,
+        "min": 14320,
+        "max": 28640
+      },
+      {
+        "rate": 5.3,
+        "min": 28640,
+        "max": 315310
+      },
+      {
+        "rate": 7.65,
+        "min": 315310,
+        "max": null
+      }
     ],
     "sales_tax_rate": 5.0,
     "local_sales_tax": false,
     "corporate_tax_rate": 7.9,
     "property_tax_admin": "Local assessment, state equalization",
     "estate_tax": false,
-    "notable_credits": ["Homestead Credit", "Earned Income Tax Credit (state)"]
+    "notable_credits": [
+      "Homestead Credit",
+      "Earned Income Tax Credit (state)"
+    ]
   },
-  "revenue_composition": {
-    "labels": ["Individual Income Tax", "Sales & Use Tax", "Corporate Income Tax", "Excise Taxes", "Property Tax (state)", "Other"],
-    "datasets": [{
-      "data": [46, 27, 7, 8, 2, 10],
-      "backgroundColor": ["#1e3a5f", "#2d6a4f", "#4a90d9", "#7fb3d8", "#b5d4e8", "#d4e6f1"]
-    }]
-  },
+  "revenue_composition": null,
   "effective_rates_by_quintile": {
-    "labels": ["Lowest 20%", "Second 20%", "Middle 20%", "Fourth 20%", "Next 15%", "Next 4%", "Top 1%"],
+    "labels": [
+      "Lowest 20%",
+      "Second 20%",
+      "Middle 20%",
+      "Fourth 20%",
+      "Next 15%",
+      "Next 4%",
+      "Top 1%"
+    ],
     "datasets": [
       {
         "label": "ITEP Effective Rate (%)",
-        "data": [8.9, 9.1, 9.4, 9.8, 10.1, 9.7, 7.7],
+        "data": [
+          8.9,
+          9.1,
+          9.4,
+          9.8,
+          10.1,
+          9.7,
+          7.7
+        ],
         "backgroundColor": "#2d6a4f"
       },
       {
         "label": "National Average (%)",
-        "data": [11.4, 10.9, 10.2, 9.8, 9.4, 8.3, 7.2],
+        "data": [
+          11.4,
+          10.9,
+          10.2,
+          9.8,
+          9.4,
+          8.3,
+          7.2
+        ],
         "backgroundColor": "#7fb3d8"
       }
     ]
   },
-  "economic_context": {
-    "median_household_income": 67125,
-    "per_capita_income": 35100,
-    "gdp_per_capita": 57800,
-    "population": 5893718,
-    "unemployment_rate": 3.1
-  },
+  "economic_context": null,
   "competitiveness_index": {
     "overall_rank": 28,
     "corporate_rank": 35,
@@ -59,5 +90,99 @@
     "salt_impact": "moderate",
     "federal_conformity": "selective",
     "recent_changes": "2023: Reduced second bracket from 4.4% to 4.4% (no change in recent sessions despite proposals)"
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "migration": {
+    "tax_year": 2022,
+    "net_returns": -3600,
+    "net_agi": -370000000,
+    "net_agi_formatted": "-$370M",
+    "top_inflows": [
+      {
+        "state": "IL",
+        "returns": 14200,
+        "agi": 820000000
+      },
+      {
+        "state": "MN",
+        "returns": 9800,
+        "agi": 520000000
+      },
+      {
+        "state": "MI",
+        "returns": 3100,
+        "agi": 165000000
+      },
+      {
+        "state": "IA",
+        "returns": 2800,
+        "agi": 145000000
+      },
+      {
+        "state": "CA",
+        "returns": 2200,
+        "agi": 180000000
+      }
+    ],
+    "top_outflows": [
+      {
+        "state": "MN",
+        "returns": 11500,
+        "agi": 650000000
+      },
+      {
+        "state": "FL",
+        "returns": 7800,
+        "agi": 580000000
+      },
+      {
+        "state": "AZ",
+        "returns": 4200,
+        "agi": 290000000
+      },
+      {
+        "state": "TX",
+        "returns": 3900,
+        "agi": 275000000
+      },
+      {
+        "state": "IL",
+        "returns": 3500,
+        "agi": 195000000
+      }
+    ]
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "Milwaukee",
+        "homestead_rate": 2.53,
+        "commercial_rate": 2.53,
+        "industrial_rate": 2.53,
+        "apartment_rate": 2.53
+      },
+      {
+        "city": "Madison",
+        "homestead_rate": 2.09,
+        "commercial_rate": 2.09,
+        "industrial_rate": 2.09,
+        "apartment_rate": 2.09
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 2.31,
+      "rate_range": "2.09% - 2.53%",
+      "commercial_to_residential_ratio": 1.0
+    },
+    "assessment_practice": "Local assessors; state equalization by DOR",
+    "classification": false,
+    "circuit_breaker": true,
+    "relief_programs": [
+      "Lottery and Gaming Credit applied to primary residence",
+      "Homestead Credit for qualifying homeowners"
+    ]
   }
 }

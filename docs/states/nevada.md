@@ -89,6 +89,11 @@ ITEP ranks Nevada's tax system among the **10 most regressive** in the nation.
 | Sales Tax | 6.85% (+ local) | 7.25% (+ local) |
 | Competitiveness Rank | 7th | 49th |
 
+## Historical Context
+
+- **1955**: Sales and Use Tax Act enacted at 2%
+- **2015**: Commerce Tax enacted — gross receipts tax on businesses with Nevada revenue over $4M
+- **2025**: No income tax (constitutionally prohibited). Revenue depends on gaming taxes, sales tax, and payroll-based Modified Business Tax.
 ## Federal Interaction
 
 - **PTET Status**: Not adopted

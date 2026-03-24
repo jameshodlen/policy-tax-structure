@@ -4,25 +4,25 @@
 
 ## Overview
 
-Michigan's tax structure. The Tax Foundation ranks Michigan 12th on its State Tax Competitiveness Index.
+Michigan employs a flat individual income tax at 4.25%, a 6.0% state sales tax, and a 6.0% corporate tax rate. The Tax Foundation ranks Michigan 12th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">4.25%</div>
+<div class="detail">Flat rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">6.0%</div>
+<div class="detail">No local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">6.0%</div>
+<div class="detail">Single rate</div>
 </div>
 <div class="card" markdown>
 <div class="label">Competitiveness</div>
@@ -31,15 +31,20 @@ Michigan's tax structure. The Tax Foundation ranks Michigan 12th on its State Ta
 </div>
 </div>
 
+### Income Tax Brackets (Single Filer, 2025)
+
+| Taxable Income | Rate |
+|---------------|------|
+| Over $0 | 4.25% |
 ### Other Key Features
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
-| **Federal Conformity** | Data pending |
+| **Property Tax** | Local assessors value property; State Tax Commission oversees. Assessed at 50% of true cash value; Proposal A caps taxable value increases. |
+| **Estate Tax** | None |
+| **Notable Credits** | EITC, Homestead property tax credit, Home heating credit, R&D tax credit (new 2025) |
+| **PTET Status** | Adopted — pass-through entity tax available |
+| **Federal Conformity** | Selective conformity to IRC |
 
 ## Revenue Composition
 
@@ -50,8 +55,27 @@ How Michigan generates its state tax revenue, by source:
 
 ## Who Pays? Effective Tax Rates by Income
 
-!!! info "Distributional Data Pending"
-    ITEP distributional data is not yet available for Michigan. Data collection is in progress. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology.
+<div class="chart-container" markdown>
+<canvas data-chart-type="bar"
+        data-source="../assets/data/mi_profile.json"
+        data-key="effective_rates_by_quintile">
+</canvas>
+</div>
+
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for Michigan. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+=== "Tax Foundation View"
+
+Michigan ranks **12th** on the State Tax Competitiveness Index (2024).
+
+=== "ITEP View"
+
+ITEP distributional analysis for Michigan shows the effective state and local tax rates by income group.
+
+=== "Primary Source Data"
+
+    State tax data from Census Bureau and economic indicators from BEA/FRED.
 
 ## Economic Context
 
@@ -62,14 +86,22 @@ How Michigan generates its state tax revenue, by source:
 
 | Dimension | Michigan | Ohio |
 |-----------|-----------|-----------|
-| Income Tax | Data pending | Graduated (0%–3.5%) |
-| Sales Tax | Data pending | 5.75% (+ local) |
+| Income Tax | Flat 4.25% | Graduated (0%–3.5%) |
+| Sales Tax | 6.0% (no local) | 5.75% (+ local) |
 | Competitiveness Rank | 12th | 31st |
 
+## Historical Context
+
+- **1933**: Sales tax enacted
+- **1967**: Individual income tax enacted at flat 2.6%
+- **1994**: Proposal A: sales tax raised to 6% to fund schools; income tax reduced; property tax reformed
+- **2007**: Income tax temporarily raised to 4.35% during fiscal crisis; gradually reduced back to 4.25%
+- **2025**: Decoupled from OBBBA provisions. FTE tax election deadline extended. Tipped/overtime deductions enacted.
 ## Federal Interaction
 
-- **PTET Status**: Data pending
-- **Federal Conformity**: Data pending
+- **PTET Status**: Adopted — pass-through entity tax available
+- **Federal Conformity**: Selective conformity to IRC
+- **SALT Cap Impact**: Moderate
 
 ## Data Sources & Citations
 

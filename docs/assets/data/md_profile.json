@@ -1,0 +1,118 @@
+{
+  "state": "Maryland",
+  "abbreviation": "MD",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 2.0,
+        "min": 0,
+        "max": 1000
+      },
+      {
+        "rate": 3.0,
+        "min": 1000,
+        "max": 2000
+      },
+      {
+        "rate": 4.0,
+        "min": 2000,
+        "max": 3000
+      },
+      {
+        "rate": 4.75,
+        "min": 3000,
+        "max": 100000
+      },
+      {
+        "rate": 5.0,
+        "min": 100000,
+        "max": 125000
+      },
+      {
+        "rate": 5.25,
+        "min": 125000,
+        "max": 150000
+      },
+      {
+        "rate": 5.5,
+        "min": 150000,
+        "max": 250000
+      },
+      {
+        "rate": 5.75,
+        "min": 250000,
+        "max": 500000
+      },
+      {
+        "rate": 6.25,
+        "min": 500000,
+        "max": 1000000
+      },
+      {
+        "rate": 6.5,
+        "min": 1000000,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 6.0,
+    "local_sales_tax": false,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 8.25,
+    "property_tax_admin": "State Department of Assessments and Taxation assesses all real property; triennial reassessment cycle with phase-in. Local jurisdictions set rates.",
+    "estate_tax": true,
+    "estate_tax_exemption": 5000000,
+    "notable_credits": [
+      "Refundable EITC (ITIN-eligible)",
+      "Child tax credit",
+      "Historic preservation credit",
+      "Biotech Investment Incentive Tax Credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          9.4,
+          8.6
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 46,
+    "corporate_rank": 40,
+    "individual_income_rank": 42,
+    "sales_tax_rank": 25,
+    "property_tax_rank": 33,
+    "unemployment_insurance_rank": 26
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "high",
+    "federal_conformity": "rolling",
+    "recent_changes": "2025: Added two new top brackets (6.25% and 6.50%). New 2% capital gains surcharge for AGI over $350,000. PTET expanded for resident owners. Local income taxes add 2.25%-3.20%."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "state": "New Mexico",
+  "abbreviation": "NM",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 1.5,
+        "min": 0,
+        "max": 5500
+      },
+      {
+        "rate": 3.2,
+        "min": 5500,
+        "max": 11000
+      },
+      {
+        "rate": 4.7,
+        "min": 11000,
+        "max": 16000
+      },
+      {
+        "rate": 4.9,
+        "min": 16000,
+        "max": 210000
+      },
+      {
+        "rate": 5.3,
+        "min": 210000,
+        "max": 315000
+      },
+      {
+        "rate": 5.9,
+        "min": 315000,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 5.125,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 5.9,
+    "property_tax_admin": "County assessors. State-imposed limits on assessment increases. One-third of current and correct value for residential.",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "Low Income Comprehensive Tax Rebate",
+      "Working Families Tax Credit",
+      "Solar Market Development Tax Credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          7.1,
+          8.1
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 39,
+    "corporate_rank": 30,
+    "individual_income_rank": 27,
+    "sales_tax_rank": 33,
+    "property_tax_rank": 1,
+    "unemployment_insurance_rank": 24
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "moderate",
+    "federal_conformity": "rolling",
+    "recent_changes": "HB 252 restructured income tax brackets in 2025 to 6 brackets (1.5%-5.9%). Gross Receipts Tax (not traditional sales tax) at 5.125% base."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  }
+}

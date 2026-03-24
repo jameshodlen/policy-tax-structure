@@ -55,8 +55,27 @@ How Mississippi generates its state tax revenue, by source:
 
 ## Who Pays? Effective Tax Rates by Income
 
-!!! info "Distributional Data Pending"
-    ITEP distributional data is not yet available for Mississippi. Data collection is in progress. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology.
+<div class="chart-container" markdown>
+<canvas data-chart-type="bar"
+        data-source="../assets/data/ms_profile.json"
+        data-key="effective_rates_by_quintile">
+</canvas>
+</div>
+
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for Mississippi. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+=== "Tax Foundation View"
+
+Mississippi ranks **35th** on the State Tax Competitiveness Index (2024).
+
+=== "ITEP View"
+
+ITEP distributional analysis for Mississippi shows the effective state and local tax rates by income group.
+
+=== "Primary Source Data"
+
+    State tax data from Census Bureau and economic indicators from BEA/FRED.
 
 ## Economic Context
 
@@ -67,10 +86,16 @@ How Mississippi generates its state tax revenue, by source:
 
 | Dimension | Mississippi | Arkansas |
 |-----------|-----------|-----------|
-| Income Tax | Flat 4.0% | Data pending |
-| Sales Tax | 7.0% (no local) | Data pending |
+| Income Tax | Flat 4.0% | Graduated (0.0%–3.9%) |
+| Sales Tax | 7.0% (no local) | 6.5% (+ local) |
 | Competitiveness Rank | 35th | 40th |
 
+## Historical Context
+
+- **1912**: Individual income tax first enacted
+- **1930**: Sales tax first enacted (Mississippi was the first state to adopt a general sales tax)
+- **2022**: HB 531 converts graduated income tax to flat 5% rate
+- **2025**: 'Build Up Mississippi Act' (HB 1) — phases income tax to 3% by 2030 with trigger toward elimination; grocery tax cut
 ## Federal Interaction
 
 - **PTET Status**: Not adopted

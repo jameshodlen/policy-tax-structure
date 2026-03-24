@@ -4,7 +4,7 @@
 
 ## Overview
 
-South Dakota does not levy an individual income tax, relying instead on sales taxes, property taxes, and other revenue sources. ITEP ranks South Dakota's tax system among the 10 most regressive in the nation, with lower-income households paying a higher effective tax rate than wealthier residents. The Tax Foundation ranks South Dakota 2nd on its State Tax Competitiveness Index.
+South Dakota does not levy an individual income tax, a 4.2% state sales tax. ITEP ranks South Dakota's tax system among the 10 most regressive in the nation, with lower-income households paying a higher effective tax rate than wealthier residents. The Tax Foundation ranks South Dakota 2nd on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
@@ -16,8 +16,8 @@ South Dakota does not levy an individual income tax, relying instead on sales ta
 </div>
 <div class="card" markdown>
 <div class="label">Sales Tax</div>
-<div class="value">—</div>
-<div class="detail">Data pending</div>
+<div class="value">4.2%</div>
+<div class="detail">Plus local sales taxes</div>
 </div>
 <div class="card" markdown>
 <div class="label">Corporate Tax</div>
@@ -39,10 +39,10 @@ South Dakota does not levy an individual income tax. This places it among nine s
 
 | Category | Detail |
 |----------|--------|
-| **Property Tax** | Data pending |
-| **Estate Tax** | Data pending |
-| **Notable Credits** | Data pending |
-| **PTET Status** | Data pending |
+| **Property Tax** | County directors of equalization. State oversight through Department of Revenue. Full and true value assessment. |
+| **Estate Tax** | None |
+| **Notable Credits** | No individual income tax, No corporate income tax, Property tax reduction for elderly/disabled |
+| **PTET Status** | Not adopted |
 | **Federal Conformity** | Data pending |
 
 ## Revenue Composition
@@ -85,14 +85,20 @@ ITEP ranks South Dakota's tax system among the **10 most regressive** in the nat
 
 | Dimension | South Dakota | North Dakota |
 |-----------|-----------|-----------|
-| Income Tax | None | Data pending |
-| Sales Tax | Data pending | Data pending |
+| Income Tax | None | Graduated (0.0%–2.5%) |
+| Sales Tax | 4.2% (+ local) | 5.0% (+ local) |
 | Competitiveness Rank | 2nd | 22nd |
 
+## Historical Context
+
+- **1935**: Sales tax enacted (no individual or corporate income tax ever enacted)
+- **2018**: South Dakota v. Wayfair — US Supreme Court case allows states to collect sales tax from remote sellers
+- **2023**: Sales tax rate reduced from 4.5% to 4.2% (temporary through June 2027)
 ## Federal Interaction
 
-- **PTET Status**: Data pending
+- **PTET Status**: Not adopted
 - **Federal Conformity**: Data pending
+- **SALT Cap Impact**: None
 
 ## Data Sources & Citations
 

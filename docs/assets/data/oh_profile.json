@@ -1,0 +1,105 @@
+{
+  "state": "Ohio",
+  "abbreviation": "OH",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "graduated",
+    "income_tax_brackets": [
+      {
+        "rate": 0,
+        "min": 0,
+        "max": 26050
+      },
+      {
+        "rate": 3.5,
+        "min": 26050,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 5.75,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": null,
+    "property_tax_admin": "County auditors, state Tax Commissioner equalizes",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "Earned Income Tax Credit",
+      "Retirement Income Credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          10.1,
+          6.5
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 31,
+    "corporate_rank": 5,
+    "individual_income_rank": 25,
+    "sales_tax_rank": 29,
+    "property_tax_rank": 40,
+    "unemployment_insurance_rank": 34
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "moderate",
+    "federal_conformity": "selective",
+    "recent_changes": "2024: Simplified to effective flat 3.5% on income above $26,050. Zero rate below threshold. CAT retained for businesses."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "Columbus",
+        "homestead_rate": 1.81,
+        "commercial_rate": 2.58,
+        "industrial_rate": 2.58,
+        "apartment_rate": 2.58
+      },
+      {
+        "city": "Cleveland",
+        "homestead_rate": 2.17,
+        "commercial_rate": 3.1,
+        "industrial_rate": 3.1,
+        "apartment_rate": 3.1
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 1.99,
+      "rate_range": "1.81% - 2.17%",
+      "commercial_to_residential_ratio": 1.43
+    },
+    "assessment_practice": "County auditors. Triennial reappraisals with sexennial physical inspections.",
+    "classification": true,
+    "circuit_breaker": false,
+    "relief_programs": [
+      "Homestead exemption for 65+ and disabled ($26,200 reduction in market value)"
+    ]
+  }
+}

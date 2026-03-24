@@ -1,0 +1,72 @@
+{
+  "state": "Iowa",
+  "abbreviation": "IA",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "flat",
+    "income_tax_brackets": [
+      {
+        "rate": 3.9,
+        "min": 0,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 6.0,
+    "local_sales_tax": true,
+    "clothing_exempt": true,
+    "corporate_tax_rate": 5.5,
+    "property_tax_admin": "Local assessment, state equalization",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "Earned Income Tax Credit (state)",
+      "Child and Dependent Care Credit",
+      "Tuition and Textbook Credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          10.3,
+          7.6
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 24,
+    "corporate_rank": 29,
+    "individual_income_rank": 24,
+    "sales_tax_rank": 23,
+    "property_tax_rank": 35,
+    "unemployment_insurance_rank": 21
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "moderate",
+    "federal_conformity": "rolling",
+    "recent_changes": "2023-2026: Phased conversion from graduated (top rate 8.98%) to flat 3.9%. Completed January 2026."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  }
+}

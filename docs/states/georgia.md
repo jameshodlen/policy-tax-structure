@@ -4,14 +4,14 @@
 
 ## Overview
 
-Georgia employs a flat individual income tax at 5.39%, a 4.0% state sales tax, and a 5.75% corporate tax rate. The Tax Foundation ranks Georgia 18th on its State Tax Competitiveness Index.
+Georgia employs a flat individual income tax at 5.19%, a 4.0% state sales tax, and a 5.75% corporate tax rate. The Tax Foundation ranks Georgia 18th on its State Tax Competitiveness Index.
 
 ## Tax Structure at a Glance
 
 <div class="tax-glance" markdown>
 <div class="card" markdown>
 <div class="label">Income Tax</div>
-<div class="value">5.39%</div>
+<div class="value">5.19%</div>
 <div class="detail">Flat rate</div>
 </div>
 <div class="card" markdown>
@@ -35,7 +35,7 @@ Georgia employs a flat individual income tax at 5.39%, a 4.0% state sales tax, a
 
 | Taxable Income | Rate |
 |---------------|------|
-| Over $0 | 5.39% |
+| Over $0 | 5.19% |
 ### Other Key Features
 
 | Category | Detail |
@@ -55,8 +55,27 @@ How Georgia generates its state tax revenue, by source:
 
 ## Who Pays? Effective Tax Rates by Income
 
-!!! info "Distributional Data Pending"
-    ITEP distributional data is not yet available for Georgia. Data collection is in progress. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology.
+<div class="chart-container" markdown>
+<canvas data-chart-type="bar"
+        data-source="../assets/data/ga_profile.json"
+        data-key="effective_rates_by_quintile">
+</canvas>
+</div>
+
+!!! note "Partial distributional data"
+    Full quintile data is not yet available for Georgia. The chart shows the effective tax rates for the lowest-income 20% and highest-income 1% only. See [Who Actually Pays?](../analysis/who-actually-pays.md) for methodology and full data availability.
+
+=== "Tax Foundation View"
+
+Georgia ranks **18th** on the State Tax Competitiveness Index (2024).
+
+=== "ITEP View"
+
+ITEP distributional analysis for Georgia shows the effective state and local tax rates by income group.
+
+=== "Primary Source Data"
+
+    State tax data from Census Bureau and economic indicators from BEA/FRED.
 
 ## Economic Context
 
@@ -67,7 +86,7 @@ How Georgia generates its state tax revenue, by source:
 
 | Dimension | Georgia | Florida |
 |-----------|-----------|-----------|
-| Income Tax | Flat 5.39% | None |
+| Income Tax | Flat 5.19% | None |
 | Sales Tax | 4.0% (+ local) | 6.0% (+ local) |
 | Competitiveness Rank | 18th | 4th |
 

@@ -1,0 +1,103 @@
+{
+  "state": "Colorado",
+  "abbreviation": "CO",
+  "last_updated": "2026-03-24",
+  "tax_structure": {
+    "income_tax_type": "flat",
+    "income_tax_brackets": [
+      {
+        "rate": 4.4,
+        "min": 0,
+        "max": null
+      }
+    ],
+    "sales_tax_rate": 2.9,
+    "local_sales_tax": true,
+    "clothing_exempt": false,
+    "corporate_tax_rate": 4.4,
+    "property_tax_admin": "64 county assessors. Residential property assessed at 6.7% of actual value. State Property Tax Administrator provides oversight and equalization.",
+    "estate_tax": false,
+    "estate_tax_exemption": null,
+    "notable_credits": [
+      "Family Affordability Credit (up to $3,600/child)",
+      "State EITC (25-50% of federal)",
+      "TABOR refund mechanism",
+      "Child Care Contribution Credit"
+    ]
+  },
+  "revenue_composition": null,
+  "effective_rates_by_quintile": {
+    "labels": [
+      "Lowest 20%",
+      "Top 1%"
+    ],
+    "datasets": [
+      {
+        "label": "ITEP Effective Rate (%)",
+        "data": [
+          8.1,
+          7.3
+        ],
+        "backgroundColor": "#2d6a4f"
+      },
+      {
+        "label": "National Average (%)",
+        "data": [
+          11.4,
+          7.2
+        ],
+        "backgroundColor": "#7fb3d8"
+      }
+    ],
+    "_partial": true
+  },
+  "economic_context": null,
+  "competitiveness_index": {
+    "overall_rank": 17,
+    "corporate_rank": 9,
+    "individual_income_rank": 17,
+    "sales_tax_rank": 7,
+    "property_tax_rank": 8,
+    "unemployment_insurance_rank": 19
+  },
+  "key_facts": {
+    "ptet_adopted": true,
+    "salt_impact": "moderate",
+    "federal_conformity": "rolling",
+    "recent_changes": "Flat rate returned to 4.4% for 2025 (was temporarily 4.25% in 2024 due to TABOR surplus refund). Proposition 121 (2022) permanently set statutory rate at 4.4%."
+  },
+  "federal_transfers": {
+    "federal_spending_received": null,
+    "federal_dependency_ratio": null
+  },
+  "property_tax": {
+    "cities": [
+      {
+        "city": "Denver",
+        "homestead_rate": 0.56,
+        "commercial_rate": 1.96,
+        "industrial_rate": 1.96,
+        "apartment_rate": 1.96
+      },
+      {
+        "city": "Colorado Springs",
+        "homestead_rate": 0.52,
+        "commercial_rate": 1.82,
+        "industrial_rate": 1.82,
+        "apartment_rate": 1.82
+      }
+    ],
+    "state_summary": {
+      "avg_homestead_rate": 0.54,
+      "rate_range": "0.52% - 0.56%",
+      "commercial_to_residential_ratio": 3.5
+    },
+    "assessment_practice": "64 county assessors. Residential at 6.7% of actual value; commercial at 29%.",
+    "classification": true,
+    "circuit_breaker": true,
+    "relief_programs": [
+      "Senior Homestead Exemption (50% of first $200,000 for 65+, 10-year residency)",
+      "Property Tax/Rent/Heat Rebate for 65+ and disabled with income under $16,925"
+    ]
+  }
+}
